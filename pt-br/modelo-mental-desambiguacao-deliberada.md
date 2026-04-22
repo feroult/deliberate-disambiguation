@@ -210,13 +210,17 @@ Três implicações desse modelo mental:
 
 **Muda a leitura do retrabalho.** Retrabalho passa a ser sinal diagnóstico com informação de dimensão: *"construímos a coisa certa da forma errada"* (Dimensão 2 mal resolvida) é diferente de *"construímos a coisa errada muito bem"* (Dimensão 1 ignorada). A causa muda completamente o remédio.
 
-> **[MARK: exemplo concreto pendente]**
-> Esta seção precisa de um caso real que ancora a distinção scout/executor na prática.
-> Arquétipos candidatos discutidos:
-> - A: Dimensão 2 revelada acidentalmente pelo AI (ex: "calcule o total" → frete não incluído)
-> - B: AI construiu certo a coisa errada — Dimensão 1 embutida no prompt (ex: reorder com "nível mínimo" que varia por contexto)
-> - C: Scout deliberado — prompta o AI de 3 formas para ver onde os outputs divergem antes de construir
-> Retomar quando houver exemplo real ou escolha de arquétipo.
+Uma sprint acaba com um card claro: "adicionar busca de produtos ao catálogo." O time está alinhado. Antes de implementar, um scout deliberado — a mesma intenção, formulada de três formas distintas para a ferramenta:
+
+*"Implemente a busca de produtos no catálogo."*
+*"Permita que o usuário encontre produtos pelo nome."*
+*"Filtre a lista de produtos conforme o usuário digita."*
+
+Três outputs emergem. O primeiro implementa busca full-text contra nome, descrição e categoria, com ranking por relevância. O segundo implementa correspondência parcial por nome, case-insensitive. O terceiro implementa filtragem client-side nas colunas visíveis da tabela.
+
+Nenhum está errado. Todos são formalizações válidas de "busca de produtos". A divergência entre eles não é falha da ferramenta: é a imprecisão da palavra "busca" tornando-se visível. O que conta como correspondência? Em quais campos? O sistema consulta ou o cliente filtra? Como os resultados são ordenados? A reunião nunca precisou responder essas perguntas — a linguagem natural tolerava todas as interpretações ao mesmo tempo.
+
+O scout tornou visível o que "busca" significa neste contexto antes de qualquer implementação ser comprometida. O próximo passo não é escolher o melhor output: é responder as perguntas que a divergência revelou. Essa resposta é a desambiguação. A implementação que vem depois é o scout virando executor — e a instrução que você passa ao executor já passou por desambiguação suficiente.
 
 ---
 
