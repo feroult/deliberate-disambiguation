@@ -146,6 +146,8 @@ O código é o artefato. A desambiguação é o que o código materializou: o co
 
 O acúmulo de ciclos bem-feitos vive no software que roda. Cada comportamento do sistema é uma desambiguação que completou o ciclo, da intenção imprecisa ao artefato executável. Cada decisão de produto que mudou porque a realidade contrariou a hipótese está expressa no que o sistema faz, não no que alguém lembra. O conhecimento que ficou só nas cabeças é o que ainda não terminou de virar formal. Desambiguação incompleta não acumula.
 
+O que acumula não é uma soma de decisões: é um sistema coerente, onde cada nova formalização precisa ser consistente com tudo que veio antes. Essa coerência é, ao mesmo tempo, evidência de que a desambiguação foi real e condição para o que ainda pode ser aprendido.
+
 Há uma distinção que vale nomear: desambiguar não é o mesmo que aprender. Desambiguar é mover de múltiplas interpretações possíveis para uma só: uma operação sobre linguagem e intenção que pode acontecer numa sala, sem contato com o mundo. Aprender é atualizar o modelo de mundo. Isso exige realidade. Para a Dimensão 2, as duas operações quase se sobrepõem: resolver a imprecisão da linguagem produz diretamente o conhecimento que faltava. Para a Dimensão 1, desambiguar é necessário mas não suficiente: nomear com precisão o que você não sabe sobre os usuários não é aprender sobre os usuários. É o primeiro passo para poder aprender.
 
 **A relação causal:**
