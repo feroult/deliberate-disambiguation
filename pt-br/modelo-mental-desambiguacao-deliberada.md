@@ -222,9 +222,9 @@ Três implicações desse modelo mental:
 
 ## 8. Conclusão
 
-O Deliberate Discovery de 2011 estava certo na sua premissa central: a capacidade de aprender é a verdadeira restrição em projetos de software. O que ele nomeou com clareza foi a primeira dimensão da ambiguidade: a ignorância sobre o mundo que precisa ser descoberta antes que vire custo.
+O processo de tradução que o desenvolvimento de software sempre foi carregou, desde o início, duas fontes de ambiguidade. A primeira foi nomeada pelo Deliberate Discovery: a ignorância sobre o mundo que precisa ser descoberta antes de virar custo. A segunda era gerenciada implicitamente pelo programador humano — filtro embutido no próprio ato de construir.
 
-O que a era da inteligência artificial revelou é que havia uma segunda dimensão operando em paralelo, gerenciada até então de forma implícita pelo programador humano: o intermediário que formalizava e, ao fazê-lo, detectava imprecisão e sabia pausar para resolvê-la. Quando a AI substituiu esse intermediário, essa dimensão deixou de ter quem a filtrasse. Quando formalizar passou a custar minutos, essa dimensão deixou de ser tolerável.
+A inteligência artificial tornou esse filtro visível ao removê-lo. A segunda dimensão deixou de ter quem a detectasse. Quando formalizar passou a custar minutos, deixou de ser tolerável.
 
 A Desambiguação Deliberada não substitui o modelo anterior — o completa. Nomeia as duas fontes de ambiguidade que o processo de tradução natural→formal carrega, propõe que a desambiguação deliberada de ambas é o verdadeiro output de cada ciclo, e que o aprendizado acumulado dessas resoluções é o ativo mais valioso que um time de software produz.
 
