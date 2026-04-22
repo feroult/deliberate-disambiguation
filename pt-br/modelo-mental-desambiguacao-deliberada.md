@@ -117,7 +117,7 @@ Esse colapso expõe as duas dimensões simultaneamente. Para a Dimensão 1, o ri
 
 **O output inesperado é um scout.**
 
-Mas só quando tratado como tal: não como erro a corrigir, mas como evidência a interpretar. A metáfora do scout sobrevive quando o custo de formalização colapsa, mas opera nas duas dimensões de formas distintas.
+Mas só quando tratado como tal: não como erro a corrigir, mas como evidência a interpretar. A lógica do scout que a seção anterior descreveu — ação barata cujo propósito é revelar, não conquistar — se estende para as duas dimensões, mas por caminhos distintos.
 
 Para a Dimensão 1, o scout funciona de forma análoga ao hello world: ao tentar formalizar algo, o resultado revela ignorância sobre o mundo que estava oculta. A feature que parecia óbvia, quando implementada, mostra que o domínio funcionava de forma diferente do que o time assumia.
 
@@ -125,8 +125,7 @@ Para a Dimensão 2, o scout é mais sutil: a divergência entre o que você desc
 
 ```
 Scout DD        →  ação barata revela ignorância sobre o mundo (Dimensão 1)
-Scout formal   →  formalização barata revela imprecisão da intenção (Dimensão 2)
-                   e às vezes também revela ignorância sobre o mundo (Dimensão 1)
+Scout formal    →  formalização barata revela imprecisão da intenção (Dimensão 2)
 ```
 
 A reação certa ao output inesperado não é ajustar a instrução e tentar de novo. É fazer uma pergunta diagnóstica: *qual dimensão esse gap está revelando?* É ignorância sobre o mundo, e precisa de exploração? Ou é imprecisão na linguagem da intenção, e precisa de especificação? A resposta muda completamente o próximo passo.
