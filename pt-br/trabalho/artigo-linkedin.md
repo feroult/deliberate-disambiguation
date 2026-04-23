@@ -85,6 +85,8 @@ Quando construir custa minutos, esse mecanismo desaparece. A ambiguidade não tr
 
 O desenvolvedor que sabia construir software linear num mundo previsível está sendo substituído. O que sabe navegar território que se move enquanto é navegado está ficando mais escasso, não menos.
 
+Navegar, nesse contexto, é uma habilidade específica: identificar que tipo de ambiguidade está presente antes de executar, ler o resultado inesperado como evidência, nomear o que foi resolvido em cada ciclo.
+
 AI não mudou o que o processo é. Tornou impossível ignorar o que ele sempre exigiu.
 
 ---
