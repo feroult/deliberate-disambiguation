@@ -15,9 +15,9 @@ Software nunca foi uma quantidade fixa. Ele sempre cresceu para preencher o espa
 
 **O que está acontecendo não é compressão. É mudança de natureza.**
 
-Quando o custo de construir colapsa, o que muda não é a velocidade do mesmo trabalho — é o que se torna possível construir. Saímos do software que executa estados para o software que gera estados: sistemas agênticos, composições que produzem comportamento emergente, código que opera sobre outro código.
+Quando o custo de construir colapsa, o que muda não é a velocidade do mesmo trabalho: é o que se torna possível construir. Saímos do software que executa estados para o software que gera estados: sistemas agênticos, composições que produzem comportamento emergente, código que opera sobre outro código.
 
-Cada sistema construído adiciona comportamento ao ambiente em que outros sistemas precisam operar. E cada nova composição gera estados que ninguém previu. O território não fica apenas maior — fica combinatorialmente mais variado, enquanto você ainda está tentando navegá-lo.
+Cada sistema construído adiciona comportamento ao ambiente em que outros sistemas precisam operar. E cada nova composição gera estados que ninguém previu. O território não fica apenas maior: fica combinatorialmente mais variado, enquanto você ainda está tentando navegá-lo.
 
 O medo de que não haverá mais software é o inverso do que está acontecendo.
 
@@ -25,11 +25,11 @@ O medo de que não haverá mais software é o inverso do que está acontecendo.
 
 **O que navegar esse ambiente exige**
 
-Para navegar um sistema que cresce em variedade, você precisa de capacidade de resposta proporcional à sua variedade. AI reduz variedade — escolhe a interpretação mais provável e executa. É excelente nisso.
+Mais sistemas interagindo produz mais estados que ninguém previu. O território que você precisa navegar não fica apenas maior: fica mais imprevisível a cada composição nova.
 
-Mas reduzir variedade num ambiente que está ficando combinatorialmente mais complexo não é navegar. É executar com confiança crescente num mapa que está ficando desatualizado.
+AI executa bem o que está claro. Ela escolhe a interpretação mais provável e formaliza. Mas num ambiente que fica mais complexo a cada sistema adicionado, executar bem o que parece claro não é o mesmo que ir na direção certa.
 
-O que a AI tornou visível não é que a máquina pode escrever código. É o que sempre foi o centro do trabalho de desenvolvimento — e que a máquina não faz.
+O que a AI tornou visível não é que a máquina pode escrever código. É o que sempre foi o centro do trabalho de desenvolvimento, e que a máquina não faz.
 
 ---
 
@@ -39,23 +39,25 @@ Desenvolver software é mover intenção de linguagem natural para linguagem for
 
 Esse processo sempre carregou duas fontes de ambiguidade que operam de formas diferentes.
 
-A primeira é a ignorância sobre o mundo: hipóteses não validadas, domínio não completamente compreendido, comportamento real de usuários desconhecido. Dan North nomeou isso no Deliberate Discovery — a maior parte do risco em projetos vem do que os times não sabem que não sabem.
+A primeira é a ignorância sobre o mundo: hipóteses não validadas, domínio não completamente compreendido, comportamento real de usuários desconhecido. Dan North nomeou isso no Deliberate Discovery: a maior parte do risco em projetos vem do que os times não sabem que não sabem.
 
 A segunda é a imprecisão inerente à linguagem natural, que só se manifesta quando você tenta ser preciso o suficiente para uma máquina executar. "O administrador pode apagar um usuário" é perfeitamente compreensível numa reunião. Quando você senta para formalizar, emergem perguntas que a conversa nunca precisou responder: apagar significa remover permanentemente ou marcar como inativo? O que acontece com o conteúdo criado? Com os registros de auditoria?
 
-Antes da AI, essa segunda fonte de ambiguidade era gerenciada implicitamente pelo programador humano: o agente de formalização que também detectava imprecisão e sabia pausar para resolvê-la. A AI substituiu esse intermediário por uma máquina que não detecta ambiguidade — escolhe a interpretação mais provável e executa, sem saber se é a correta para o seu domínio.
+Antes da AI, essa segunda fonte de ambiguidade era gerenciada implicitamente pelo programador humano: o agente de formalização que também detectava imprecisão e sabia pausar para resolvê-la. A AI substituiu esse intermediário por uma máquina que não detecta ambiguidade. Escolhe a interpretação mais provável e executa, sem saber se é a correta para o seu domínio.
+
+É aí que o output inesperado da ferramenta se torna o sinal mais útil que você tem.
 
 ---
 
 **O output divergente não é falha. É evidência.**
 
-Quando a ferramenta produz algo diferente do que você esperava, a reação comum é ajustar o prompt e tentar de novo. Mas a divergência entre o que você descreveu e o que a máquina entendeu é a imprecisão da sua linguagem tornando-se visível. A máquina escolheu uma das interpretações válidas da sua frase — e ao fazê-lo revelou que havia mais de uma.
+Quando a ferramenta produz algo diferente do que você esperava, a reação comum é ajustar o prompt e tentar de novo. Mas a divergência entre o que você descreveu e o que a máquina entendeu é a imprecisão da sua linguagem tornando-se visível. A máquina escolheu uma das interpretações válidas da sua frase, e ao fazê-lo revelou que havia mais de uma.
 
-A pergunta certa não é "como ajusto a instrução?" — é "qual tipo de ambiguidade essa divergência está revelando?"
+A pergunta certa não é "como ajusto a instrução?": é "qual tipo de ambiguidade essa divergência está revelando?"
 
 Se é ignorância sobre o mundo: você precisa ir ao mundo buscar a resposta. Conversar com usuários reais, rodar um experimento, validar uma hipótese com dados.
 
-Se é imprecisão na linguagem da intenção: você precisa precisar o que está pedindo antes de pedir de novo.
+Se é imprecisão na linguagem da intenção: você precisa tornar preciso o que está pedindo antes de pedir de novo.
 
 São remédios diferentes para sintomas parecidos. Confundir os dois é a causa mais comum de retrabalho que ninguém consegue nomear.
 
@@ -83,10 +85,10 @@ Quando construir custa minutos, esse mecanismo desaparece. A ambiguidade não tr
 
 O desenvolvedor que sabia construir software linear num mundo previsível está sendo substituído. O que sabe navegar território que se move enquanto é navegado está ficando mais escasso, não menos.
 
-AI não mudou o que o processo é — tornou impossível ignorar o que ele sempre exigiu.
+AI não mudou o que o processo é. Tornou impossível ignorar o que ele sempre exigiu.
 
 ---
 
-*O modelo completo — com as duas dimensões de ambiguidade, o loop de desambiguação deliberada e os arquivos de trabalho que documentam como o modelo foi construído — está em:*
+*O modelo completo, com as duas dimensões de ambiguidade, o loop de desambiguação deliberada e os arquivos de trabalho que documentam como o modelo foi construído, está em:*
 
 *github.com/feroult/deliberate-disambiguation*
