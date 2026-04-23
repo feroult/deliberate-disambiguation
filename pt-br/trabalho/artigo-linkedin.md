@@ -37,7 +37,7 @@ O que a AI tornou visível não é que a máquina pode escrever código. É o qu
 
 Desenvolver software é mover intenção de linguagem natural para linguagem formal. Cada passo nessa direção exige que uma ambiguidade seja resolvida. Você não pode formalizar algo que ainda tem duas interpretações possíveis sem escolher uma.
 
-Esse processo sempre carregou duas fontes de ambiguidade que operam de formas diferentes.
+Mas não toda ambiguidade é do mesmo tipo.
 
 A primeira é a ignorância sobre o mundo: hipóteses não validadas, domínio não completamente compreendido, comportamento real de usuários desconhecido. Dan North nomeou isso no Deliberate Discovery: a maior parte do risco em projetos vem do que os times não sabem que não sabem.
 
