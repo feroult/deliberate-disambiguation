@@ -13,11 +13,11 @@ Software nunca foi uma quantidade fixa. Ele sempre cresceu para preencher o espa
 
 ---
 
-**O que está acontecendo não é compressão. É mudança de natureza.**
+**O que está acontecendo não é só compressão. É mudança de natureza.**
 
 Quando o custo de construir colapsa, o que muda não é a velocidade do mesmo trabalho: é o que se torna possível construir. Saímos do software que executa estados para o software que gera estados: agentes que agem sem instrução explícita, pipelines que se reconfiguram, código que escreve código.
 
-Cada sistema construído adiciona comportamento ao ambiente em que outros sistemas precisam operar. E cada nova composição gera estados que ninguém previu. O território não fica apenas maior: fica combinatorialmente mais variado, enquanto você ainda está tentando navegá-lo.
+Cada sistema construído adiciona comportamento ao ambiente em que outros sistemas precisam operar. E cada nova composição gera estados que ninguém previu. O território não fica apenas maior: fica mais imprevisível a cada composição nova, enquanto você ainda está tentando navegá-lo.
 
 O medo de que não haverá mais software é o inverso do que está acontecendo.
 
