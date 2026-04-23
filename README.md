@@ -54,6 +54,6 @@ English translation is in progress.
 
 ## License
 
-[CC BY-NC-SA 4.0](LICENSE.md) — Fernando (fer@ciandt.com)
+[CC BY-NC-SA 4.0](LICENSE.md) — Fernando Ultremare (feroult@gmail.com)
 
 Free to share and adapt with attribution, non-commercial use only, same license.
