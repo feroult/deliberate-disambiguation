@@ -25,11 +25,11 @@ O medo de que não haverá mais software é o inverso do que está acontecendo.
 
 **O que navegar esse ambiente exige**
 
-Mais sistemas interagindo produz mais estados que ninguém previu. O território que você precisa navegar não fica apenas maior: fica mais imprevisível a cada composição nova.
+Cada sistema novo que você coloca em produção muda o contexto em que os outros operam. Às vezes de formas que ninguém previu, porque a previsão pressupõe estados que só existem depois da composição.
 
-AI executa bem o que está claro. Ela escolhe a interpretação mais provável e formaliza. Mas num ambiente que fica mais complexo a cada sistema adicionado, executar bem o que parece claro não é o mesmo que ir na direção certa.
+Nesse ambiente, executar bem o que parece claro não é o mesmo que ir na direção certa. Você pode formalizar com precisão e acumular território na direção errada. A velocidade não resolve isso: amplifica.
 
-O que a AI tornou visível não é que a máquina pode escrever código. É o que sempre foi o centro do trabalho de desenvolvimento, e que a máquina não faz.
+O que a AI tornou visível não é que a máquina pode escrever código. É o que sempre foi o centro do trabalho, e que nenhuma máquina faz automaticamente.
 
 ---
 
