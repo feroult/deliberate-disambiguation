@@ -43,7 +43,7 @@ A primeira é a ignorância sobre o mundo: hipóteses não validadas, domínio n
 
 A segunda é a imprecisão inerente à linguagem natural, que só se manifesta quando você tenta ser preciso o suficiente para uma máquina executar. "O administrador pode apagar um usuário" é perfeitamente compreensível numa reunião. Quando você senta para formalizar, emergem perguntas que a conversa nunca precisou responder: apagar significa remover permanentemente ou marcar como inativo? O que acontece com o conteúdo criado? Com os registros de auditoria?
 
-Antes da AI, essa segunda fonte de ambiguidade era gerenciada implicitamente pelo programador humano: o agente de formalização que também detectava imprecisão e sabia pausar para resolvê-la. A AI substituiu esse intermediário por uma máquina que não detecta ambiguidade. Escolhe a interpretação mais provável e executa, sem saber se é a correta para o seu domínio.
+Antes da AI, essa segunda fonte de ambiguidade era gerenciada implicitamente pelo programador humano: o agente de formalização que também detectava imprecisão e sabia pausar para resolvê-la. A AI substituiu esse intermediário por uma máquina que reduz ambiguidade estatisticamente: escolhe a interpretação mais provável e executa. Quando pergunta, pergunta por mais especificação, não por mais aprendizado.
 
 É aí que o output inesperado da ferramenta se torna o sinal mais útil que você tem.
 
