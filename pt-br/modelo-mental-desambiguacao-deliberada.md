@@ -44,7 +44,7 @@ Ambígua, rica, implícita    ◄──────────────►  
 
 Linguagem natural é o mundo das intenções humanas. É rica porque é ambígua: uma mesma frase pode significar coisas diferentes para pessoas diferentes, e essa polissemia é funcional na comunicação humana. Nós navegamos ambiguidade o tempo todo com contexto, tom, histórico compartilhado e interpretação tácita.
 
-Linguagem formal é o mundo das máquinas. Código não interpreta — executa. Um sistema não infere o que você quis dizer — faz exatamente o que foi especificado. A precisão que parece uma limitação da linguagem formal é também a sua razão de existir: é o que permite que software seja verificável, previsível e confiável.
+Linguagem formal é o mundo das máquinas. Código não interpreta. Executa. Um sistema não infere o que você quis dizer. Faz exatamente o que foi especificado. A precisão que parece uma limitação da linguagem formal é também a sua razão de existir: é o que permite que software seja verificável, previsível e confiável.
 
 Desenvolver software é mover intenção ao longo desse espectro, da esquerda para a direita. Cada passo nessa direção exige que uma ambiguidade seja resolvida. Você não pode formalizar algo que ainda tem duas interpretações possíveis sem escolher uma. E toda escolha elimina possibilidades. Formalização é, por definição, um processo de redução: de muitos significados possíveis para um único significado preciso.
 
@@ -96,7 +96,7 @@ Isso acontece em todo projeto, em todo nível. Em regras de negócio que "todo m
 
 A diferença entre as duas dimensões é fundamental:
 
-| | Dimensão 1 — Ignorância | Dimensão 2 — Imprecisão |
+| | Dimensão 1: Ignorância | Dimensão 2: Imprecisão |
 |---|---|---|
 | **Fonte** | Realidade não encontrada ainda | Linguagem natural tolerando múltiplas interpretações |
 | **Revelada por** | Contato com o mundo real | Tentativa de formalização |
@@ -117,7 +117,7 @@ Esse colapso expõe as duas dimensões simultaneamente. Para a Dimensão 1, o ri
 
 **O output inesperado é um scout.**
 
-Mas só quando tratado como tal: não como erro a corrigir, mas como evidência a interpretar. A lógica do scout que a seção anterior descreveu — ação barata cujo propósito é revelar, não conquistar — se estende para as duas dimensões, mas por caminhos distintos.
+Mas só quando tratado como tal: não como erro a corrigir, mas como evidência a interpretar. A lógica do scout que a seção anterior descreveu, ação barata cujo propósito é revelar e não conquistar, se estende para as duas dimensões, mas por caminhos distintos.
 
 Para a Dimensão 1, o scout funciona de forma análoga ao hello world: ao tentar formalizar algo, o resultado revela ignorância sobre o mundo que estava oculta. A feature que parecia óbvia, quando implementada, mostra que o domínio funcionava de forma diferente do que o time assumia.
 
@@ -150,9 +150,13 @@ O que é igual nas duas: sem desambiguação suficiente, a formalização codifi
 
 O teste de um ciclo bem-feito não é a sensação de progresso. É conseguir completar uma dessas frases:
 
-*"Descobrimos que os usuários não fazem X como assumíamos"* — Dimensão 1: foi ao mundo, atualizou o modelo de mundo.
+*"Descobrimos que os usuários não fazem X como assumíamos"*
 
-*"Decidimos que 'busca' significa correspondência parcial, sem distinção de maiúsculas"* — Dimensão 2: precisou a intenção, eliminou a interpretação aberta.
+Dimensão 1: foi ao mundo, atualizou o modelo de mundo.
+
+*"Decidimos que 'busca' significa correspondência parcial, sem distinção de maiúsculas"*
+
+Dimensão 2: precisou a intenção, eliminou a interpretação aberta.
 
 Se ao fim de um ciclo você não consegue completar nenhuma das duas, o ciclo produziu artefatos. Não aprendizado.
 
@@ -216,7 +220,7 @@ Três implicações desse modelo mental:
 
 ## 7. O que muda na prática
 
-**Muda a pergunta de diagnóstico.** Antes: "o que entregamos?" Agora: "o que desambiguamos — e em qual dimensão?" Um ciclo que não produziu nenhuma redução de ambiguidade identificável produziu artefatos mas não aprendizado. Isso não é sempre um erro. Execução pura tem valor. Mas é informação sobre o que está sendo otimizado.
+**Muda a pergunta de diagnóstico.** Antes: "o que entregamos?" Agora: "o que desambiguamos, e em qual dimensão?" Um ciclo que não produziu nenhuma redução de ambiguidade identificável produziu artefatos mas não aprendizado. Isso não é sempre um erro. Execução pura tem valor. Mas é informação sobre o que está sendo otimizado.
 
 **Muda o papel da ferramenta de formalização no fluxo.** Ela tem dois usos legítimos e distintos: como **scout** (formalizar para revelar ambiguidade que ainda não foi identificada) e como **executor** (formalizar uma intenção já suficientemente clara). O erro é usar como executor quando a ambiguidade ainda não foi tratada. A instrução que você passa, a um programador, a uma ferramenta, a um agente, não é o início do processo de pensar. É o registro de uma intenção que já passou por desambiguação suficiente.
 
@@ -244,7 +248,7 @@ O processo de tradução que o desenvolvimento de software sempre foi carregou, 
 
 A inteligência artificial tornou esse filtro visível ao removê-lo. A segunda dimensão deixou de ter quem a detectasse. Quando formalizar passou a custar minutos, deixou de ser tolerável.
 
-A Desambiguação Deliberada não substitui o modelo anterior — o completa. Nomeia as duas fontes de ambiguidade que o processo de tradução natural→formal carrega, propõe que a desambiguação deliberada de ambas é o verdadeiro output de cada ciclo, e que o aprendizado acumulado dessas resoluções é o ativo mais valioso que um time de software produz.
+A Desambiguação Deliberada não substitui o modelo anterior: o completa. Nomeia as duas fontes de ambiguidade que o processo de tradução natural→formal carrega, propõe que a desambiguação deliberada de ambas é o verdadeiro output de cada ciclo, e que o aprendizado acumulado dessas resoluções é o ativo mais valioso que um time de software produz.
 
 O colapso do custo de formalização não resolve a ambiguidade do mundo: ele a amplifica de forma combinatória. Cada sistema construído adiciona comportamento ao ambiente em que outros sistemas precisam operar. Cada nova composição gera estados que ninguém previu. Navegar esse ambiente exige capacidade de resposta proporcional à sua variedade. A primeira dimensão cresce: há mais domínio desconhecido emergindo de interações que não existiam antes. A segunda se multiplica: cada camada de delegação entre intenção e execução carrega imprecisão acumulada. AI reduz variedade: escolhe a interpretação mais provável e executa. O humano que sabe desambiguar deliberadamente é o que mantém capacidade de resposta proporcional a esse ambiente. Torna-se o fator limitante.
 
@@ -252,7 +256,7 @@ O colapso do custo de formalização não resolve a ambiguidade do mundo: ele a 
 >
 > O output de cada ciclo é desambiguação.  
 > O outcome acumulado é aprendizado.  
-> AI não mudou o que o processo é — tornou impossível ignorar o que ele sempre exigiu.
+> AI não mudou o que o processo é. Tornou impossível ignorar o que ele sempre exigiu.
 
 ---
 
