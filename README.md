@@ -2,7 +2,7 @@
 
 Um modelo mental para desenvolvimento de software como navegação deliberada sob ambiguidade.
 
-Leia o paper: [pt-br/modelo-mental-desambiguacao-deliberada.md](pt-br/modelo-mental-desambiguacao-deliberada.md)
+Leia o modelo: [pt-br/modelo-mental-desambiguacao-deliberada.md](pt-br/modelo-mental-desambiguacao-deliberada.md)
 
 ---
 
@@ -23,7 +23,7 @@ en-us/                                         ← tradução (em construção)
 
 A mental model for software development as deliberate navigation under ambiguity.
 
-Read the paper: [pt-br/modelo-mental-desambiguacao-deliberada.md](pt-br/modelo-mental-desambiguacao-deliberada.md) (Portuguese)
+Read the model: [pt-br/modelo-mental-desambiguacao-deliberada.md](pt-br/modelo-mental-desambiguacao-deliberada.md) (Portuguese)
 
 English translation is in progress.
 
