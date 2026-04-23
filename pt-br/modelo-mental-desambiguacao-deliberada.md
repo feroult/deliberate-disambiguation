@@ -19,11 +19,11 @@ O que você faria diferente?
 
 A segunda lista é o conhecimento que o projeto gerou. Não o código entregue, não as features deployadas: o conhecimento que, se você tivesse no início, teria mudado o que você construiu ou como você construiu. Essa lista é a medida real do que este projeto revelou.
 
-A primeira lista é o que você trouxe com você. Padrões que já funcionavam, domínio que já estava mapeado, decisões que já haviam sido testadas. Esse conhecimento faz parte de qualquer execução competente, mas estava disponível antes do projeto começar.
-
 Desenvolvimento de software, no sentido pleno da palavra, é o processo que produz a segunda lista. É navegar território que você ainda não conhecia completamente ao entrar, e sair sabendo mais sobre ele do que quando chegou.
 
 O que torna esse processo difícil de gerenciar é que a segunda lista só fica completamente visível ao final. O que você teria feito diferente raramente é claro enquanto você ainda está fazendo. E quando fica claro, ao fim de um sprint, de um release, de um projeto, o custo de agir sobre ela já mudou. Decisões tomadas, arquitetura comprometida, deploy feito. O retrabalho que ninguém consegue nomear começa antes do código. Começa numa ambiguidade que estava no mundo ou na intenção, e que só ficou visível quando já havia custo.
+
+Ir mais rápido na direção errada não é progresso. O que diferencia um ciclo que valeu do que não valeu não é a velocidade de formalização: é o aprendizado que ele gerou. Desenvolvimento de software, nesse sentido, é um processo de aprendizado. O software é o que sobra; o aprendizado é o que acumula.
 
 O que acontece quando você consegue fazer essa lista aparecer mais cedo, com mais deliberação?
 
