@@ -91,6 +91,6 @@ AI não mudou o que o processo é. Tornou impossível ignorar o que ele sempre e
 
 ---
 
-*O modelo completo, com as duas dimensões de ambiguidade, o loop de desambiguação deliberada e os arquivos de trabalho que documentam como o modelo foi construído, está em:*
+*O modelo completo, com o loop de diagnóstico, os arquétipos de uso e a distinção entre desambiguar e aprender, está em:*
 
 *github.com/feroult/deliberate-disambiguation*
