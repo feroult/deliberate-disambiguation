@@ -136,19 +136,33 @@ A reação certa ao output inesperado não é ajustar a instrução e tentar de 
 
 O modelo mental da Desambiguação Deliberada herda a premissa central do Deliberate Discovery, que a capacidade de aprender é a verdadeira restrição, e a completa com a segunda dimensão que o processo de tradução sempre carregou.
 
-**Output de cada ciclo: desambiguação.**
+**Desambiguar não é o mesmo que aprender.**
 
-Não importa qual das duas dimensões gerou a ambiguidade. O output de um ciclo bem-feito é uma redução de ambiguidade que pode ser nomeada: *"descobrimos que os usuários não fazem X como assumíamos"* (Dimensão 1) ou *"decidimos que 'busca' significa correspondência parcial, sem distinção de maiúsculas"* (Dimensão 2). Em ambos os casos, algo que era impreciso foi tornado preciso. Algo que era invisível foi revelado e resolvido.
+Desambiguar é mover de múltiplas interpretações possíveis para uma só — uma operação sobre linguagem e intenção. Aprender é atualizar o modelo de mundo — isso exige realidade. A relação entre as duas operações depende da dimensão.
 
-O código é o artefato. A desambiguação é o que o código materializou: o conhecimento que permanece depois que o ciclo passou.
+Para a Dimensão 2, elas quase coincidem: resolver a imprecisão da linguagem produz diretamente o conhecimento que faltava. Quando você decide que "apagar" significa soft delete, você simultaneamente desambiguou e aprendeu algo sobre o domínio.
+
+Para a Dimensão 1, desambiguar é necessário mas não suficiente. Nomear com precisão o que você não sabe sobre os usuários não é aprender sobre os usuários — é o primeiro passo para poder aprender. O aprendizado ainda exige ir ao mundo.
+
+O que é igual nas duas: sem desambiguação suficiente, a formalização codifica o que estava impreciso ou desconhecido — e o que o ciclo produz não é aprendizado, é ilusão de progresso.
+
+**Output de cada ciclo: uma desambiguação nomeável.**
+
+O teste de um ciclo bem-feito não é a sensação de progresso — é conseguir completar uma dessas frases:
+
+*"Descobrimos que os usuários não fazem X como assumíamos"* — Dimensão 1: foi ao mundo, atualizou o modelo de mundo.
+
+*"Decidimos que 'busca' significa correspondência parcial, sem distinção de maiúsculas"* — Dimensão 2: precisou a intenção, eliminou a interpretação aberta.
+
+Se ao fim de um ciclo você não consegue completar nenhuma das duas, o ciclo produziu artefatos — não aprendizado.
+
+O código é o artefato. O que o código materializou — a escolha feita, a ignorância revelada e endereçada — é o que permanece depois que o ciclo passou.
 
 **Outcome acumulado: aprendizado.**
 
 O acúmulo de ciclos bem-feitos vive no software que roda. Cada comportamento do sistema é uma desambiguação que completou o ciclo, da intenção imprecisa ao artefato executável. Cada decisão de produto que mudou porque a realidade contrariou a hipótese está expressa no que o sistema faz, não no que alguém lembra. O conhecimento que ficou só nas cabeças é o que ainda não terminou de virar formal. Desambiguação incompleta não acumula.
 
 O que acumula não é uma soma de decisões: é um sistema coerente, onde cada nova formalização precisa ser consistente com tudo que veio antes. Essa coerência é, ao mesmo tempo, evidência de que a desambiguação foi real e condição para o que ainda pode ser aprendido.
-
-Há uma distinção que vale nomear: desambiguar não é o mesmo que aprender. Desambiguar é mover de múltiplas interpretações possíveis para uma só: uma operação sobre linguagem e intenção que pode acontecer numa sala, sem contato com o mundo. Aprender é atualizar o modelo de mundo. Isso exige realidade. Para a Dimensão 2, as duas operações quase se sobrepõem: resolver a imprecisão da linguagem produz diretamente o conhecimento que faltava. Para a Dimensão 1, desambiguar é necessário mas não suficiente: nomear com precisão o que você não sabe sobre os usuários não é aprender sobre os usuários. É o primeiro passo para poder aprender.
 
 **A relação causal:**
 
