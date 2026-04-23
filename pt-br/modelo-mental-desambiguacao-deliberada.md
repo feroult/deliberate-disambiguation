@@ -138,25 +138,25 @@ O modelo mental da Desambiguação Deliberada herda a premissa central do Delibe
 
 **Desambiguar não é o mesmo que aprender.**
 
-Desambiguar é mover de múltiplas interpretações possíveis para uma só — uma operação sobre linguagem e intenção. Aprender é atualizar o modelo de mundo — isso exige realidade. A relação entre as duas operações depende da dimensão.
+Desambiguar é mover de múltiplas interpretações possíveis para uma só: uma operação sobre linguagem e intenção. Aprender é atualizar o modelo de mundo. Isso exige realidade. A relação entre as duas operações depende da dimensão.
 
 Para a Dimensão 2, elas quase coincidem: resolver a imprecisão da linguagem produz diretamente o conhecimento que faltava. Quando você decide que "apagar" significa soft delete, você simultaneamente desambiguou e aprendeu algo sobre o domínio.
 
-Para a Dimensão 1, desambiguar é necessário mas não suficiente. Nomear com precisão o que você não sabe sobre os usuários não é aprender sobre os usuários — é o primeiro passo para poder aprender. O aprendizado ainda exige ir ao mundo.
+Para a Dimensão 1, desambiguar é necessário mas não suficiente. Nomear com precisão o que você não sabe sobre os usuários não é aprender sobre os usuários. É o primeiro passo para poder aprender. O aprendizado ainda exige ir ao mundo.
 
-O que é igual nas duas: sem desambiguação suficiente, a formalização codifica o que estava impreciso ou desconhecido — e o que o ciclo produz não é aprendizado, é ilusão de progresso.
+O que é igual nas duas: sem desambiguação suficiente, a formalização codifica o que estava impreciso ou desconhecido. O que o ciclo produz não é aprendizado: é ilusão de progresso.
 
 **Output de cada ciclo: uma desambiguação nomeável.**
 
-O teste de um ciclo bem-feito não é a sensação de progresso — é conseguir completar uma dessas frases:
+O teste de um ciclo bem-feito não é a sensação de progresso. É conseguir completar uma dessas frases:
 
 *"Descobrimos que os usuários não fazem X como assumíamos"* — Dimensão 1: foi ao mundo, atualizou o modelo de mundo.
 
 *"Decidimos que 'busca' significa correspondência parcial, sem distinção de maiúsculas"* — Dimensão 2: precisou a intenção, eliminou a interpretação aberta.
 
-Se ao fim de um ciclo você não consegue completar nenhuma das duas, o ciclo produziu artefatos — não aprendizado.
+Se ao fim de um ciclo você não consegue completar nenhuma das duas, o ciclo produziu artefatos. Não aprendizado.
 
-O código é o artefato. O que o código materializou — a escolha feita, a ignorância revelada e endereçada — é o que permanece depois que o ciclo passou.
+O código é o artefato. O que permanece é o que ele materializou: a escolha feita, a ignorância revelada e endereçada.
 
 **Outcome acumulado: aprendizado.**
 
@@ -224,7 +224,7 @@ Três implicações desse modelo mental:
 
 **Muda a leitura do retrabalho.** Retrabalho passa a ser sinal diagnóstico com informação de dimensão: *"construímos a coisa certa da forma errada"* (Dimensão 2 mal resolvida) é diferente de *"construímos a coisa errada muito bem"* (Dimensão 1 ignorada). A causa muda completamente o remédio.
 
-Uma sprint acaba com um card claro: "adicionar busca de produtos ao catálogo." O time está alinhado. Antes de implementar, um scout deliberado — a mesma intenção, formulada de três formas distintas para a ferramenta:
+Uma sprint acaba com um card claro: "adicionar busca de produtos ao catálogo." O time está alinhado. Antes de implementar, um scout deliberado: a mesma intenção, formulada de três formas distintas para a ferramenta:
 
 *"Implemente a busca de produtos no catálogo."*
 *"Permita que o usuário encontre produtos pelo nome."*
@@ -232,21 +232,21 @@ Uma sprint acaba com um card claro: "adicionar busca de produtos ao catálogo." 
 
 Três outputs emergem. O primeiro implementa busca full-text contra nome, descrição e categoria, com ranking por relevância. O segundo implementa correspondência parcial por nome, case-insensitive. O terceiro implementa filtragem client-side nas colunas visíveis da tabela.
 
-Nenhum está errado. Todos são formalizações válidas de "busca de produtos". A divergência entre eles não é falha da ferramenta: é a imprecisão da palavra "busca" tornando-se visível. O que conta como correspondência? Em quais campos? O sistema consulta ou o cliente filtra? Como os resultados são ordenados? A reunião nunca precisou responder essas perguntas — a linguagem natural tolerava todas as interpretações ao mesmo tempo.
+Nenhum está errado. Todos são formalizações válidas de "busca de produtos". A divergência entre eles não é falha da ferramenta: é a imprecisão da palavra "busca" tornando-se visível. O que conta como correspondência? Em quais campos? O sistema consulta ou o cliente filtra? Como os resultados são ordenados? A reunião nunca precisou responder essas perguntas. A linguagem natural tolerava todas as interpretações ao mesmo tempo.
 
-O scout tornou visível o que "busca" significa neste contexto antes de qualquer implementação ser comprometida. O próximo passo não é escolher o melhor output: é responder as perguntas que a divergência revelou. Essa resposta é a desambiguação. A implementação que vem depois é o scout virando executor — e a instrução que você passa ao executor já passou por desambiguação suficiente.
+O scout tornou visível o que "busca" significa neste contexto antes de qualquer implementação ser comprometida. O próximo passo não é escolher o melhor output: é responder as perguntas que a divergência revelou. Essa resposta é a desambiguação. A implementação que vem depois é o scout virando executor. A instrução que você passa a ele já passou por desambiguação suficiente.
 
 ---
 
 ## 8. Conclusão
 
-O processo de tradução que o desenvolvimento de software sempre foi carregou, desde o início, duas fontes de ambiguidade. A primeira foi nomeada pelo Deliberate Discovery: a ignorância sobre o mundo que precisa ser descoberta antes de virar custo. A segunda era gerenciada implicitamente pelo programador humano — filtro embutido no próprio ato de construir.
+O processo de tradução que o desenvolvimento de software sempre foi carregou, desde o início, duas fontes de ambiguidade. A primeira foi nomeada pelo Deliberate Discovery: a ignorância sobre o mundo que precisa ser descoberta antes de virar custo. A segunda era gerenciada implicitamente pelo programador humano: filtro embutido no próprio ato de construir.
 
 A inteligência artificial tornou esse filtro visível ao removê-lo. A segunda dimensão deixou de ter quem a detectasse. Quando formalizar passou a custar minutos, deixou de ser tolerável.
 
 A Desambiguação Deliberada não substitui o modelo anterior — o completa. Nomeia as duas fontes de ambiguidade que o processo de tradução natural→formal carrega, propõe que a desambiguação deliberada de ambas é o verdadeiro output de cada ciclo, e que o aprendizado acumulado dessas resoluções é o ativo mais valioso que um time de software produz.
 
-O colapso do custo de formalização não resolve a ambiguidade do mundo: ele a amplifica de forma combinatória. Cada sistema construído adiciona comportamento ao ambiente em que outros sistemas precisam operar — e cada nova composição gera estados que ninguém previu. Navegar esse ambiente exige capacidade de resposta proporcional à sua variedade. A primeira dimensão cresce: há mais domínio desconhecido emergindo de interações que não existiam antes. A segunda se multiplica: cada camada de delegação entre intenção e execução carrega imprecisão acumulada. AI reduz variedade — escolhe a interpretação mais provável e executa. O humano que sabe desambiguar deliberadamente é o que mantém capacidade de resposta proporcional a esse ambiente. Torna-se o fator limitante.
+O colapso do custo de formalização não resolve a ambiguidade do mundo: ele a amplifica de forma combinatória. Cada sistema construído adiciona comportamento ao ambiente em que outros sistemas precisam operar. Cada nova composição gera estados que ninguém previu. Navegar esse ambiente exige capacidade de resposta proporcional à sua variedade. A primeira dimensão cresce: há mais domínio desconhecido emergindo de interações que não existiam antes. A segunda se multiplica: cada camada de delegação entre intenção e execução carrega imprecisão acumulada. AI reduz variedade: escolhe a interpretação mais provável e executa. O humano que sabe desambiguar deliberadamente é o que mantém capacidade de resposta proporcional a esse ambiente. Torna-se o fator limitante.
 
 > Desenvolver software é navegar território desconhecido. O mecanismo dessa navegação é a tradução iterativa de intenção humana de linguagem natural para linguagem formal, removendo ambiguidade a cada passo: tanto a ignorância sobre o mundo que ainda não foi encontrado, quanto a imprecisão da linguagem que só se revela quando você tenta ser preciso o suficiente para executar.
 >
