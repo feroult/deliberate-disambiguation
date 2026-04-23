@@ -51,7 +51,7 @@ Antes da AI, essa segunda fonte de ambiguidade era gerenciada implicitamente pel
 
 **O output divergente não é falha. É evidência.**
 
-Quando a ferramenta produz algo diferente do que você esperava, a reação comum é ajustar o prompt e tentar de novo. Mas a divergência entre o que você descreveu e o que a máquina entendeu é a imprecisão da sua linguagem tornando-se visível. A máquina escolheu uma das interpretações válidas da sua frase, e ao fazê-lo revelou que havia mais de uma.
+Quando a ferramenta produz algo diferente do que você esperava, a reação comum é ajustar e tentar de novo. Mas a divergência entre o que você descreveu e o que a máquina entendeu é a imprecisão da sua linguagem tornando-se visível. A máquina escolheu uma das interpretações válidas da sua frase, e ao fazê-lo revelou que havia mais de uma.
 
 A pergunta certa não é "como ajusto a instrução?": é "qual tipo de ambiguidade essa divergência está revelando?"
 
