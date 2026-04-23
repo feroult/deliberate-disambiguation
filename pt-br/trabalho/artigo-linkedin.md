@@ -73,7 +73,7 @@ Não é a sensação de progresso. É conseguir completar uma dessas frases ao f
 
 A primeira é aprendizado sobre o mundo. A segunda é precisão sobre a intenção. As duas são formas de nomear o que foi resolvido.
 
-Se você não consegue completar nenhuma das duas, o ciclo produziu artefatos, não aprendizado. E artefatos sem aprendizado não acumulam. Eles apenas acrescentam ao território que o próximo ciclo vai ter que navegar.
+Se você não consegue completar nenhuma das duas, o ciclo produziu artefatos, não aprendizado. Artefatos sem aprendizado não acumulam conhecimento: acumulam território.
 
 ---
 
