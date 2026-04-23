@@ -73,13 +73,13 @@ Não é a sensação de progresso. É conseguir completar uma dessas frases ao f
 
 A primeira é aprendizado sobre o mundo. A segunda é precisão sobre a intenção. As duas são formas de nomear o que foi resolvido.
 
-Se você não consegue completar nenhuma das duas, o ciclo produziu artefatos — não aprendizado. E artefatos sem aprendizado não acumulam. Eles apenas acrescentam ao território que o próximo ciclo vai ter que navegar.
+Se você não consegue completar nenhuma das duas, o ciclo produziu artefatos, não aprendizado. E artefatos sem aprendizado não acumulam. Eles apenas acrescentam ao território que o próximo ciclo vai ter que navegar.
 
 ---
 
 **Quem se torna escasso**
 
-Quando construir era lento, a lentidão forçava desambiguação. Você pensava antes de formalizar porque formalizar custava caro. Muito da imprecisão era resolvida implicitamente durante o ato de escrever código — o programador encontrava a ambiguidade e resolvia no processo.
+Quando construir era lento, a lentidão forçava desambiguação. Você pensava antes de formalizar porque formalizar custava caro. Muito da imprecisão era resolvida implicitamente durante o ato de escrever código. O programador encontrava a ambiguidade e resolvia no processo.
 
 Quando construir custa minutos, esse mecanismo desaparece. A ambiguidade não tratada se formaliza em sistema antes que alguém perceba o problema. A velocidade amplifica tanto o valor de desambiguar deliberadamente quanto o custo de não fazer isso.
 
