@@ -6,13 +6,13 @@ Leia o modelo: [pt-br/modelo-mental-desambiguacao-deliberada.md](pt-br/modelo-me
 
 ---
 
-O paper propõe que desenvolvimento de software não é construção — é navegação. Times não sabem o que estão construindo antes de construir porque existem dois tipos de ambiguidade que só ficam visíveis durante o processo: ignorância sobre o mundo (Dimensão 1) e imprecisão da linguagem (Dimensão 2). Desambiguação Deliberada é a postura de tornar esse processo explícito e intencional.
+O modelo propõe que desenvolvimento de software não é construção — é navegação. Times não sabem o que estão construindo antes de construir porque existem dois tipos de ambiguidade que só ficam visíveis durante o processo: ignorância sobre o mundo (Dimensão 1) e imprecisão da linguagem (Dimensão 2). Desambiguação Deliberada é a postura de tornar esse processo explícito e intencional.
 
 ## Estrutura
 
 ```
 pt-br/
-  modelo-mental-desambiguacao-deliberada.md   ← paper principal
+  modelo-mental-desambiguacao-deliberada.md   ← modelo principal
   trabalho/                                    ← processo, rascunhos, derivações
 en-us/                                         ← tradução (em construção)
 ```
@@ -29,7 +29,7 @@ English translation is in progress.
 
 ---
 
-The paper proposes that software development is not construction — it is navigation. Teams don't know what they're building before they build it because there are two types of ambiguity that only become visible during the process: ignorance about the world (Dimension 1) and imprecision of language (Dimension 2). Deliberate Disambiguation is the stance of making this process explicit and intentional.
+The model proposes that software development is not construction — it is navigation. Teams don't know what they're building before they build it because there are two types of ambiguity that only become visible during the process: ignorance about the world (Dimension 1) and imprecision of language (Dimension 2). Deliberate Disambiguation is the stance of making this process explicit and intentional.
 
 ---
 
