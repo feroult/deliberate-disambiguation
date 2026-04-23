@@ -4,7 +4,7 @@
 
 ---
 
-Essa pergunta chega até mim com frequência, nas equipes que lidero e nos clientes que acompanhamos.
+Essa lógica chega até mim com frequência, nas equipes que lidero, nos clientes e nos parceiros.
 
 Se a máquina produz código mais rápido, precisamos de menos pessoas para produzir código.
 
