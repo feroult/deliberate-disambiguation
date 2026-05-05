@@ -358,29 +358,23 @@ Sei que não sei X      →  1ª ordem  (visível, atacável)
 ---
 
 **Slide 14 — O loop**
-*Visual:* Diagrama esquemático sobre fundo escuro. Três zonas verticais ou em arco, com labels e setas direcionais. Sem elementos artísticos — tipografia, linhas e setas são suficientes.
+*Visual:* Imagem gerada. Diagrama esquemático infográfico sobre fundo escuro, estilo técnico limpo.
 
-```
-┌─────────────────────────────────────────────────────┐
-│                                                     │
-│   [NÉVOA]          [D1]              [D2]           │
-│   Não sei o    →   Sei que       →   Imprecisão     │
-│   que não sei      não sei X         da linguagem   │
-│   (invisível)      (atacável)        (formalização) │
-│                                                     │
-│                        ↑________________________    │
-│                    tentar resolver D2 revela D1     │
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
-
-**Design spec (Figma/Keynote):**
-- Três colunas com labels de zona no topo: "Ignorância 2ª ordem", "Ignorância 1ª ordem / D1", "Ambiguidade / D2"
-- Seta horizontal esquerda→direita entre as três zonas: representa o progresso normal (scout revela D1, D1 resolve, tenta formalizar D2)
-- Seta curva de retorno de D2 → D1: representa o loop ("tentar resolver D2 revela D1 escondida")
-- As colunas têm opacidade decrescente da esquerda para a direita: zona da névoa mais opaca/difusa (70% opacidade), D1 mais nítida, D2 totalmente nítida — simula visualmente a transição de desconhecido para conhecido
-- Fonte: sans-serif, branco sobre fundo escuro
-- Seta de retorno: tracejada ou em cor diferente (âmbar) para distinguir do fluxo principal
+> **Prompt de imagem:** Clean technical infographic diagram on a near-black background (#0d0d14), 16:9 aspect ratio. The diagram is composed of three vertical zones arranged horizontally across the frame, connected by arrows. No decorative elements — this is a schematic, not an illustration.
+>
+> **Zone 1 — left third of frame, labeled "Ignorância 2ª ordem" at top and "não sei o que não sei" below in smaller type.** This zone is rendered with a heavy fog overlay: the background behind the label is a soft, diffuse cloud of blue-grey mist at approximately 60% opacity, edges undefined, bleeding into the background. The label text is white but slightly blurred at 80% opacity, as if seen through haze. A faint dashed rectangular border around the zone, barely visible. The fog is thicker at the left edge and thins toward the center of the zone.
+>
+> **Zone 2 — center third of frame, labeled "D1" large at top, "Ignorância 1ª ordem" below, "sei que não sei X" in smaller type below that.** This zone is clearer than zone 1 but not fully sharp: a faint haze remains, roughly 25% opacity fog overlay. The label text is white at full opacity. A light rectangular border, 1px white at 50% opacity. The visual treatment suggests partial visibility — the problem is named but still uncertain.
+>
+> **Zone 3 — right third of frame, labeled "D2" large at top, "Ambiguidade da linguagem" below, "formalização" in smaller type.** This zone is fully sharp, no fog, maximum contrast. The label text is white at full brightness. A clean rectangular border, 1px white at 90% opacity. Crisp, legible, precise.
+>
+> **Arrows connecting the zones:** A single horizontal arrow running left to right through all three zones at mid-height, labeled below: "scout → exploração → formalização". Arrow head points right. Color: white, 1.5px stroke. Clean and minimal.
+>
+> **Return loop arrow:** A curved dashed arrow starting from the right side of Zone 3 (D2), arcing upward and looping back to the center of Zone 2 (D1). The arc travels above the three zones, bowing upward. Color: warm amber (#e8a020), dashed stroke (4px dash, 4px gap), arrowhead pointing left at the D1 end. Label along the arc, centered, in amber type (12–14pt): "tentar resolver D2 revela D1". This arrow is visually distinct from the main horizontal flow — it is the loop.
+>
+> **Typography throughout:** Clean geometric sans-serif (Inter, DM Sans, or equivalent). Zone labels in bold white, 20–24pt. Sub-labels in regular white, 13–15pt. All text fully legible. No decorative fonts.
+>
+> **Overall composition:** The three zones and their connecting arrows occupy the central 80% of the frame horizontally, with generous padding top and bottom. The amber return arrow creates a visual loop shape above the three zones. The left-to-right gradient of fog→clarity is the dominant visual narrative: the eye travels from haze to precision. Aspect ratio 16:9. Flat design, no shadows, no 3D effects, no gradients on the zones themselves — the fog treatment is the only texture.
 
 *Conteúdo:* As dimensões não são sequenciais. O ciclo é o processo. A IA quebra esse ciclo ao não pausar.
 
