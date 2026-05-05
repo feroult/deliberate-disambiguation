@@ -179,11 +179,11 @@ Isso é uma feature de catálogo pequeno, ou vai ter dez mil produtos? O filtro 
 
 Essas perguntas não são sobre o que "filtrar" significa. São sobre onde essa decisão se encaixa no sistema que está sendo construído. Um engenheiro com percepção arquitetural tem um modelo de onde o sistema está indo, e usa esse modelo para escolher a formalização que preserva as opções que vão importar. Não a interpretação mais provável. A que é coerente com a trajetória do sistema.
 
-A máquina não tem esse modelo. Formaliza silenciosamente. O resultado pode ser correto agora e incoerente daqui a seis meses.
-
 Se você já disse "isso vai virar problema" antes de abrir o editor — você já fez isso. A palestra não está ensinando o que você não sabe. Está dando nome ao que você já faz.
 
 O gut feeling do engenheiro sênior é isso: percepção contextual de como as decisões de hoje constrangem as de amanhã, numa forma de desambiguação que a especificação não consegue capturar e que a máquina no piloto automático não tem como fazer.
+
+A máquina não tem esse modelo. Formaliza silenciosamente. O resultado pode ser correto agora e incoerente daqui a seis meses.
 
 Alguém aqui está pensando: mas dá pra resolver isso com outro agente. Um agente de validação arquitetural. Você descreve a arquitetura do sistema, passa a formalização, o agente avalia se é coerente.
 
@@ -197,7 +197,9 @@ O problema é que o modelo relevante não é esse. É o modelo do sistema que vo
 
 Esse modelo não existe em nenhum arquivo. Ele existe na cabeça de quem esteve lá.
 
-Você pode criar um agente que valida contra o sistema de hoje. Mas quem define o modelo do sistema de amanhã? De volta ao engenheiro. O problema não foi eliminado. Foi movido para onde sempre esteve — que é, para quem está nessa sala, uma boa notícia.
+Você pode criar um agente que valida contra o sistema de hoje. Mas quem define o modelo do sistema de amanhã? De volta ao engenheiro. O problema não foi eliminado. Foi movido para onde sempre esteve.
+
+Boa notícia: é aí que você está.
 
 O agente precisa do modelo para funcionar. O modelo só existe em quem esteve lá e sabe para onde o sistema vai. Não é um gargalo humano num processo que a máquina poderia assumir. É a fonte sem a qual o processo não tem direção.
 
@@ -213,7 +215,7 @@ Esse humano é o fator limitante — não no sentido de gargalo, de obstáculo q
 
 Não porque é mais rápido. Porque é o único que para quando precisa parar, pergunta quando precisa perguntar, e só formaliza quando a intenção já é precisa o suficiente para executar.
 
-Parar quando a pressão é para avançar. Perguntar quando todo mundo acha que já sabe a resposta. Resistir à formalização prematura quando a ferramenta quer executar em segundos. Você já faz isso.
+Parar quando a pressão é para avançar. Perguntar quando todo mundo acha que já sabe a resposta. Decidir o que formalizar e o que ainda precisa de resposta. Você já faz isso.
 
 AI não mudou o processo. O que ela revelou é o que você já sabe fazer.
 
@@ -427,7 +429,7 @@ AGORA: "O que desambiguamos, e em qual dimensão?"
 **Slide 23 — Fechamento**
 *Visual:* Fundo com imagem gerada. Texto sobreposto, duas linhas, tipografia ampla, branco:
 "AI não mudou o processo."
-"Tornou impossível ignorar o que ele sempre exigiu."
+"O que ela revelou é o que você já sabe fazer."
 
 > **Prompt de imagem:** Cinematic abstract background for a closing presentation slide, 16:9. A long empty corridor or tunnel, viewed from straight-on perspective — perfectly centered vanishing point. The corridor is modern and geometric: clean concrete or dark metal walls, receding into a distant point of faint warm light. The near end (foreground) is in almost total darkness; the far end glows dimly, suggesting continuation rather than termination. No figures. No labels. No windows. The corridor should feel like time or process — something that was always there, that you always had to walk through, that hasn't changed even if the speed has. Photorealistic or cinematic digital painting. Palette: near-monochromatic dark charcoal and near-black, with a single warm amber-white glow at the vanishing point. The mood is quiet, honest, and slightly sobering — not triumphant, not tragic. Just clear.
 
