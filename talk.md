@@ -162,6 +162,20 @@ A máquina não tem esse modelo. Formaliza silenciosamente. O resultado pode ser
 
 É aí que o gut feeling do engenheiro sênior — essa percepção contextual de como as decisões de hoje constrangem as de amanhã — é uma forma de desambiguação que a especificação não consegue capturar. E que a máquina no piloto automático não tem como fazer.
 
+Alguém aqui está pensando: mas dá pra resolver isso com outro agente. Um agente de validação arquitetural. Você descreve a arquitetura do sistema, passa a formalização, o agente avalia se é coerente.
+
+É uma ideia razoável. E funciona — em parte.
+
+O agente pode verificar se a nova formalização contradiz padrões existentes. Pode apontar inconsistências com o que já foi decidido. Isso é útil e real. Mas note o que você precisou passar para ele: um modelo do sistema. Sua estrutura atual, suas convenções, suas fronteiras.
+
+O problema é que o modelo relevante não é esse. É o modelo do sistema que você *ainda está construindo*. A trajetória. As decisões que ainda não foram tomadas. As features que existem no roadmap mas não no código. As restrições que você sabe que vêm mas não estão documentadas em lugar nenhum.
+
+Esse modelo não existe em nenhum arquivo. Ele existe na cabeça de quem esteve lá.
+
+Você pode criar um agente que valida contra o sistema de hoje. Mas quem define o modelo do sistema de amanhã? De volta ao engenheiro. O problema não foi eliminado. Foi movido um nível acima.
+
+E agora você tem dois problemas: o de antes, mais o de garantir que o agente validador tem o modelo certo do futuro. Que é, ele mesmo, um problema de Dimensão 1.
+
 ---
 
 ## 6. Fechamento
