@@ -3,22 +3,6 @@
 
 ---
 
-## Estrutura
-
-| Bloco | Conteúdo | Tempo |
-|---|---|---|
-| 1 | Abertura: o que você aprendeu? | 5 min |
-| 2 | O mecanismo: tradução como processo | 7 min |
-| 3 | Dan North e a primeira dimensão | 7 min |
-| 4 | A segunda dimensão | 7 min |
-| 5 | O colapso do custo de formalização | 5 min |
-| **6** | **[DEMO] Convergência em ação** | **10 min** |
-| 7 | O que muda na prática | 5 min |
-| 8 | Fechamento | 4 min |
-| | **Total** | **~50 min** |
-
----
-
 ## 1. Abertura
 
 Feche os olhos. Pense no último projeto que você terminou.
@@ -170,13 +154,11 @@ O processo para quando não há mais ambiguidade resolvível sem input do autor.
 
 ## 7. O que muda na prática
 
-Três coisas mudam quando você pensa com esse modelo.
+A primeira mudança é na pergunta de diagnóstico. Antes: "o que entregamos?" Agora: "o que desambiguamos, e em qual dimensão?" Um ciclo que não produziu nenhuma redução de ambiguidade identificável produziu artefatos, não aprendizado.
 
-**A pergunta de diagnóstico muda.** Antes: "o que entregamos?" Agora: "o que desambiguamos, e em qual dimensão?" Um ciclo que não produziu nenhuma redução de ambiguidade identificável produziu artefatos, não aprendizado.
+A segunda é no papel da ferramenta de formalização. Ela tem dois usos legítimos e distintos: como scout (formalizar para revelar ambiguidade que ainda não foi identificada) e como executor (formalizar uma intenção já suficientemente clara). O erro é usar como executor quando a ambiguidade ainda não foi tratada. A instrução que você passa, a um programador, a uma ferramenta, a um agente, não é o início do processo de pensar. É o registro de uma intenção que já passou por desambiguação suficiente.
 
-**O papel da ferramenta de formalização muda.** Ela tem dois usos legítimos e distintos: como scout (formalizar para revelar ambiguidade que ainda não foi identificada) e como executor (formalizar uma intenção já suficientemente clara). O erro é usar como executor quando a ambiguidade ainda não foi tratada. A instrução que você passa, a um programador, a uma ferramenta, a um agente, não é o início do processo de pensar. É o registro de uma intenção que já passou por desambiguação suficiente.
-
-**O que se espera de um bom engenheiro muda.** O skill mais valioso não é operar bem a ferramenta. É reconhecer qual tipo de ambiguidade está presente antes de executar, e saber o que fazer com cada uma. Quando ir ao mundo (Dimensão 1). Quando precisar a intenção (Dimensão 2).
+A terceira é no que se espera de um bom engenheiro. O skill mais valioso não é operar bem a ferramenta. É reconhecer qual tipo de ambiguidade está presente antes de executar, e saber o que fazer com cada uma. Quando ir ao mundo (Dimensão 1). Quando precisar a intenção (Dimensão 2).
 
 Engenheiros que desenvolvem essa capacidade se tornam multiplicadores: não porque produzem mais código, mas porque o código que produzem materializa intenções genuinamente desambiguadas.
 
@@ -212,10 +194,4 @@ AI reduz variedade: escolhe a interpretação mais provável e executa. O humano
 
 Torna-se o fator limitante.
 
-Desenvolver software sempre foi navegar território desconhecido. O mecanismo dessa navegação é a tradução iterativa de intenção humana de linguagem natural para linguagem formal, removendo ambiguidade a cada passo. Tanto a ignorância sobre o mundo que ainda não foi encontrado, quanto a imprecisão da linguagem que só se revela quando você tenta ser preciso o suficiente para executar.
-
-O output de cada ciclo é desambiguação. O outcome acumulado é aprendizado. AI não mudou o que o processo é. Tornou impossível ignorar o que ele sempre exigiu.
-
----
-
-*Baseada no conceito de Deliberate Discovery (Dan North) e sua extensão com a segunda dimensão da ambiguidade que o processo de tradução sempre carregou.*
+AI não mudou o que o processo é. Tornou impossível ignorar o que ele sempre exigiu.
