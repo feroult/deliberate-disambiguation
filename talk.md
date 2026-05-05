@@ -185,6 +185,8 @@ O gut feeling do engenheiro sênior é isso: percepção contextual de como as d
 
 Alguém aqui está pensando: mas dá pra resolver isso com outro agente. Um agente de validação arquitetural. Você descreve a arquitetura do sistema, passa a formalização, o agente avalia se é coerente.
 
+Honestamente? Eu pensei nisso também.
+
 É uma ideia razoável. E funciona — em parte.
 
 O agente pode verificar se a nova formalização contradiz o que já foi decidido. Isso é útil e real. Mas note o que você precisou passar para ele: um modelo do sistema. Sua estrutura atual, suas convenções, suas fronteiras.
@@ -209,7 +211,7 @@ Esse humano é o fator limitante — não no sentido de gargalo, de obstáculo q
 
 Não porque é mais rápido. Porque é o único que para quando precisa parar, pergunta quando precisa perguntar, e só formaliza quando a intenção já é precisa o suficiente para executar.
 
-Parar quando a pressão é para avançar. Perguntar quando todo mundo acha que já sabe a resposta. Resistir à formalização prematura quando a ferramenta quer executar em segundos. Isso é difícil. E é raro.
+Parar quando a pressão é para avançar. Perguntar quando todo mundo acha que já sabe a resposta. Resistir à formalização prematura quando a ferramenta quer executar em segundos. Você já faz isso.
 
 AI não mudou o processo. Tornou impossível ignorar o que você já sabe fazer.
 
@@ -414,7 +416,7 @@ AGORA: "O que desambiguamos, e em qual dimensão?"
 **Slide 22 — O fator limitante**
 *Visual:* Fundo com imagem gerada. Texto sobreposto: "Esse humano é o fator limitante." em tipografia grande, branco, centrado ou alinhado à esquerda.
 
-> **Prompt de imagem:** Dark cinematic background image for a presentation slide, 16:9, full-bleed. A single human figure seen from behind, standing still in the center of a large, sparse, dimly lit industrial or server room space — rows of dark server racks recede into the background on both sides, their indicator lights creating tiny pinpoints of dim blue and amber. The figure is small relative to the environment, dressed in neutral dark clothes, hands at sides, posture calm and deliberate — not heroic, not defeated. They face the room, as if surveying, thinking, deciding. The lighting is minimal: a single cool overhead source illuminates the figure and the immediate floor around them; the background fades to near-black. The emotional register is weight and presence — this is the one person who has to understand the whole system. No faces visible. No text, no logos, no UI elements. Photorealistic rendering or cinematic digital painting. Ultra-dark palette: 90% of the image is at luminosity below 30%. The human figure should not be idealized — they are just a person, doing a hard and necessary thing.
+> **Prompt de imagem:** Moody but intimate background image for a presentation slide, 16:9, full-bleed. A developer sits at a desk, viewed from slightly above and to the side — their face not fully visible. Late afternoon light comes from a window off-frame, casting a warm amber glow across the desk surface. A monitor is on but the screen is not the focus — the developer's hands rest on the keyboard, not typing. They are looking slightly away, mid-thought, paused before the next action. A coffee cup nearby. A notebook with a few handwritten lines. Sticky notes on the monitor bezel. The desk is real and lived-in, not staged or clean. The emotional register is quiet deliberation: this is someone who knows when to stop. Not heroic, not burdened — just present, thinking, about to ask the right question. Photorealistic or cinematic digital photography aesthetic. Palette: warm amber key light from the window, cool blue-white fill from the monitor, deep shadows that are soft not oppressive. No text, no UI elements, no logos. Aspect ratio 16:9.
 
 *Conteúdo:* A tese central. Pausa antes de continuar com o porquê.
 
