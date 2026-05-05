@@ -202,3 +202,198 @@ Esse humano é o fator limitante.
 Não porque é mais rápido. Porque é o único que para quando precisa parar, pergunta quando precisa perguntar, e só formaliza quando a intenção já é precisa o suficiente para executar.
 
 AI não mudou o processo. Tornou impossível ignorar o que ele sempre exigiu.
+
+---
+
+## Slides Sugeridos
+
+---
+
+**Slide 1 — Título**
+*Visual:* Fundo escuro. Texto centrado em tipografia grande: "Desambiguação Deliberada". Sem subtítulo.
+*Conteúdo:* Abre a sessão em silêncio. O palestrante começa a falar antes de avançar.
+
+---
+
+**Slide 2 — A pergunta certa**
+*Visual:* Duas linhas em contraste:
+"A pergunta não é o que a AI mudou."
+"É o que ela revelou."
+*Conteúdo:* O hook e a tese em miniatura. Fica na tela enquanto o palestrante descreve o exercício do projeto imaginário.
+
+---
+
+**Slide 3 — O exercício**
+*Visual:* Fundo escuro. Apenas duas perguntas, sem título:
+"O que você faria igual?"
+"O que você faria diferente?"
+*Conteúdo:* O palestrante pediu que a audiência fechasse os olhos antes de mostrar. O slide aparece como resposta ao exercício.
+
+---
+
+**Slide 4 — O que o projeto produz**
+*Visual:* Uma linha, tipografia ampla:
+"O software é o que sobra. O aprendizado é o que acumula."
+*Conteúdo:* Payoff do exercício. Define o que desenvolvimento de software realmente produz — e prepara o espectro.
+
+---
+
+**Slide 5 — O espectro**
+*Visual:* O diagrama do espectro em tipografia monospace limpa:
+
+```
+LINGUAGEM NATURAL ─────────────────► LINGUAGEM FORMAL
+Ambígua, rica, implícita             Precisa, executável, literal
+```
+
+*Conteúdo:* O mecanismo central. Palestrante explica os dois polos antes de mostrar o slide; o diagrama confirma.
+
+---
+
+**Slide 6 — Formalização é redução**
+*Visual:* Uma definição centrada:
+"Formalização é redução: de muitos significados possíveis para um único significado preciso."
+*Conteúdo:* A definição que ancora o restante da palestra. Fica na tela enquanto o palestrante desenvolve a consequência e lança a pergunta sobre o custo.
+
+---
+
+**Slide 7 — A tese de North**
+*Visual:* Duas linhas, a segunda em destaque:
+"A verdadeira restrição não era velocidade de execução."
+"Era capacidade de aprender."
+*Conteúdo:* O que North nomeou. Contexto: artigo no InfoQ em 2011, confiança de quem acabou de aprender algo.
+
+---
+
+**Slide 8 — Taxonomia da ignorância**
+*Visual:* Diagrama em dois níveis com setas descendentes:
+
+```
+Não sei o que não sei  →  2ª ordem  (invisível, perigosa)
+        ↓
+Sei que não sei X      →  1ª ordem  (visível, atacável)
+        ↓
+             Conhecimento
+```
+
+*Conteúdo:* A estrutura do risco em projetos. O que pode ser atacado vs. o que ainda não foi reconhecido como ameaça.
+
+---
+
+**Slide 9 — O scout**
+*Visual:* Imagem: mapa de névoa de guerra — grande área cinza com uma figura avançando pela borda iluminada. Ou radar com zona revelada ao redor de um ponto central. Legenda: "Ação barata cujo propósito não é conquistar território, mas remover névoa."
+*Conteúdo:* O hello world em produção como scout. A ação que revela o que não estava no backlog.
+
+---
+
+**Slide 10 — O que ele não nomeou**
+*Visual:* Texto simples, três linhas:
+"Esse modelo estava certo. Permanece fundacional."
+"Mas havia uma dimensão inteira que ele não nomeou."
+"E que eu também não vi em 2011."
+*Conteúdo:* Transição pessoal para a segunda dimensão. O palestrante admite a própria cegueira — estabelece credibilidade para o que vem.
+
+---
+
+**Slide 11 — "O administrador pode apagar um usuário"**
+*Visual:* No centro, um cartão de user story: "O administrador pode apagar um usuário." Abaixo, em fonte menor, as perguntas emergindo em cascata: "Remover permanentemente ou soft delete?", "O conteúdo criado?", "Os pedidos em aberto?", "Auditoria?", "Reativação?"
+*Conteúdo:* Introdução da Dimensão 2. As perguntas aparecem depois que o palestrante lança a história — o slide revela o que estava escondido atrás de dez palavras.
+
+---
+
+**Slide 12 — As três camadas da D2**
+*Visual:* Lista vertical numerada:
+1. Ambiguidade semântica — o que a palavra significa nesse domínio
+2. Ignorância de domínio — o que o negócio sabe e você ainda não perguntou
+3. Escolhas de formalização — onde a decisão se encaixa no sistema que está sendo construído
+*Conteúdo:* A estrutura completa da segunda dimensão antes da tabela comparativa. Palestrante percorre os três níveis com o exemplo do "apagar".
+
+---
+
+**Slide 13 — D1 × D2**
+*Visual:* A tabela comparativa em tipografia limpa, sem bordas pesadas:
+
+| | D1 | D2 |
+|---|---|---|
+| Fonte | Realidade não encontrada | Linguagem imprecisa + modelo ausente |
+| Revelada por | Contato com o mundo real | Tentativa de formalização |
+| Resolvida por | Exploração, validação | Especificação + percepção arquitetural |
+| Metáfora | Névoa de guerra | Instrução que cada um entendeu à sua maneira |
+
+*Conteúdo:* O palestrante não lê a tabela — aponta as linhas e comenta. Referência visual para a audiência fixar a distinção.
+
+---
+
+**Slide 14 — O loop**
+*Visual:* Diagrama circular com dois nós e dois arcos:
+D2 (tentar resolver) → revela D1 → resolver D1 → abre espaço para precisar D2 → (fecha o ciclo)
+*Conteúdo:* As dimensões não são sequenciais. O ciclo é o processo. A IA quebra esse ciclo ao não pausar.
+
+---
+
+**Slide 15 — DEMO**
+*Visual:* Fundo escuro. Texto centrado: "DEMO". Abaixo, em fonte pequena para o palestrante: "(arquivo-fonte | output lado a lado)"
+*Conteúdo:* Transição para a seção ao vivo. Palestrante abre o terminal e explica o que vai acontecer antes de rodar o primeiro passo.
+
+---
+
+**Slide 16 — Nova pergunta de diagnóstico**
+*Visual:* Antes/depois em duas linhas com contraste:
+ANTES: "O que entregamos?"
+AGORA: "O que desambiguamos, e em qual dimensão?"
+*Conteúdo:* A primeira mudança prática. Como medir se um ciclo produziu aprendizado ou só artefatos.
+
+---
+
+**Slide 17 — Três prompts, três produtos**
+*Visual:* Três caixas verticais lado a lado, cada uma com prompt e output correspondente:
+
+| "Implemente a busca" | "Permita encontrar por nome" | "Filtre conforme digita" |
+|---|---|---|
+| Full-text com ranking | Correspondência parcial | Filtragem client-side |
+
+*Conteúdo:* O scout deliberado em ação. A divergência como sinal de D2, não como falha da ferramenta.
+
+---
+
+**Slide 18 — Percepção arquitetural**
+*Visual:* Linha do tempo horizontal com três pontos marcados: "hoje (filtragem client-side)" → "sprint +2 (busca semântica?)" → "versão mobile". Uma seta pontilhada conecta os pontos. Abaixo, as três perguntas arquiteturais em texto menor.
+*Conteúdo:* O que a especificação não faz. O modelo mental do sistema que só existe na cabeça de quem esteve lá.
+
+---
+
+**Slide 19 — "Mas dá pra resolver com outro agente?"**
+*Visual:* Fundo escuro. Uma pergunta em itálico, como se fosse a voz da plateia:
+*"Mas dá pra resolver isso com outro agente de validação arquitetural?"*
+*Conteúdo:* O palestrante levanta e responde a objeção. O slide fica enquanto o argumento se desenvolve — funciona e não funciona.
+
+---
+
+**Slide 20 — O modelo do sistema de amanhã**
+*Visual:* Duas linhas em destaque:
+"Esse modelo não existe em nenhum arquivo."
+"Ele existe na cabeça de quem esteve lá."
+*Conteúdo:* O ponto central do contraargumento. O agente valida contra o sistema de hoje; o modelo relevante é o sistema que ainda está sendo construído. O problema foi movido, não resolvido.
+
+---
+
+**Slide 21 — Harness / Supervisor**
+*Visual:* Dois blocos lado a lado:
+**Harness engineer** — constrói o scaffold que define onde a máquina pode agir
+**Supervisor engineer** — revisa o que ela formalizou silenciosamente
+*Conteúdo:* Os nomes que a indústria está encontrando. Setup para a tese final — os nomes vão mudar, o que descrevem não.
+
+---
+
+**Slide 22 — O fator limitante**
+*Visual:* Uma linha. Tipografia grande. Fundo escuro:
+"Esse humano é o fator limitante."
+*Conteúdo:* A tese central. Pausa antes de continuar com o porquê.
+
+---
+
+**Slide 23 — Fechamento**
+*Visual:* Duas linhas finais, tipografia ampla:
+"AI não mudou o processo."
+"Tornou impossível ignorar o que ele sempre exigiu."
+*Conteúdo:* Última linha falada. Slide fica na tela enquanto abre para perguntas.
