@@ -5,6 +5,10 @@
 
 ## 1. Abertura
 
+Nos últimos meses, a indústria começou a renomear o que engenheiros fazem. Novos títulos aparecem. Novas responsabilidades. Algo está mudando — e ainda não tem nome completamente claro.
+
+Esta palestra é sobre o que está mudando. E por quê.
+
 Feche os olhos. Pense no último projeto que você terminou.
 
 Agora imagine que você pode voltar ao início. Apaga o código, a documentação, os deploys. Mas mantém tudo que você aprendeu.
