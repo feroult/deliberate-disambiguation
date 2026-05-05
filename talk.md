@@ -149,7 +149,9 @@ O processo para quando não há mais ambiguidade resolvível sem input do autor.
 
 Exatamente aí o humano é insubstituível.
 
-Alguém vai pensar: mas modelos com contexto suficiente — histórico de decisões, commits, roadmap — poderiam inferir a intenção sem perguntar. E é verdade que inferem bem. O problema é que inferem o que o passado prescreveria. A D1 relevante aparece justamente onde o padrão passado não vale mais — onde a intenção certa é a que reconhece que a situação mudou. O modelo pode ser mais consistente do que o humano. Consistência replica o que foi decidido. Discernimento reconhece quando a decisão precisa mudar. O humano é insubstituível porque reconhece quando o padrão passado deixou de ser a resposta certa — e tem autoridade para mudar o curso.
+Alguém vai pensar: mas modelos com contexto suficiente — histórico de decisões, commits, roadmap — poderiam inferir a intenção sem perguntar. E é verdade que inferem bem. Até de forma mais consistente do que o humano: sem fadiga, sem viés de disponibilidade, sem humor ruim numa tarde de sexta.
+
+O problema é o que consistência faz: replica o que foi decidido. O D1 relevante aparece justamente onde o padrão passado não vale mais — onde a decisão certa é a que reconhece que a situação mudou. Discernimento não é consistência. É perceber quando o padrão deixou de ser a resposta. O humano é insubstituível porque reconhece esse momento — e tem autoridade para mudar o curso.
 
 ---
 
@@ -188,6 +190,8 @@ Se você já disse "isso vai virar problema" antes de abrir o editor — você j
 O gut feeling do engenheiro sênior é isso: percepção contextual de como as decisões de hoje constrangem as de amanhã, numa forma de desambiguação que a especificação não consegue capturar e que a máquina no piloto automático não tem como fazer.
 
 A máquina não tem esse modelo. Formaliza silenciosamente. O resultado pode ser correto agora e incoerente daqui a seis meses.
+
+*(nova linha de argumento)*
 
 Alguém aqui está pensando: mas dá pra resolver isso com outro agente. Um agente de validação arquitetural. Você descreve a arquitetura do sistema, passa a formalização, o agente avalia se é coerente.
 
