@@ -23,7 +23,7 @@ Desenvolvimento de software, nesse sentido, é um processo de aprendizado. O sof
 
 ## 2. O mecanismo
 
-Navegar território desconhecido exige um mecanismo. No desenvolvimento de software, esse mecanismo tem uma forma específica.
+Navegar território desconhecido exige um mecanismo. No desenvolvimento de software, esse mecanismo tem uma forma específica. Pensa num espectro:
 
 ```
 LINGUAGEM NATURAL ──────────────────────► LINGUAGEM FORMAL
@@ -112,7 +112,9 @@ O modelo lê o documento e aplica todas as melhorias que consegue fazer numa pas
 
 *(abra o diff quando terminar)*
 
-Olha o que mudou. Aqui: essa frase tinha dois sentidos possíveis, e o modelo escolheu um. Aqui: esse argumento estava declarado mas não desenvolvido, e o modelo o completou. Aqui: essa imprecisão funcional, que na conversa passaria batida, não sobreviveu à formalização.
+Olha o que mudou. Você vai encontrar pelo menos um lugar onde uma frase tinha dois sentidos possíveis e o modelo escolheu um. Um lugar onde um argumento estava declarado mas não desenvolvido, e o modelo o completou. Um lugar onde uma imprecisão que na conversa passaria batida não sobreviveu à formalização.
+
+*(aponte um exemplo concreto no diff)*
 
 Pergunta diagnóstica: essa mudança resolveu uma Dimensão 1 ou uma Dimensão 2?
 
@@ -152,14 +154,8 @@ A divergência não é falha da ferramenta. É a imprecisão da palavra "busca" 
 
 ## 6. Fechamento
 
-O processo de tradução que o desenvolvimento de software sempre foi carregou, desde o início, duas fontes de ambiguidade.
+O humano que sabe desambiguar deliberadamente torna-se o fator limitante.
 
-A primeira foi nomeada pelo Deliberate Discovery: ignorância sobre o mundo que precisa ser descoberta antes de virar custo.
-
-A segunda era gerenciada implicitamente pelo programador humano. A IA tornou esse filtro visível ao removê-lo.
-
-AI reduz variedade: escolhe a interpretação mais provável e executa. O humano que sabe desambiguar deliberadamente é o que mantém capacidade de resposta proporcional a esse ambiente.
-
-Torna-se o fator limitante.
+Não porque é mais rápido. Porque é o único que para quando precisa parar, pergunta quando precisa perguntar, e só formaliza quando a intenção já é precisa o suficiente para executar.
 
 AI não mudou o que o processo é. Tornou impossível ignorar o que ele sempre exigiu.
