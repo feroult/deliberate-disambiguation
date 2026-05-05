@@ -5,9 +5,9 @@
 
 ## 1. Abertura
 
-Nos últimos meses, a indústria começou a renomear o que engenheiros fazem. Novos títulos aparecem. Novas responsabilidades. Algo está mudando — e ainda não tem nome completamente claro.
+O que é ser engenheiro de software está mudando. Não o ferramental. O papel fundamental.
 
-Esta palestra é sobre o que está mudando. E por quê.
+Esta palestra é sobre o que sempre foi o trabalho — e o que a AI tornou impossível continuar ignorando.
 
 Feche os olhos. Pense no último projeto que você terminou.
 
