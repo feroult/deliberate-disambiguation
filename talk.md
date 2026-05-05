@@ -210,7 +210,10 @@ AI não mudou o processo. Tornou impossível ignorar o que ele sempre exigiu.
 ---
 
 **Slide 1 — Título**
-*Visual:* Fundo escuro. Texto centrado em tipografia grande: "Desambiguação Deliberada". Sem subtítulo.
+*Visual:* Fundo com imagem gerada. Texto sobreposto: "Desambiguação Deliberada" em tipografia sans-serif grande, branco, centrado.
+
+> **Prompt de imagem:** Dark abstract background for a tech conference title slide, 16:9 aspect ratio. Deep near-black background (#0d0d14). Two barely-visible texture zones blend across the frame: on the left third, extremely faint cursive handwriting fragments in white at 8% opacity, layered chaotically — the texture of natural language, ambiguous and organic. On the right third, equally faint monospaced code characters and bracket symbols in white at 8% opacity, arranged in tight grid-like patterns — the texture of formal language, precise and structured. The two zones dissolve into each other at center with a soft gradient blur. No sharp boundary. No figures, no symbols, no recognizable words. The overall impression is depth and duality — two worlds occupying the same space. Cinematic, intellectual, dark. Photorealistic texture rendering. Zero saturation.
+
 *Conteúdo:* Abre a sessão em silêncio. O palestrante começa a falar antes de avançar.
 
 ---
@@ -281,7 +284,11 @@ Sei que não sei X      →  1ª ordem  (visível, atacável)
 ---
 
 **Slide 9 — O scout**
-*Visual:* Imagem: mapa de névoa de guerra — grande área cinza com uma figura avançando pela borda iluminada. Ou radar com zona revelada ao redor de um ponto central. Legenda: "Ação barata cujo propósito não é conquistar território, mas remover névoa."
+*Visual:* Imagem gerada, full-bleed, ocupando todo o slide. Sem texto sobreposto além da legenda discreta na base.
+
+> **Prompt de imagem:** Aerial or slightly elevated wide-angle view of a vast, featureless fog blanketing the scene. The fog is dense, volumetric, layered — blue-grey-charcoal tones, soft edges, no hard boundaries. It fills roughly 75% of the frame, receding toward all horizons. At the lower-left region, a circular zone of clarity breaks through: the fog dissolves here to reveal a detailed topographic landscape below — muted olive and dark green terrain, subtle contour lines, sparse low vegetation, the faint trace of a narrow path that quickly disappears back into the grey. The illuminated zone has a radius that feels intimate, not vast — maybe 20-30 meters in implied scale. At the center of this lit zone, an extremely small anonymous human figure stands at the edge facing toward the fog. The figure is gender-neutral, silhouetted, wearing minimal field gear — no weapons, no equipment, just present. Posture: still, attentive, watching. The figure emits no light; the clarity around them is simply where the fog has been pushed back by their presence. Palette: desaturated blues, charcoals, muted olives, near-monochromatic. Art style: digital painterly illustration, semi-realistic, cinematic mood — not photographic, not cartoon. No UI, no labels, no map markers. Aspect ratio 16:9. The emotional register is quiet, focused, deliberate — not heroic, not dramatic. Just a person and a fog.
+
+*Legenda no slide (fonte pequena, base):* "Ação barata cujo propósito não é conquistar território, mas remover névoa."
 *Conteúdo:* O hello world em produção como scout. A ação que revela o que não estava no backlog.
 
 ---
@@ -325,8 +332,12 @@ Sei que não sei X      →  1ª ordem  (visível, atacável)
 ---
 
 **Slide 14 — O loop**
-*Visual:* Diagrama circular com dois nós e dois arcos:
-D2 (tentar resolver) → revela D1 → resolver D1 → abre espaço para precisar D2 → (fecha o ciclo)
+*Visual:* Diagrama circular gerado ou desenhado, sobre fundo escuro. Dois nós conectados por dois arcos opostos formando um ciclo fechado.
+
+> **Prompt de imagem (se quiser ilustrado em vez de diagrama):** Minimalist circular diagram on a near-black background (#0d0d14), rendered in a clean vector-illustration style. Two nodes positioned at top and bottom of an implied circle, slightly offset horizontally. Top node: a soft-edged rectangle labeled "D2" in light-grey sans-serif, subtly glowing. Bottom node: a soft-edged rectangle labeled "D1", same treatment. Two arcs connect them — one flowing clockwise on the right side, one counter-clockwise on the left. Each arc has a directional arrow at its midpoint and a short text label along the curve: right arc reads "tentar resolver D2 revela D1", left arc reads "resolver D1 abre espaço para D2". The arcs are rendered as smooth gradient lines — slightly luminous, white transitioning to muted amber, suggesting flow and energy. The overall composition is centered, symmetrical, elegant. No decorative elements. No shadows. The palette is near-monochromatic: dark background, white/light-grey text and nodes, amber accent on the arc arrows. Aspect ratio 16:9.
+
+> **Alternativa como design spec (Figma/Keynote):** Dois retângulos arredondados centrados verticalmente com espaçamento generoso. Arcos curvos com setas direcionais. Fonte: Inter ou similar, 16–18pt para labels dos arcos. Cor dos arcos: branco com 70% opacidade. Nós: borda branca 1px, fill transparente ou dark-grey (#1f1f1f).
+
 *Conteúdo:* As dimensões não são sequenciais. O ciclo é o processo. A IA quebra esse ciclo ao não pausar.
 
 ---
@@ -357,7 +368,12 @@ AGORA: "O que desambiguamos, e em qual dimensão?"
 ---
 
 **Slide 18 — Percepção arquitetural**
-*Visual:* Linha do tempo horizontal com três pontos marcados: "hoje (filtragem client-side)" → "sprint +2 (busca semântica?)" → "versão mobile". Uma seta pontilhada conecta os pontos. Abaixo, as três perguntas arquiteturais em texto menor.
+*Visual:* Linha do tempo horizontal sobre fundo escuro. Três pontos marcados conectados por seta pontilhada. Abaixo, as perguntas arquiteturais em fonte menor.
+
+> **Prompt de imagem (fundo alternativo para slides com linha do tempo):** Dark illustration of an architectural blueprint or engineering schematic rendered at very low opacity as a background texture, 16:9. Deep navy-black background. In the background, thin white technical drawing lines — floor plans, circuit traces, or system diagrams — rendered at 6-8% opacity, barely visible. No specific recognizable object. The texture suggests "structured thinking about a system" without being literal. The foreground is empty, leaving space for overlaid text and diagram. Mood: precise, intelligent, slightly cold. Flat, no depth of field, no lighting drama. Vector-illustration aesthetic.
+
+> **Design spec do diagrama (Figma/Keynote):** Linha horizontal centralizada, cor branca 60% opacidade, ocupando 70% da largura do slide. Três pontos na linha: círculo preenchido de 10px cada. Label acima de cada ponto em fonte regular 14pt. Seta pontilhada no sentido esquerda→direita com espaçamento de traço irregular (sugerindo incerteza/futuro). Ponto 1: "hoje — filtragem client-side". Ponto 2: "sprint +2 — busca semântica?" (com ponto de interrogação explícito, cor levemente mais fraca). Ponto 3: "versão mobile" (ainda mais fraco, quase fantasma). Perguntas arquiteturais listadas abaixo da linha em 12pt, cor cinza claro.
+
 *Conteúdo:* O que a especificação não faz. O modelo mental do sistema que só existe na cabeça de quem esteve lá.
 
 ---
@@ -386,14 +402,19 @@ AGORA: "O que desambiguamos, e em qual dimensão?"
 ---
 
 **Slide 22 — O fator limitante**
-*Visual:* Uma linha. Tipografia grande. Fundo escuro:
-"Esse humano é o fator limitante."
+*Visual:* Fundo com imagem gerada. Texto sobreposto: "Esse humano é o fator limitante." em tipografia grande, branco, centrado ou alinhado à esquerda.
+
+> **Prompt de imagem:** Dark cinematic background image for a presentation slide, 16:9, full-bleed. A single human figure seen from behind, standing still in the center of a large, sparse, dimly lit industrial or server room space — rows of dark server racks recede into the background on both sides, their indicator lights creating tiny pinpoints of dim blue and amber. The figure is small relative to the environment, dressed in neutral dark clothes, hands at sides, posture calm and deliberate — not heroic, not defeated. They face the room, as if surveying, thinking, deciding. The lighting is minimal: a single cool overhead source illuminates the figure and the immediate floor around them; the background fades to near-black. The emotional register is weight and presence — this is the one person who has to understand the whole system. No faces visible. No text, no logos, no UI elements. Photorealistic rendering or cinematic digital painting. Ultra-dark palette: 90% of the image is at luminosity below 30%. The human figure should not be idealized — they are just a person, doing a hard and necessary thing.
+
 *Conteúdo:* A tese central. Pausa antes de continuar com o porquê.
 
 ---
 
 **Slide 23 — Fechamento**
-*Visual:* Duas linhas finais, tipografia ampla:
+*Visual:* Fundo com imagem gerada. Texto sobreposto, duas linhas, tipografia ampla, branco:
 "AI não mudou o processo."
 "Tornou impossível ignorar o que ele sempre exigiu."
+
+> **Prompt de imagem:** Cinematic abstract background for a closing presentation slide, 16:9. A long empty corridor or tunnel, viewed from straight-on perspective — perfectly centered vanishing point. The corridor is modern and geometric: clean concrete or dark metal walls, receding into a distant point of faint warm light. The near end (foreground) is in almost total darkness; the far end glows dimly, suggesting continuation rather than termination. No figures. No labels. No windows. The corridor should feel like time or process — something that was always there, that you always had to walk through, that hasn't changed even if the speed has. Photorealistic or cinematic digital painting. Palette: near-monochromatic dark charcoal and near-black, with a single warm amber-white glow at the vanishing point. The mood is quiet, honest, and slightly sobering — not triumphant, not tragic. Just clear.
+
 *Conteúdo:* Última linha falada. Slide fica na tela enquanto abre para perguntas.
