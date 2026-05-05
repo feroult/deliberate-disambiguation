@@ -190,12 +190,12 @@ E agora você tem dois problemas: o de antes, mais o de garantir que o agente va
 
 ## 6. Fechamento
 
-O humano que sabe desambiguar deliberadamente torna-se o fator limitante.
+A indústria está encontrando nomes para esse papel. Harness engineer — quem constrói o scaffold que define onde a máquina pode agir. Supervisor engineer — quem revisa o que ela formalizou silenciosamente.
+
+Os nomes vão mudar. O que eles descrevem não: o humano que sabe desambiguar deliberadamente.
+
+Esse humano torna-se o fator limitante.
 
 Não porque é mais rápido. Porque é o único que para quando precisa parar, pergunta quando precisa perguntar, e só formaliza quando a intenção já é precisa o suficiente para executar.
-
-A indústria está encontrando nomes para isso. Harness engineer — quem constrói o scaffold que define o espaço em que a máquina pode agir, especificando o que "correto" significa antes da execução. Supervisor engineer — quem orquestra agentes, revisa outputs, captura o que foi formalizado silenciosamente.
-
-Os nomes vão mudar. O que não muda é o que eles descrevem.
 
 AI não mudou o que o processo é. Tornou impossível ignorar o que ele sempre exigiu.
