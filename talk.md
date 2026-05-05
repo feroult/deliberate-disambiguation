@@ -38,7 +38,7 @@ Desenvolver software é mover intenção ao longo desse espectro. Cada passo exi
 
 Formalização é redução: de muitos significados possíveis para um único significado preciso.
 
-Esse processo sempre existiu. O que variou foi o custo de cada passo. Isso vai importar daqui a pouco.
+Esse processo sempre existiu. O que variou foi o custo de cada passo. E o que acontece quando esse custo vai a zero.
 
 ---
 
@@ -52,13 +52,20 @@ O que North nomeou: projetos falham não por falta de competência técnica, mas
 
 Era capacidade de aprender.
 
-O ponto central do Deliberate Discovery é incômodo: a maior parte do risco em projetos vem do que os times não sabem que não sabem. Não das incertezas que estão na lista. Aquelas podem ser planejadas. O risco real vem da ignorância que ainda não foi reconhecida como tal.
+O ponto de partida é incômodo: a maior parte do risco em projetos vem do que os times não sabem que não sabem. A distinção importa:
+
+```
+Não sei o que não sei   →   ignorância de 2ª ordem   (invisível, perigosa)
+Sei que não sei X       →   ignorância de 1ª ordem   (visível, atacável)
+```
+
+As incertezas que estão na lista podem ser planejadas, atacadas. O risco real vem da ignorância que ainda não foi reconhecida como tal.
 
 Dan North provocava times com um exemplo concreto: coloque um hello world em produção antes de qualquer outra coisa. Não porque entrega valor. Porque revela tudo que você não sabia que não sabia: o pipeline de deploy, as credenciais, os bloqueios de aprovação. Nada disso está no backlog. Tudo aparece quando você tenta entregar de verdade.
 
 É o scout: ação barata cujo propósito não é conquistar território, mas remover névoa.
 
-Esse modelo estava certo. Permanece fundacional. Mas havia uma dimensão inteira que ele não nomeou.
+Esse modelo estava certo. Permanece fundacional. Mas havia uma dimensão inteira que ele não nomeou. E que eu também não vi em 2011.
 
 ---
 
@@ -85,7 +92,9 @@ A Dimensão 2 sempre esteve presente. O que a tornava gerenciável era o program
 
 A IA substituiu esse intermediário por uma máquina sem esse mecanismo. A máquina não detecta ambiguidade: escolhe a interpretação mais provável e executa. Produz código. A imprecisão que antes encontrava alguém capaz de suspender o processo agora encontra uma máquina que o acelera.
 
-Quando formalizar passou a custar minutos, a Dimensão 2 deixou de ter quem a detectasse. E ficou impossível ignorar.
+Quando formalizar passou a custar minutos, a Dimensão 2 deixou de ter quem a detectasse.
+
+O que eu não vi em 2011 ficou impossível de ignorar.
 
 ---
 
