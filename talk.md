@@ -6,8 +6,6 @@
 
 O que é ser engenheiro de software está mudando. Não o ferramental. O papel fundamental.
 
-A pergunta não é o que a AI mudou. É o que ela revelou.
-
 Feche os olhos. Pense no último projeto que você terminou.
 
 Agora imagine que você pode voltar ao início. Apaga o código, a documentação, os deploys. Mas mantém tudo que você aprendeu.
@@ -21,6 +19,8 @@ O que você faria diferente?
 A segunda lista é o que o projeto produziu de mais valioso. Não o código. O conhecimento que, se você tivesse no início, teria mudado o que você construiu.
 
 Desenvolvimento de software, nesse sentido, é um processo de aprendizado. O software é o que sobra. O aprendizado é o que acumula.
+
+A pergunta não é o que a AI mudou. É o que ela revelou.
 
 ---
 
@@ -67,6 +67,8 @@ As incertezas que estão na lista podem ser planejadas, atacadas. O risco real v
 Dan North provocava times com um exemplo concreto: coloque um hello world em produção antes de qualquer outra coisa. Não porque entrega valor. Porque revela tudo que você não sabia que não sabia: o pipeline de deploy, as credenciais, os bloqueios de aprovação. Nada disso está no backlog. Tudo aparece quando você tenta entregar de verdade.
 
 É o scout: ação barata cujo propósito não é conquistar território, mas remover névoa.
+
+(Ninguém aprova "hello world em produção" na reunião de planejamento. Funciona melhor como "validação de pipeline com artefato de referência mínimo". O conteúdo é o mesmo. A névoa removida, idem.)
 
 Esse modelo estava certo. Permanece fundacional. Mas havia uma dimensão inteira que ele não nomeou. E que eu também não vi em 2011.
 
@@ -185,9 +187,9 @@ O problema é que o modelo relevante não é esse. É o modelo do sistema que vo
 
 Esse modelo não existe em nenhum arquivo. Ele existe na cabeça de quem esteve lá.
 
-Você pode criar um agente que valida contra o sistema de hoje. Mas quem define o modelo do sistema de amanhã? De volta ao engenheiro. O problema não foi eliminado. Foi movido um nível acima.
+Você pode criar um agente que valida contra o sistema de hoje. Mas quem define o modelo do sistema de amanhã? De volta ao engenheiro. O problema não foi eliminado. Foi movido para onde sempre esteve.
 
-E agora você tem dois problemas: o de antes, mais o de garantir que o agente validador tem o modelo certo do futuro. Que é, ele mesmo, um problema de Dimensão 1.
+O agente precisa do modelo para funcionar. O modelo só existe em quem esteve lá e sabe para onde o sistema vai. Não é um gargalo humano num processo que a máquina poderia assumir. É a fonte sem a qual o processo não tem direção.
 
 ---
 
@@ -197,11 +199,11 @@ A indústria está encontrando nomes para esse papel. Harness engineer — quem 
 
 Os nomes vão mudar. O que eles descrevem não: o humano que sabe desambiguar deliberadamente.
 
-Esse humano é o fator limitante.
+Esse humano é o fator limitante — no sentido preciso: a parte do processo que determina o throughput de todo o resto.
 
 Não porque é mais rápido. Porque é o único que para quando precisa parar, pergunta quando precisa perguntar, e só formaliza quando a intenção já é precisa o suficiente para executar.
 
-AI não mudou o processo. Tornou impossível ignorar o que ele sempre exigiu.
+AI não mudou o processo. Tornou impossível ignorar o que você já sabe fazer.
 
 ---
 
