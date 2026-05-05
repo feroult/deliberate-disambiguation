@@ -149,6 +149,8 @@ O processo para quando não há mais ambiguidade resolvível sem input do autor.
 
 Exatamente aí o humano é insubstituível.
 
+Alguém vai pensar: mas modelos com contexto suficiente — histórico de decisões, commits, roadmap — poderiam inferir a intenção sem perguntar. E é verdade que inferem bem. O problema é que inferem o que o passado prescreveria. A D1 relevante aparece justamente onde o padrão passado não vale mais — onde a intenção certa é a que reconhece que a situação mudou. O modelo pode ser mais consistente do que o humano. O humano é insubstituível porque sabe quando a consistência virou o problema.
+
 ---
 
 ## 5. O que muda
