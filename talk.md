@@ -142,49 +142,29 @@ Scout formal   →   formalização barata revela imprecisão da intenção (Dim
 
 ## [DEMO] Convergência em ação
 
-> **Nota para o apresentador:** Demo ao vivo de 10 minutos. O objetivo é mostrar o conceito de desambiguação deliberada funcionando na prática, usando um documento real como exemplo. A convergência é iterativa: cada passagem parte de um texto melhor que o anterior, e cada melhoria é uma desambiguação identificável.
+*(abra o terminal, coloque arquivo-fonte e output lado a lado)*
 
-### Contextualização (1 min)
+Acabei de descrever como formalização revela ambiguidade. Quero mostrar isso acontecendo em tempo real.
 
-Diga ao público:
+Esse documento aqui é o texto-fonte desta palestra: um artigo técnico sobre desambiguação deliberada. Esse outro é o output que estamos construindo. A tarefa que passei para o modelo: transforme o artigo em algo mais preciso, mais direto, mais próximo de como se fala.
 
-> "Acabei de descrever como formalização revela ambiguidade. Vou mostrar isso acontecendo em tempo real. O material que vou usar como fonte é um documento técnico sobre esse mesmo conceito. A tarefa: transformá-lo em conteúdo mais refinado. Cada passagem revela ambiguidade que estava embutida no texto. Cada resolução é uma desambiguação deliberada."
+*(rode o primeiro passo de convergência)*
 
-### Passo 1: mostre os arquivos (1 min)
+Enquanto isso roda, o que está acontecendo: o modelo lê o documento e aplica todas as melhorias que consegue fazer numa passagem. Não é reescrita. É formalização iterativa. Cada passo resolve ambiguidades que o passo anterior não tocou.
 
-Abra o terminal. Mostre o arquivo-fonte e o arquivo de output lado a lado.
+*(abra o diff quando terminar)*
 
-Aponte: o documento-fonte está correto, mas ainda carrega a linguagem de quem está pensando enquanto escreve. Muita coisa implícita, transições frouxas, argumentos declarados mas não desenvolvidos.
+Olha o que mudou. Aqui: essa frase no original tinha dois sentidos possíveis, e o modelo escolheu um deles. Aqui: esse argumento estava declarado mas não desenvolvido, e o modelo o completou. Aqui: essa imprecisão funcional na linguagem, que na conversa passaria batida, não sobreviveu à formalização.
 
-### Passo 2: rode o primeiro passo de convergência (3 min)
+Pergunta diagnóstica: essa mudança resolveu uma Dimensão 1 ou uma Dimensão 2?
 
-Execute a passagem de transformação. O modelo lê o documento e produz uma versão mais precisa.
+Na maioria dos casos é Dimensão 2. A linguagem tolerava múltiplas leituras, e a formalização escolheu uma delas e a tornou explícita. O output não está errado. Estava impreciso.
 
-Enquanto roda, explique o que está acontecendo:
+*(rode o segundo passo)*
 
-> "Cada passo resolve ambiguidades que o passo anterior não tocou. Não é reescrita. É formalização iterativa."
+Olha o que acontece na segunda passagem. O gap entre o original e o output diminuiu. O documento está convergindo.
 
-### Passo 3: mostre o diff (3 min)
-
-Quando terminar, abra o diff. Aponte especificamente:
-
-- O que mudou na linguagem (registro, precisão, voz ativa)
-- O que foi elaborado (argumento declarado mas não desenvolvido no original)
-- O que foi removido (imprecisão funcional que não resistia à formalização)
-
-Faça a pergunta diagnóstica em voz alta:
-
-> "Essa mudança resolveu uma Dimensão 1 ou uma Dimensão 2? O modelo descobriu que o texto era ambíguo aqui, ou simplesmente escolheu uma interpretação?"
-
-A resposta, na maioria dos casos, é Dimensão 2: a linguagem tolerava múltiplas leituras, e a formalização escolheu uma delas e a tornou explícita.
-
-### Passo 4: rode o segundo passo (2 min)
-
-Rode mais uma passagem. Mostre que o gap entre o original e o output diminuiu. O documento está convergindo.
-
-Feche com:
-
-> "O processo para quando não há mais ambiguidade resolvível sem input do autor. Nesse ponto, o que resta são escolhas de Dimensão 1: intenção que só quem escreveu o documento pode definir. É exatamente aí que o humano é insubstituível."
+O processo para quando não há mais ambiguidade resolvível sem input do autor. Nesse ponto, o que resta são escolhas de Dimensão 1: intenção que só quem escreveu pode definir. É exatamente aí que o humano é insubstituível. O modelo para. Pergunta. E continua só quando a resposta chega.
 
 ---
 
@@ -214,6 +194,8 @@ O que conta como correspondência? Em quais campos? O sistema consulta ou o clie
 
 O próximo passo não é escolher o melhor output. É responder as perguntas que a divergência revelou.
 
+"Busca" era uma palavra. Agora é uma decisão.
+
 ---
 
 ## 8. Fechamento
@@ -230,11 +212,9 @@ AI reduz variedade: escolhe a interpretação mais provável e executa. O humano
 
 Torna-se o fator limitante.
 
-> Desenvolver software é navegar território desconhecido. O mecanismo dessa navegação é a tradução iterativa de intenção humana de linguagem natural para linguagem formal, removendo ambiguidade a cada passo.
->
-> O output de cada ciclo é desambiguação.
-> O outcome acumulado é aprendizado.
-> AI não mudou o que o processo é. Tornou impossível ignorar o que ele sempre exigiu.
+Desenvolver software sempre foi navegar território desconhecido. O mecanismo dessa navegação é a tradução iterativa de intenção humana de linguagem natural para linguagem formal, removendo ambiguidade a cada passo. Tanto a ignorância sobre o mundo que ainda não foi encontrado, quanto a imprecisão da linguagem que só se revela quando você tenta ser preciso o suficiente para executar.
+
+O output de cada ciclo é desambiguação. O outcome acumulado é aprendizado. AI não mudou o que o processo é. Tornou impossível ignorar o que ele sempre exigiu.
 
 ---
 
