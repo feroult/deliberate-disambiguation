@@ -203,6 +203,8 @@ Você pode criar um agente que valida contra o sistema de hoje. Mas quem define 
 
 O agente precisa do modelo para funcionar. O modelo só existe em quem esteve lá e sabe para onde o sistema vai. Não é um gargalo humano num processo que a máquina poderia assumir. É a fonte sem a qual o processo não tem direção.
 
+(Não é pessimismo. É geografia.)
+
 Boa notícia: é aí que você está.
 
 ---
@@ -221,7 +223,7 @@ Parar quando a pressão é para avançar. Perguntar quando todo mundo acha que j
 
 *(pausa — olha para a plateia)*
 
-AI não mudou o processo. O que ela revelou é o que você já sabe fazer.
+O processo não mudou. Você sempre soube fazer isso. Agora tem nome.
 
 ---
 
@@ -432,8 +434,8 @@ AGORA: "O que desambiguamos, e em qual dimensão?"
 
 **Slide 23 — Fechamento**
 *Visual:* Fundo com imagem gerada. Texto sobreposto, duas linhas, tipografia ampla, branco:
-"AI não mudou o processo."
-"O que ela revelou é o que você já sabe fazer."
+"O processo não mudou."
+"Você sempre soube fazer isso. Agora tem nome."
 
 > **Prompt de imagem:** Cinematic abstract background for a closing presentation slide, 16:9. A long empty corridor or tunnel, viewed from straight-on perspective — perfectly centered vanishing point. The corridor is modern and geometric: clean concrete or dark metal walls, receding into a distant point of faint warm light. The near end (foreground) is in almost total darkness; the far end glows dimly, suggesting continuation rather than termination. No figures. No labels. No windows. The corridor should feel like time or process — something that was always there, that you always had to walk through, that hasn't changed even if the speed has. Photorealistic or cinematic digital painting. Palette: near-monochromatic dark charcoal and near-black, with a single warm amber-white glow at the vanishing point. The mood is quiet, honest, and slightly sobering — not triumphant, not tragic. Just clear.
 
