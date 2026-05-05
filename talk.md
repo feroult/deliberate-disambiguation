@@ -149,7 +149,7 @@ O processo para quando não há mais ambiguidade resolvível sem input do autor.
 
 Exatamente aí o humano é insubstituível.
 
-Alguém vai pensar: mas modelos com contexto suficiente — histórico de decisões, commits, roadmap — poderiam inferir a intenção sem perguntar. E é verdade que inferem bem. O problema é que inferem o que o passado prescreveria. A D1 relevante aparece justamente onde o padrão passado não vale mais — onde a intenção certa é a que reconhece que a situação mudou. O modelo pode ser mais consistente do que o humano. O humano é insubstituível porque sabe quando a consistência virou o problema.
+Alguém vai pensar: mas modelos com contexto suficiente — histórico de decisões, commits, roadmap — poderiam inferir a intenção sem perguntar. E é verdade que inferem bem. O problema é que inferem o que o passado prescreveria. A D1 relevante aparece justamente onde o padrão passado não vale mais — onde a intenção certa é a que reconhece que a situação mudou. O modelo pode ser mais consistente do que o humano. O humano é insubstituível porque reconhece quando o padrão passado deixou de ser a resposta certa — e tem autoridade para mudar o curso.
 
 ---
 
@@ -175,7 +175,7 @@ A divergência não é falha da ferramenta. É a imprecisão da palavra "busca" 
 
 (Alguém no seu time já teve essa discussão. Provavelmente sem saber que estava fazendo desambiguação deliberada.)
 
-Mas o problema vai mais fundo que vocabulário.
+Mas desambiguar o vocabulário não é o fim do trabalho. É só o início de uma decisão maior.
 
 Escolha a terceira opção: filtragem client-side. Você desambiguou. "Busca" agora tem um significado preciso nesse contexto. E ainda assim, o engenheiro que vai formalizar essa intenção precisa fazer escolhas que a especificação não faz.
 
