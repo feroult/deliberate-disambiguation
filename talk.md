@@ -20,7 +20,7 @@ A segunda lista é o que o projeto produziu de mais valioso. Não o código. O c
 
 Desenvolvimento de software, nesse sentido, é um processo de aprendizado. O software é o que sobra. O aprendizado é o que acumula.
 
-Se a lista do que você faria diferente é mais longa — parabéns. Você aprendeu mais do que entregou. Esse é o trabalho.
+Se a lista do que você faria diferente é mais longa — o projeto funcionou. Você saiu dele sabendo mais do que entrou. Esse é o trabalho.
 
 A pergunta não é o que a AI mudou. É o que ela revelou.
 
@@ -109,6 +109,8 @@ O que tornava isso gerenciável era o programador humano: encontrava imprecisão
 
 A IA não tem esse mecanismo. Escolhe a interpretação mais provável e executa. Não pausa. Não pergunta. Não distingue o que é ambiguidade de linguagem do que é ignorância sobre o domínio. Formaliza tudo da mesma forma: silenciosamente.
 
+(Não é uma crítica à ferramenta. É uma descrição de como ela funciona — e do que isso revela sobre o que o programador humano fazia sem perceber que estava fazendo.)
+
 Quando formalizar passou a custar minutos, a Dimensão 2 deixou de ter quem a detectasse.
 
 O que eu não vi em 2011 ficou impossível de ignorar.
@@ -195,7 +197,7 @@ O problema é que o modelo relevante não é esse. É o modelo do sistema que vo
 
 Esse modelo não existe em nenhum arquivo. Ele existe na cabeça de quem esteve lá.
 
-Você pode criar um agente que valida contra o sistema de hoje. Mas quem define o modelo do sistema de amanhã? De volta ao engenheiro. O problema não foi eliminado. Foi movido para onde sempre esteve.
+Você pode criar um agente que valida contra o sistema de hoje. Mas quem define o modelo do sistema de amanhã? De volta ao engenheiro. O problema não foi eliminado. Foi movido para onde sempre esteve — que é, para quem está nessa sala, uma boa notícia.
 
 O agente precisa do modelo para funcionar. O modelo só existe em quem esteve lá e sabe para onde o sistema vai. Não é um gargalo humano num processo que a máquina poderia assumir. É a fonte sem a qual o processo não tem direção.
 
@@ -213,7 +215,7 @@ Não porque é mais rápido. Porque é o único que para quando precisa parar, p
 
 Parar quando a pressão é para avançar. Perguntar quando todo mundo acha que já sabe a resposta. Resistir à formalização prematura quando a ferramenta quer executar em segundos. Você já faz isso.
 
-AI não mudou o processo. Tornou impossível ignorar o que você já sabe fazer.
+AI não mudou o processo. O que ela revelou é o que você já sabe fazer.
 
 ---
 
