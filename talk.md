@@ -111,8 +111,6 @@ O que tornava isso gerenciável era o programador humano: encontrava imprecisão
 
 A IA não tem esse mecanismo. Escolhe a interpretação mais provável e executa. Não pausa. Não pergunta. Não distingue o que é ambiguidade de linguagem do que é ignorância sobre o domínio. Formaliza tudo da mesma forma: silenciosamente.
 
-(Não é uma crítica à ferramenta. É uma descrição de como ela funciona — e do que isso revela sobre o que o programador humano fazia sem perceber que estava fazendo.)
-
 Quando formalizar passou a custar minutos, a Dimensão 2 deixou de ter quem a detectasse.
 
 O que eu não vi em 2011 ficou impossível de ignorar.
@@ -174,8 +172,6 @@ Três outputs completamente diferentes. Busca full-text com ranking. Correspond�
 A divergência não é falha da ferramenta. É a imprecisão da palavra "busca" tornando-se visível. A reunião nunca precisou responder o que isso significava. A linguagem natural tolerava todas as interpretações ao mesmo tempo.
 
 "Busca" era uma palavra. Agora é uma decisão.
-
-(Alguém no seu time já teve essa discussão. Provavelmente sem saber que estava fazendo desambiguação deliberada.)
 
 Mas desambiguar o vocabulário não é o fim do trabalho. É só o início de uma decisão maior.
 
