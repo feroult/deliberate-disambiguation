@@ -77,20 +77,30 @@ Quando você senta para formalizar, as perguntas começam.
 
 Apagar significa remover permanentemente ou marcar como inativo? O que acontece com o conteúdo que ele criou? Com os pedidos em aberto? Com os registros de auditoria? O usuário é notificado? Pode ser reativado?
 
-Essas perguntas não existiam como ignorância sobre o mundo. O domínio era conhecido. A ambiguidade estava embutida na linguagem. Funcional enquanto a conversa durou. Só se tornou problema quando a formalização exigiu escolhas que a conversa nunca fez.
+Agora para. Olha essas perguntas com cuidado.
 
-Essa é a Dimensão 2: a imprecisão da linguagem natural que só se manifesta quando você tenta ser preciso o suficiente para executar.
+Algumas são semânticas: o que "apagar" significa nesse domínio? Essas existem na linguagem. A frase era ambígua e a conversa nunca precisou resolver.
+
+Outras são de domínio: o usuário *pode* ser reativado? Por quanto tempo os dados precisam ser retidos? Você não sabe — porque nunca perguntou ao negócio. Não é imprecisão da linguagem. É ignorância sobre o mundo. A tentativa de precisar a D2 revelou uma D1 escondida embaixo.
+
+E mesmo depois de responder as duas — depois de decidir que "apagar" significa soft delete, que dados ficam por 90 dias, que a reativação é possível por administrador — ainda há uma camada que a especificação não alcança. Onde esse estado "inativo" vive? Que impacto tem nos relatórios, nas integrações, nos índices de busca? Que decisões de hoje vão custar caro quando o compliance mudar?
+
+Essas não são perguntas sobre palavras. São perguntas sobre como a decisão se encaixa no sistema que está sendo construído — e no sistema que ele vai se tornar.
+
+Essa é a Dimensão 2 em sua forma completa: não só a imprecisão da linguagem, mas a ambiguidade de formalização que persiste mesmo depois que a linguagem foi precisada. E que só um engenheiro com visão do sistema inteiro — sua história, sua trajetória, suas restrições implícitas — consegue navegar.
 
 | | Dimensão 1 | Dimensão 2 |
 |---|---|---|
-| Fonte | Realidade não encontrada ainda | Linguagem tolerando múltiplas interpretações |
+| Fonte | Realidade não encontrada ainda | Linguagem + escolhas de formalização sem modelo do sistema |
 | Revelada por | Contato com o mundo real | Tentativa de formalização |
-| Resolvida por | Exploração, validação | Especificação, escolha explícita |
+| Resolvida por | Exploração, validação | Especificação + percepção arquitetural |
 | Metáfora | Névoa de guerra | Instrução que todos entenderam, cada um à sua maneira |
 
-A Dimensão 2 sempre esteve presente. O que a tornava gerenciável era o programador humano como intermediário: encontrava uma imprecisão na especificação, pausava, perguntava, resolvia. Operava como filtro de Dimensão 2 embutido no próprio ato de construir.
+As duas dimensões não são pipelines separados. Elas se alimentam. Tentar resolver D2 revela D1. Resolver D1 abre espaço para precisar D2. O ciclo é o processo.
 
-A IA substituiu esse intermediário por uma máquina sem esse mecanismo. A máquina não detecta ambiguidade: escolhe a interpretação mais provável e executa. Produz código. A imprecisão que antes encontrava alguém capaz de suspender o processo agora encontra uma máquina que o acelera.
+O que tornava isso gerenciável era o programador humano: encontrava imprecisão na especificação, pausava, perguntava, resolvia — e quando a resposta dependia do mundo, ia buscar. Operava nos dois modos, no mesmo ato de construir.
+
+A IA não tem esse mecanismo. Escolhe a interpretação mais provável e executa. Não pausa. Não pergunta. Não distingue o que é ambiguidade de linguagem do que é ignorância sobre o domínio. Formaliza tudo da mesma forma: silenciosamente.
 
 Quando formalizar passou a custar minutos, a Dimensão 2 deixou de ter quem a detectasse.
 
