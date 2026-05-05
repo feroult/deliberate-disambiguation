@@ -150,6 +150,18 @@ A divergência não é falha da ferramenta. É a imprecisão da palavra "busca" 
 
 "Busca" era uma palavra. Agora é uma decisão.
 
+Mas o problema vai mais fundo que vocabulário.
+
+Escolha a terceira opção: filtragem client-side. Você desambiguou. "Busca" agora tem um significado preciso nesse contexto. E ainda assim, o engenheiro que vai formalizar essa intenção precisa fazer escolhas que a especificação não faz.
+
+Isso é uma feature de catálogo pequeno, ou vai ter dez mil produtos? O filtro vive no cliente hoje — e quando vier a versão mobile? Essa decisão abre ou fecha o caminho para busca semântica daqui a dois sprints?
+
+Essas perguntas não são sobre o que "filtrar" significa. São sobre onde essa decisão se encaixa no sistema que está sendo construído. Um engenheiro com percepção arquitetural tem um modelo de onde o sistema está indo, e usa esse modelo para escolher a formalização que preserva as opções que vão importar. Não a interpretação mais provável. A que é coerente com a trajetória do sistema.
+
+A máquina não tem esse modelo. Formaliza silenciosamente. O resultado pode ser correto agora e incoerente daqui a seis meses.
+
+É aí que o gut feeling do engenheiro sênior — essa percepção contextual de como as decisões de hoje constrangem as de amanhã — é uma forma de desambiguação que a especificação não consegue capturar. E que a máquina no piloto automático não tem como fazer.
+
 ---
 
 ## 6. Fechamento
