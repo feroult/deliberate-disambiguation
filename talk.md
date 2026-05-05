@@ -1,5 +1,4 @@
 # Desambiguação Deliberada
-### Uma palestra sobre o que o desenvolvimento de software sempre foi, e ficou impossível ignorar
 
 ---
 
@@ -174,7 +173,7 @@ Essas perguntas não são sobre o que "filtrar" significa. São sobre onde essa 
 
 A máquina não tem esse modelo. Formaliza silenciosamente. O resultado pode ser correto agora e incoerente daqui a seis meses.
 
-É aí que o gut feeling do engenheiro sênior — essa percepção contextual de como as decisões de hoje constrangem as de amanhã — é uma forma de desambiguação que a especificação não consegue capturar. E que a máquina no piloto automático não tem como fazer.
+O gut feeling do engenheiro sênior é exatamente isso: percepção contextual de como as decisões de hoje constrangem as de amanhã. Uma forma de desambiguação que a especificação não consegue capturar e que a máquina no piloto automático não tem como fazer.
 
 Alguém aqui está pensando: mas dá pra resolver isso com outro agente. Um agente de validação arquitetural. Você descreve a arquitetura do sistema, passa a formalização, o agente avalia se é coerente.
 
@@ -202,4 +201,4 @@ Esse humano torna-se o fator limitante.
 
 Não porque é mais rápido. Porque é o único que para quando precisa parar, pergunta quando precisa perguntar, e só formaliza quando a intenção já é precisa o suficiente para executar.
 
-AI não mudou o que o processo é. Tornou impossível ignorar o que ele sempre exigiu.
+AI não mudou o processo. Tornou impossível ignorar o que ele sempre exigiu.
