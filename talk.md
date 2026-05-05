@@ -16,6 +16,8 @@ O que você faria igual?
 
 O que você faria diferente?
 
+*(pausa)*
+
 A segunda lista é o que o projeto produziu de mais valioso. Não o código. O conhecimento que, se você tivesse no início, teria mudado o que você construiu.
 
 Desenvolvimento de software, nesse sentido, é um processo de aprendizado. O software é o que sobra. O aprendizado é o que acumula.
@@ -199,9 +201,9 @@ Esse modelo não existe em nenhum arquivo. Ele existe na cabeça de quem esteve 
 
 Você pode criar um agente que valida contra o sistema de hoje. Mas quem define o modelo do sistema de amanhã? De volta ao engenheiro. O problema não foi eliminado. Foi movido para onde sempre esteve.
 
-Boa notícia: é aí que você está.
-
 O agente precisa do modelo para funcionar. O modelo só existe em quem esteve lá e sabe para onde o sistema vai. Não é um gargalo humano num processo que a máquina poderia assumir. É a fonte sem a qual o processo não tem direção.
+
+Boa notícia: é aí que você está.
 
 ---
 
@@ -216,6 +218,8 @@ Esse humano é o fator limitante — não no sentido de gargalo, de obstáculo q
 Não porque é mais rápido. Porque é o único que para quando precisa parar, pergunta quando precisa perguntar, e só formaliza quando a intenção já é precisa o suficiente para executar.
 
 Parar quando a pressão é para avançar. Perguntar quando todo mundo acha que já sabe a resposta. Decidir o que formalizar e o que ainda precisa de resposta. Você já faz isso.
+
+*(pausa — olha para a plateia)*
 
 AI não mudou o processo. O que ela revelou é o que você já sabe fazer.
 
