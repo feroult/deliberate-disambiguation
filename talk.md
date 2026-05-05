@@ -43,7 +43,7 @@ Do outro, o mundo das máquinas. Código não interpreta. Executa. Um sistema n�
 
 Desenvolver software é mover intenção ao longo desse espectro. Cada passo exige que uma ambiguidade seja resolvida. Você não formaliza algo com duas interpretações possíveis sem escolher uma.
 
-Formalização é redução: de muitos significados possíveis para um único significado preciso.
+Cada passo reduz: de muitos significados possíveis para um único que vai executar.
 
 Esse processo sempre existiu. O que variou foi o custo de cada passo. E o que acontece quando esse custo vai a zero.
 
@@ -147,10 +147,6 @@ O processo para quando não há mais ambiguidade resolvível sem input do autor.
 
 Exatamente aí o humano é insubstituível.
 
-Alguém vai pensar: mas modelos com contexto suficiente — histórico de decisões, commits, roadmap — poderiam inferir a intenção sem perguntar. E é verdade que inferem bem. Até de forma mais consistente do que o humano: sem fadiga, sem viés de disponibilidade, sem humor ruim numa tarde de sexta.
-
-O problema é o que consistência faz: replica o que foi decidido. O D1 relevante aparece justamente onde o padrão passado não vale mais — onde a decisão certa é a que reconhece que a situação mudou. Discernimento não é consistência. É perceber quando o padrão deixou de ser a resposta. O humano é insubstituível porque reconhece esse momento — e tem autoridade para mudar o curso.
-
 ---
 
 ## 5. O que muda
@@ -203,7 +199,9 @@ Esse modelo não existe em nenhum arquivo. Ele existe na cabeça de quem esteve 
 
 Você pode criar um agente que valida contra o sistema de hoje. Mas quem define o modelo do sistema de amanhã? De volta ao engenheiro. O problema não foi eliminado. Foi movido para onde sempre esteve.
 
-O agente precisa do modelo para funcionar. O modelo só existe em quem esteve lá e sabe para onde o sistema vai. Não é um gargalo humano num processo que a máquina poderia assumir. É a fonte sem a qual o processo não tem direção.
+O agente precisa do modelo para funcionar. O modelo relevante é o de amanhã — e o engenheiro que o carrega é o mesmo que reconhece quando o padrão passado deixou de ser a resposta certa. Consistência replica. Discernimento percebe quando parar de replicar.
+
+Não é um gargalo humano num processo que a máquina poderia assumir. É a fonte sem a qual o processo não tem direção.
 
 (Não é pessimismo. É geografia.)
 
@@ -223,7 +221,7 @@ Esse humano é o fator limitante — não no sentido de gargalo, de obstáculo q
 
 Não porque é mais rápido. Porque é o único que para quando precisa parar, pergunta quando precisa perguntar, e só formaliza quando a intenção já é precisa o suficiente para executar.
 
-Parar quando a pressão é para avançar. Perguntar quando todo mundo acha que já sabe a resposta. Decidir o que formalizar e o que ainda precisa de resposta. Você já faz isso.
+Parar quando a pressão é para avançar. Perguntar quando todo mundo acha que já sabe a resposta. Você já faz isso — e sabe exatamente o custo de quando não fez.
 
 *(pausa — olha para a plateia)*
 
@@ -312,7 +310,7 @@ Sei que não sei X      →  1ª ordem  (visível, atacável)
 **Slide 9 — O scout**
 *Visual:* Imagem gerada, full-bleed, ocupando todo o slide. Sem texto sobreposto além da legenda discreta na base.
 
-> **Prompt de imagem:** Aerial or slightly elevated wide-angle view of a vast, featureless fog blanketing the scene. The fog is dense, volumetric, layered — blue-grey-charcoal tones, soft edges, no hard boundaries. It fills roughly 75% of the frame, receding toward all horizons. At the lower-left region, a circular zone of clarity breaks through: the fog dissolves here to reveal a detailed topographic landscape below — muted olive and dark green terrain, subtle contour lines, sparse low vegetation, the faint trace of a narrow path that quickly disappears back into the grey. The illuminated zone has a radius that feels intimate, not vast — maybe 20-30 meters in implied scale. At the center of this lit zone, an extremely small anonymous human figure stands at the edge facing toward the fog. The figure is gender-neutral, silhouetted, wearing minimal field gear — no weapons, no equipment, just present. Posture: still, attentive, watching. The figure emits no light; the clarity around them is simply where the fog has been pushed back by their presence. Palette: desaturated blues, charcoals, muted olives, near-monochromatic. Art style: digital painterly illustration, semi-realistic, cinematic mood — not photographic, not cartoon. No UI, no labels, no map markers. Aspect ratio 16:9. The emotional register is quiet, focused, deliberate — not heroic, not dramatic. Just a person and a fog.
+> **Prompt de imagem:** Minimalist vector illustration on a near-black background (#0d0d14), 16:9, flat vector-illustration style — no painterly texture, no depth of field. The majority of the frame is filled with a dense semi-opaque layer of tiny near-white particles suggesting fog or unknown territory — flat, not volumetric. At the lower-left region, a circular zone of clarity opens: the fog dissolves here, revealing the clean dark background beneath. The boundary between fog and clarity glows faintly in muted amber (#c8882a) — a soft luminous edge, not dramatic, just warm. At the center of the cleared zone, a minimal anonymous figure: a simple white silhouette, gender-neutral, no detail. The figure stands at the amber boundary facing toward the fog. No terrain, no landscape, no topography — just the figure, the cleared zone, and the fog pressing in from all other sides. Palette: near-black background, near-white fog particles, white figure, muted amber at the boundary only. Flat, vector-illustration aesthetic. Aspect ratio 16:9. The emotional register is quiet and deliberate — not heroic, not dramatic.
 
 *Legenda no slide (fonte pequena, base):* "Ação barata cujo propósito não é conquistar território, mas remover névoa."
 *Conteúdo:* O hello world em produção como scout. A ação que revela o que não estava no backlog.
@@ -430,7 +428,7 @@ AGORA: "O que desambiguamos, e em qual dimensão?"
 **Slide 22 — O fator limitante**
 *Visual:* Fundo com imagem gerada. Texto sobreposto: "Esse humano é o fator limitante." em tipografia grande, branco, centrado ou alinhado à esquerda.
 
-> **Prompt de imagem:** Moody but intimate background image for a presentation slide, 16:9, full-bleed. A developer sits at a desk, viewed from slightly above and to the side — their face not fully visible. Late afternoon light comes from a window off-frame, casting a warm amber glow across the desk surface. A monitor is on but the screen is not the focus — the developer's hands rest on the keyboard, not typing. They are looking slightly away, mid-thought, paused before the next action. A coffee cup nearby. A notebook with a few handwritten lines. Sticky notes on the monitor bezel. The desk is real and lived-in, not staged or clean. The emotional register is quiet deliberation: this is someone who knows when to stop. Not heroic, not burdened — just present, thinking, about to ask the right question. Photorealistic or cinematic digital photography aesthetic. Palette: warm amber key light from the window, cool blue-white fill from the monitor, deep shadows that are soft not oppressive. No text, no UI elements, no logos. Aspect ratio 16:9.
+> **Prompt de imagem:** Minimalist abstract flow illustration on a near-black background (#0d0d14), vector-illustration style, 16:9. Multiple streamlines — smooth, curved parallel lines suggesting continuous horizontal flow — run across the full width of the composition. The lines are widest at both the left and right edges, filling most of the vertical space there. They taper gradually toward a narrow channel at the exact horizontal midpoint, then expand symmetrically back out on the right side. Small directional arrows are distributed evenly along the streamlines — on the left pointing right, on the right continuing right — making the flow's continuity explicit: the lines pass through the center unbroken, they do not stop there. At the narrow channel, a subtle amber warmth (#c8882a) bleeds into the lines — not a glow, not a barrier, just a change in quality that marks the passage. No labels. No nodes. No decorative elements. Palette: near-black background, white/light-grey for the flow lines and arrows, muted amber at the center channel only. Flat, no depth of field. Aspect ratio 16:9.
 
 *Conteúdo:* A tese central. Pausa antes de continuar com o porquê.
 
