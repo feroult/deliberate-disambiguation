@@ -20,6 +20,8 @@ A segunda lista é o que o projeto produziu de mais valioso. Não o código. O c
 
 Desenvolvimento de software, nesse sentido, é um processo de aprendizado. O software é o que sobra. O aprendizado é o que acumula.
 
+Se a lista do que você faria diferente é mais longa — parabéns. Você aprendeu mais do que entregou. Esse é o trabalho.
+
 A pergunta não é o que a AI mudou. É o que ela revelou.
 
 ---
@@ -165,6 +167,8 @@ A divergência não é falha da ferramenta. É a imprecisão da palavra "busca" 
 
 "Busca" era uma palavra. Agora é uma decisão.
 
+(Alguém no seu time já teve essa discussão. Provavelmente sem saber que estava fazendo desambiguação deliberada.)
+
 Mas o problema vai mais fundo que vocabulário.
 
 Escolha a terceira opção: filtragem client-side. Você desambiguou. "Busca" agora tem um significado preciso nesse contexto. E ainda assim, o engenheiro que vai formalizar essa intenção precisa fazer escolhas que a especificação não faz.
@@ -174,6 +178,8 @@ Isso é uma feature de catálogo pequeno, ou vai ter dez mil produtos? O filtro 
 Essas perguntas não são sobre o que "filtrar" significa. São sobre onde essa decisão se encaixa no sistema que está sendo construído. Um engenheiro com percepção arquitetural tem um modelo de onde o sistema está indo, e usa esse modelo para escolher a formalização que preserva as opções que vão importar. Não a interpretação mais provável. A que é coerente com a trajetória do sistema.
 
 A máquina não tem esse modelo. Formaliza silenciosamente. O resultado pode ser correto agora e incoerente daqui a seis meses.
+
+Se você já disse "isso vai virar problema" antes de abrir o editor — você já fez isso. A palestra não está ensinando o que você não sabe. Está dando nome ao que você já faz.
 
 O gut feeling do engenheiro sênior é isso: percepção contextual de como as decisões de hoje constrangem as de amanhã, numa forma de desambiguação que a especificação não consegue capturar e que a máquina no piloto automático não tem como fazer.
 
@@ -199,9 +205,11 @@ A indústria está encontrando nomes para esse papel. Harness engineer — quem 
 
 Os nomes vão mudar. O que eles descrevem não: o humano que sabe desambiguar deliberadamente.
 
-Esse humano é o fator limitante — no sentido preciso: a parte do processo que determina o throughput de todo o resto.
+Esse humano é o fator limitante — não no sentido de gargalo, de obstáculo que atrasa. No sentido de ponto de decisão: a parte do processo que determina o throughput de todo o resto.
 
 Não porque é mais rápido. Porque é o único que para quando precisa parar, pergunta quando precisa perguntar, e só formaliza quando a intenção já é precisa o suficiente para executar.
+
+Parar quando a pressão é para avançar. Perguntar quando todo mundo acha que já sabe a resposta. Resistir à formalização prematura quando a ferramenta quer executar em segundos. Isso é difícil. E é raro.
 
 AI não mudou o processo. Tornou impossível ignorar o que você já sabe fazer.
 
