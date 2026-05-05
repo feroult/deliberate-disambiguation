@@ -43,7 +43,7 @@ Do outro, o mundo das máquinas. Código não interpreta. Executa. Um sistema n�
 
 Desenvolver software é mover intenção ao longo desse espectro. Cada passo exige que uma ambiguidade seja resolvida. Você não formaliza algo com duas interpretações possíveis sem escolher uma.
 
-Cada passo reduz: de muitos significados possíveis para um único que vai executar.
+Formalizar é escolher: de muitos significados que funcionariam, um único vai executar.
 
 Esse processo sempre existiu. O que variou foi o custo de cada passo. E o que acontece quando esse custo vai a zero.
 
@@ -145,7 +145,7 @@ O gap diminuiu. O documento está convergindo.
 
 O processo para quando não há mais ambiguidade resolvível sem input do autor. Nesse ponto, o que resta são escolhas de Dimensão 1: intenção que só quem escreveu pode definir. O modelo para. Pergunta. E continua só quando a resposta chega.
 
-Exatamente aí o humano é insubstituível.
+Exatamente aí o humano é insubstituível. E não apenas porque o modelo para: consistência replica o que foi decidido, discernimento reconhece quando parar de replicar. São coisas diferentes.
 
 ---
 
