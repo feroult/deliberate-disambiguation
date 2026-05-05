@@ -358,9 +358,29 @@ Sei que não sei X      →  1ª ordem  (visível, atacável)
 ---
 
 **Slide 14 — O loop**
-*Visual:* Imagem gerada full-bleed. Texto sobreposto mínimo ou nenhum — a imagem carrega o conceito sozinha.
+*Visual:* Diagrama esquemático sobre fundo escuro. Três zonas verticais ou em arco, com labels e setas direcionais. Sem elementos artísticos — tipografia, linhas e setas são suficientes.
 
-> **Prompt de imagem:** Abstract digital painting, 16:9, full-bleed, near-black background (#0a0a10). A tight logarithmic spiral — like a nautilus cross-section or a galaxy arm collapsing inward — centered slightly left of frame. The spiral has five or six visible turns. The outermost rings are completely diffuse: soft, indistinct, dissolving into the background darkness, edges undefined — the visual texture of not knowing what you don't know. No sharp lines, no clear form at the periphery. As the spiral turns inward, each successive ring becomes progressively more defined: edges sharpen, lines gain contrast, the form becomes legible. The innermost point — a tight, dense core at center — is perfectly crisp, luminous, precise. A single point of total clarity surrounded by concentric rings of increasing resolution. The transition from fog to clarity is continuous and gradual, not stepped. Color palette: the outer fog is deep blue-grey, almost indistinguishable from the background. As the spiral tightens, it shifts through muted teal to a warm white-amber at the core — suggesting heat, resolution, decision. The overall mood is quiet, mathematical, inevitable. No text. No labels. No human figures. No decorative elements. The spiral should feel like a process that was always going to arrive at its center — iterative, convergent, deliberate. Photorealistic digital painting or high-resolution CGI. Extreme detail at the core; intentional dissolution at the edges.
+```
+┌─────────────────────────────────────────────────────┐
+│                                                     │
+│   [NÉVOA]          [D1]              [D2]           │
+│   Não sei o    →   Sei que       →   Imprecisão     │
+│   que não sei      não sei X         da linguagem   │
+│   (invisível)      (atacável)        (formalização) │
+│                                                     │
+│                        ↑________________________    │
+│                    tentar resolver D2 revela D1     │
+│                                                     │
+└─────────────────────────────────────────────────────┘
+```
+
+**Design spec (Figma/Keynote):**
+- Três colunas com labels de zona no topo: "Ignorância 2ª ordem", "Ignorância 1ª ordem / D1", "Ambiguidade / D2"
+- Seta horizontal esquerda→direita entre as três zonas: representa o progresso normal (scout revela D1, D1 resolve, tenta formalizar D2)
+- Seta curva de retorno de D2 → D1: representa o loop ("tentar resolver D2 revela D1 escondida")
+- As colunas têm opacidade decrescente da esquerda para a direita: zona da névoa mais opaca/difusa (70% opacidade), D1 mais nítida, D2 totalmente nítida — simula visualmente a transição de desconhecido para conhecido
+- Fonte: sans-serif, branco sobre fundo escuro
+- Seta de retorno: tracejada ou em cor diferente (âmbar) para distinguir do fluxo principal
 
 *Conteúdo:* As dimensões não são sequenciais. O ciclo é o processo. A IA quebra esse ciclo ao não pausar.
 
