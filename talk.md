@@ -7,7 +7,7 @@
 
 O que é ser engenheiro de software está mudando. Não o ferramental. O papel fundamental.
 
-Esta palestra é sobre o que sempre foi o trabalho — e o que a AI tornou impossível continuar ignorando.
+A pergunta não é o que a AI mudou. É o que ela revelou.
 
 Feche os olhos. Pense no último projeto que você terminou.
 
