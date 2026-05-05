@@ -166,7 +166,7 @@ Alguém aqui está pensando: mas dá pra resolver isso com outro agente. Um agen
 
 É uma ideia razoável. E funciona — em parte.
 
-O agente pode verificar se a nova formalização contradiz padrões existentes. Pode apontar inconsistências com o que já foi decidido. Isso é útil e real. Mas note o que você precisou passar para ele: um modelo do sistema. Sua estrutura atual, suas convenções, suas fronteiras.
+O agente pode verificar se a nova formalização contradiz o que já foi decidido. Isso é útil e real. Mas note o que você precisou passar para ele: um modelo do sistema. Sua estrutura atual, suas convenções, suas fronteiras.
 
 O problema é que o modelo relevante não é esse. É o modelo do sistema que você *ainda está construindo*. A trajetória. As decisões que ainda não foram tomadas. As features que existem no roadmap mas não no código. As restrições que você sabe que vêm mas não estão documentadas em lugar nenhum.
 
