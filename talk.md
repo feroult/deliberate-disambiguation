@@ -94,7 +94,7 @@ Essa é a Dimensão 2 em sua forma completa: não só a imprecisão da linguagem
 
 | | Dimensão 1 | Dimensão 2 |
 |---|---|---|
-| Fonte | Realidade não encontrada ainda | Linguagem + escolhas de formalização sem modelo do sistema |
+| Fonte | Realidade não encontrada ainda | Imprecisão da linguagem + modelo do sistema ausente |
 | Revelada por | Contato com o mundo real | Tentativa de formalização |
 | Resolvida por | Exploração, validação | Especificação + percepção arquitetural |
 | Metáfora | Névoa de guerra | Instrução que todos entenderam, cada um à sua maneira |
@@ -123,7 +123,7 @@ E vou fazer isso de um jeito um pouco torto: vou usar convergência para transfo
 
 O modelo lê o documento e aplica todas as melhorias que consegue fazer numa passagem. Não é reescrita. É formalização iterativa. Cada passo resolve ambiguidades que o passo anterior não tocou.
 
-*(abra o diff quando terminar)*
+*(abra o diff)*
 
 Olha o que mudou. Você vai encontrar pelo menos um lugar onde uma frase tinha dois sentidos possíveis e o modelo escolheu um. Um lugar onde um argumento estava declarado mas não desenvolvido, e o modelo o completou. Um lugar onde uma imprecisão que na conversa passaria batida não sobreviveu à formalização.
 
@@ -173,7 +173,7 @@ Essas perguntas não são sobre o que "filtrar" significa. São sobre onde essa 
 
 A máquina não tem esse modelo. Formaliza silenciosamente. O resultado pode ser correto agora e incoerente daqui a seis meses.
 
-O gut feeling do engenheiro sênior é exatamente isso: percepção contextual de como as decisões de hoje constrangem as de amanhã. Uma forma de desambiguação que a especificação não consegue capturar e que a máquina no piloto automático não tem como fazer.
+O gut feeling do engenheiro sênior é isso: percepção contextual de como as decisões de hoje constrangem as de amanhã, numa forma de desambiguação que a especificação não consegue capturar e que a máquina no piloto automático não tem como fazer.
 
 Alguém aqui está pensando: mas dá pra resolver isso com outro agente. Um agente de validação arquitetural. Você descreve a arquitetura do sistema, passa a formalização, o agente avalia se é coerente.
 
@@ -197,7 +197,7 @@ A indústria está encontrando nomes para esse papel. Harness engineer — quem 
 
 Os nomes vão mudar. O que eles descrevem não: o humano que sabe desambiguar deliberadamente.
 
-Esse humano torna-se o fator limitante.
+Esse humano é o fator limitante.
 
 Não porque é mais rápido. Porque é o único que para quando precisa parar, pergunta quando precisa perguntar, e só formaliza quando a intenção já é precisa o suficiente para executar.
 
