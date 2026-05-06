@@ -90,6 +90,8 @@ Apagar significa remover permanentemente ou marcar como inativo? O que acontece 
 
 Agora para. Olha essas perguntas com cuidado. São três camadas distintas.
 
+*(avança para slide das três camadas)*
+
 Algumas são semânticas: o que "apagar" significa nesse domínio? Essas existem na linguagem. A frase era ambígua e a conversa nunca precisou resolver.
 
 Outras são de domínio: o usuário *pode* ser reativado? Por quanto tempo os dados precisam ser retidos? Você não sabe. Nunca perguntou ao negócio. Não é imprecisão da linguagem. É ignorância sobre o mundo. A tentativa de precisar a D2 revelou uma D1 escondida embaixo.
@@ -137,7 +139,7 @@ O modelo lê o documento e aplica todas as melhorias que consegue fazer numa pas
 
 Olha o que mudou. Você vai encontrar pelo menos um lugar onde uma frase tinha dois sentidos possíveis e o modelo escolheu um. Um lugar onde um argumento estava declarado mas não desenvolvido, e o modelo o completou. Um lugar onde uma imprecisão que na conversa passaria batida não sobreviveu à formalização.
 
-*(aponte um exemplo concreto no diff)*
+*(aponte um exemplo concreto no diff — se o live run não surfaçar o esperado, use o diff de referência preparado)*
 
 Pergunta diagnóstica: essa mudança resolveu uma Dimensão 1 ou uma Dimensão 2?
 
@@ -205,9 +207,9 @@ O agente precisa do modelo para funcionar. O modelo relevante é o de amanhã. E
 
 Não é um gargalo humano num processo que a máquina poderia assumir. É a fonte sem a qual o processo não tem direção.
 
-(Não é pessimismo. É geografia.)
-
 Boa notícia: é aí que você está.
+
+(Não é pessimismo. É geografia.)
 
 *(avança para o slide de transição; fica em silêncio por alguns segundos)*
 
@@ -215,7 +217,7 @@ Boa notícia: é aí que você está.
 
 ## 6. Fechamento
 
-A indústria está encontrando nomes para esse papel. Harness engineer — quem constrói o scaffold que define onde a máquina pode agir. Supervisor engineer — quem revisa o que ela formalizou silenciosamente.
+A indústria está encontrando nomes para esse papel. Harness engineer — quem constrói o scaffold que define onde a máquina pode agir. Supervisor engineer: quem revisa o que ela formalizou silenciosamente.
 
 Os nomes vão mudar. O que eles descrevem não: o humano que sabe desambiguar deliberadamente.
 
@@ -477,6 +479,7 @@ AGORA: "O que desambiguamos, e em qual dimensão?"
 
 > **Prompt de edição (a partir da imagem do slide 22):** Remove the two labels ("harness" and "supervisor") and their hairlines. Remove the amber vertical bar at the center, keeping only the ambient amber warmth that bleeds into the streamlines. Do not change the harness lines, the streamlines, the background, or the color palette. The result should be the same composition, clean — no annotations, no markers.
 
+*Nota de produção:* Gerar a imagem do slide 22 primeiro; slide 21 é uma edição dela. A audiência não sabe disso.
 *Conteúdo:* A tese central. Pausa antes de continuar com o porquê.
 
 ---
@@ -506,4 +509,5 @@ AGORA: "O que desambiguamos, e em qual dimensão?"
 
 > **Prompt de imagem:** Cinematic abstract background for a closing presentation slide, 16:9. A long empty corridor or tunnel, viewed from straight-on perspective — perfectly centered vanishing point. The corridor is modern and geometric: clean concrete or dark metal walls, receding into a distant point of faint warm light. The near end (foreground) is in almost total darkness; the far end glows dimly, suggesting continuation rather than termination. No figures. No labels. No windows. The corridor should feel like time or process — something that was always there, that you always had to walk through, that hasn't changed even if the speed has. Photorealistic or cinematic digital painting. Palette: near-monochromatic dark charcoal and near-black, with a single warm amber-white glow at the vanishing point. The mood is quiet, honest, and slightly sobering — not triumphant, not tragic. Just clear.
 
+*Nota visual:* Exceção intencional ao sistema de streamlines — o corredor encerra com uma metáfora de continuidade (processo que sempre existiu, não mudou) em vez de permanecer no vocabulário visual técnico. O visual spine completou seu arco no slide 22b.
 *Conteúdo:* Última linha falada. Slide fica na tela enquanto abre para perguntas.
