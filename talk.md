@@ -90,8 +90,6 @@ Apagar significa remover permanentemente ou marcar como inativo? O que acontece 
 
 Agora para. Olha essas perguntas com cuidado. São três camadas distintas.
 
-*(avança para slide das três camadas)*
-
 Algumas são semânticas: o que "apagar" significa nesse domínio? Essas existem na linguagem. A frase era ambígua e a conversa nunca precisou resolver.
 
 Outras são de domínio: o usuário *pode* ser reativado? Por quanto tempo os dados precisam ser retidos? Você não sabe. Nunca perguntou ao negócio. Não é imprecisão da linguagem. É ignorância sobre o mundo. A tentativa de precisar a D2 revelou uma D1 escondida embaixo.
@@ -241,7 +239,7 @@ O processo não mudou. Você sempre soube fazer isso. Agora tem nome.
 
 ### Âncora visual — Espinha dorsal da apresentação
 
-A apresentação organiza-se em torno de sete imagens âncora que formam uma narrativa visual progressiva e coerente. Esta âncora existe para que o juiz possa avaliar cada slide com imagem contra a lógica do sistema visual completo — não slide a slide em isolamento, mas como sequência.
+A apresentação organiza-se em torno de sete imagens âncora que formam uma narrativa visual progressiva e coerente.
 
 **A metáfora central:** um feixe de streamlines — linhas curvas fluindo horizontalmente, mais amplas nas bordas, afunilando num canal estreito no centro, e expandindo simetricamente de volta. A forma é sempre a mesma. O que muda é o que está sobre ela e o que ela carrega de significado.
 
@@ -249,27 +247,25 @@ A apresentação organiza-se em torno de sete imagens âncora que formam uma nar
 
 **A1 — Descoberta:** Mapa parcialmente revelado com névoa de guerra. Uma figura humana na zona de clareza, olhando para o desconhecido. O território conhecido tem contornos cartográficos visíveis no fundo limpo. O resto: névoa densa. Introduz ignorância de 2ª ordem sem nomear.
 
-**A2 — Espectro:** Textura em duas zonas — linguagem natural (esquerda, cursiva, caótica) e código estruturado (direita, monospaced, preciso). No centro, ghost streamlines em 10% de opacidade já estão presentes mas quase invisíveis: A2 e A3 coexistem na mesma imagem (slide 1), usada novamente no slide 5. A separação conceitual entre A2 (polos separados) e A3 (streamlines emergindo) é narrativa, não visual: a forma já está lá desde o início, esperando ser reconhecida.
+**A2 — Espectro:** Textura em duas zonas — linguagem natural (esquerda, cursiva, caótica) e código estruturado (direita, monospaced, preciso). No centro, ghost streamlines em 10% de opacidade já estão presentes mas quase invisíveis: A2 e A3 coexistem na mesma imagem (slide 1), usada novamente no slide 3. A separação conceitual entre A2 (polos separados) e A3 (streamlines emergindo) é narrativa, não visual: a forma já está lá desde o início, esperando ser reconhecida.
 
-**A3 — Semente do gargalo:** Mesma textura que A2, mas streamlines emergem no centro em baixa opacidade (15%). A forma do funil aparece antes de ter nome. "O gargalo não desaparece. Muda de endereço."
+**A3 — Semente do gargalo:** Streamlines emergindo no centro em baixa opacidade (15%), sobre a textura do espectro. A forma do funil aparece antes de ter nome. "O gargalo não desaparece. Muda de endereço."
 
-**A4 — Loop de desambiguação:** Streamlines ao fundo, contínuas. Sobre elas, o ciclo D1/D2 como overlay. No ponto de convergência das streamlines — o centro horizontal — o âmbar (#c8882a) aparece: é onde a decisão humana ocorre, onde os dois ciclos se tocam.
+**A4 — Loop de desambiguação:** Streamlines ao fundo, contínuas. Sobre elas, o ciclo D1/D2 como overlay. No ponto de convergência — o centro horizontal — o âmbar (#c8882a) aparece: é onde a decisão humana ocorre.
 
 **A5 — Transição:** Apenas streamlines. Sem D1/D2, sem âmbar, sem anotações. O fluxo puro. Slide de respiro entre a demo e o fechamento.
 
-**A6 — Papeis nomeados:** Harness (linhas externas do feixe, branco 80%, guardrails) + supervisor (barra âmbar vertical no centro). Labels discretos como anotações técnicas. Os dois papeis do engenheiro nomeados visualmente.
+**A6 — Papeis nomeados:** Harness (linhas externas do feixe, branco 80%, guardrails) + supervisor (barra âmbar vertical no centro). Labels discretos como anotações técnicas.
 
-**A7 — Canal alargado pela AI:** Streamlines em maior densidade. Setas diagonais marcam os harness limits expandidos. Setas verticais crescem a partir do centro (supervisor scaling). A AI alargou o canal; harness e supervisor continuam — mas governam um fluxo maior.
+**A7 — Canal alargado pela AI:** Streamlines em maior densidade. Setas diagonais marcam os harness limits expandidos. Setas verticais crescem a partir do centro (supervisor scaling).
 
 **Regras do sistema visual:**
 - Fundo: near-black (#0d0d14)
 - Streamlines: branco ou cinza claro, sem setas de direção
 - Âmbar (#c8882a): exclusivo para marcadores de decisão humana
-- Harness lines: branco 80%, levemente mais espessas que as streamlines
+- Harness lines: branco 80%, levemente mais espessas
 - Estilo: vector-illustration, flat, zero profundidade de campo
 - Labels (quando presentes): sans-serif cinza claro, anotação técnica
-
-O juiz deve verificar: (1) se cada prompt de imagem está alinhado com a âncora correspondente, (2) se a progressão A1→A7 é coerente com o arco narrativo, (3) se o texto falado em cada slide com imagem está em harmonia com o que a imagem comunica.
 
 ---
 
@@ -282,15 +278,7 @@ O juiz deve verificar: (1) se cada prompt de imagem está alinhado com a âncora
 
 ---
 
-**Slide 2 — A pergunta certa**
-*Visual:* Duas linhas em contraste:
-"A pergunta não é o que a AI mudou."
-"É o que ela revelou."
-*Conteúdo:* O hook e a tese em miniatura. Fica na tela enquanto o palestrante descreve o exercício do projeto imaginário.
-
----
-
-**Slide 3 — O exercício**
+**Slide 2 — O exercício**
 *Visual:* Fundo escuro. Apenas duas perguntas, sem título:
 "O que você faria igual?"
 "O que você faria diferente?"
@@ -298,14 +286,7 @@ O juiz deve verificar: (1) se cada prompt de imagem está alinhado com a âncora
 
 ---
 
-**Slide 4 — O que o projeto produz**
-*Visual:* Uma linha, tipografia ampla:
-"O software é o que sobra. O aprendizado é o que acumula."
-*Conteúdo:* Payoff do exercício. Define o que desenvolvimento de software realmente produz — e prepara o espectro.
-
----
-
-**Slide 5 — O espectro**
+**Slide 3 — O espectro**
 *Visual:* Mesmo background do slide 1 (reutilizar a imagem gerada). Diagrama monospace sobreposto, centrado:
 
 ```
@@ -313,37 +294,22 @@ LINGUAGEM NATURAL ─────────────────► LINGUAG
 Ambígua, rica, implícita             Precisa, executável, literal
 ```
 
-No ponto de convergência das streamlines do background — o centro horizontal do slide — um label pequeno em fonte sans-serif light, cinza claro, baixa opacidade: "Engenharia de Software". Posicionado discretamente, como uma anotação técnica. Não é o foco do slide; é o que está no meio do espectro, nomeado antes de ser explicado.
+No ponto de convergência das streamlines do background — o centro horizontal do slide — um label pequeno em fonte sans-serif light, cinza claro, baixa opacidade: "Engenharia de Software". Posicionado discretamente, como uma anotação técnica.
 
-*Conteúdo:* O mecanismo central. Palestrante explica os dois polos antes de mostrar o slide; o diagrama confirma. A imagem de fundo já mostrava isso — o diagrama agora nomeia. O label no centro planta onde a engenharia vive nesse espectro.
-
----
-
-**Slide 6 — Formalização é redução**
-*Visual:* Uma definição centrada:
-"Formalizar é escolher: de muitos significados que funcionariam, um único vai executar."
-*Conteúdo:* A definição que ancora o restante da palestra. Fica na tela enquanto o palestrante desenvolve a consequência e lança a pergunta sobre o custo.
+*Conteúdo:* O mecanismo central. Palestrante explica os dois polos antes de mostrar o slide; o diagrama confirma. O label no centro planta onde a engenharia vive nesse espectro.
 
 ---
 
-**Slide 6b — O gargalo muda de endereço**
+**Slide 4 — O gargalo muda de endereço**
 *Visual:* Fundo com imagem gerada. Texto sobreposto, centrado, tipografia média: "O gargalo não desaparece. Muda de endereço."
 
-> **Prompt de imagem:** Minimalist abstract background for a presentation slide, 16:9, near-black background (#0d0d14). Multiple smooth curved streamlines run horizontally across the full width — the same flow shape that will reappear in the closing slides, but rendered here as a ghost: all lines at 15% opacity, white, no amber, no labels, no harness lines. The lines converge gently toward the horizontal midpoint and expand back out symmetrically. The convergence is barely visible — present as a shape, not as a concept. The foreground is empty, leaving room for overlaid text. The image should feel like a shadow of something that hasn't been named yet. Flat, vector-illustration aesthetic. No depth of field. Aspect ratio 16:9.
+> **Prompt de imagem (âncora A3):** Minimalist abstract background for a presentation slide, 16:9, near-black background (#0d0d14). Multiple smooth curved streamlines run horizontally across the full width — the same flow shape that will reappear in the closing slides, but rendered here as a ghost: all lines at 15% opacity, white, no amber, no labels, no harness lines. The lines converge gently toward the horizontal midpoint and expand back out symmetrically. The convergence is barely visible — present as a shape, not as a concept. The foreground is empty, leaving room for overlaid text. The image should feel like a shadow of something that hasn't been named yet. Flat, vector-illustration aesthetic. No depth of field. Aspect ratio 16:9.
 
 *Conteúdo:* Última linha da seção 2. O speaker fala e avança sem explicar. A imagem fica por alguns segundos — o visual do funil plantado antes de ter nome.
 
 ---
 
-**Slide 7 — A tese de North**
-*Visual:* Duas linhas, a segunda em destaque:
-"A verdadeira restrição não era velocidade de execução."
-"Era capacidade de aprender."
-*Conteúdo:* O que North nomeou. Contexto: artigo no InfoQ em 2011, confiança de quem acabou de aprender algo.
-
----
-
-**Slide 8 — Taxonomia da ignorância**
+**Slide 5 — Taxonomia da ignorância**
 *Visual:* Diagrama em dois níveis com setas descendentes:
 
 ```
@@ -358,8 +324,8 @@ Sei que não sei X      →  1ª ordem  (visível, atacável)
 
 ---
 
-**Slide 9 — O scout**
-*Visual:* Imagem gerada, full-bleed, ocupando todo o slide. Sem texto sobreposto além da legenda discreta na base.
+**Slide 6 — O scout**
+*Visual:* Imagem gerada, full-bleed, ocupando todo o slide. Legenda discreta na base.
 
 > **Prompt de imagem (âncora A1):** Minimalist vector illustration on a near-black background (#0d0d14), 16:9, flat vector-illustration style — no painterly texture, no depth of field. The majority of the frame is filled with a dense semi-opaque layer of tiny near-white particles suggesting fog or unknown territory — flat, not volumetric. At the lower-left region, a circular zone of clarity opens: the fog dissolves here, revealing the clean dark background beneath. Within the cleared zone, subtle topographic contour lines and a faint cartographic grid are visible on the dark background — rendered in white at 10% opacity, the visual language of a partially-revealed map, suggesting that what was hidden is now territory that can be named and traversed. The boundary between fog and clarity glows faintly in muted amber (#c8882a) — a soft luminous edge, not dramatic, just warm. At the center of the cleared zone, a minimal anonymous figure: a simple white silhouette, gender-neutral, no detail. The figure stands at the amber boundary facing toward the fog. Palette: near-black background, near-white fog particles, faint white map contours in the cleared zone, white figure, muted amber at the boundary only. Flat, vector-illustration aesthetic. Aspect ratio 16:9. The emotional register is quiet and deliberate — not heroic, not dramatic.
 
@@ -368,31 +334,13 @@ Sei que não sei X      →  1ª ordem  (visível, atacável)
 
 ---
 
-**Slide 10 — O que ele não nomeou**
-*Visual:* Texto simples, três linhas:
-"Esse modelo estava certo. Permanece fundacional."
-"Mas havia uma dimensão inteira que ele não nomeou."
-"E que eu também não vi em 2011."
-*Conteúdo:* Transição pessoal para a segunda dimensão. O palestrante admite a própria cegueira — estabelece credibilidade para o que vem.
-
----
-
-**Slide 11 — "O administrador pode apagar um usuário"**
+**Slide 7 — "O administrador pode apagar um usuário"**
 *Visual:* No centro, um cartão de user story: "O administrador pode apagar um usuário." Abaixo, em fonte menor, as perguntas emergindo em cascata: "Remover permanentemente ou soft delete?", "O conteúdo criado?", "Os pedidos em aberto?", "Auditoria?", "Reativação?"
 *Conteúdo:* Introdução da Dimensão 2. As perguntas aparecem depois que o palestrante lança a história — o slide revela o que estava escondido atrás de dez palavras.
 
 ---
 
-**Slide 12 — As três camadas da D2**
-*Visual:* Lista vertical numerada:
-1. Ambiguidade semântica — o que a palavra significa nesse domínio
-2. Ignorância de domínio — o que o negócio sabe e você ainda não perguntou
-3. Escolhas de formalização — onde a decisão se encaixa no sistema que está sendo construído
-*Conteúdo:* A estrutura completa da segunda dimensão antes da tabela comparativa. Palestrante percorre os três níveis com o exemplo do "apagar".
-
----
-
-**Slide 13 — D1 × D2**
+**Slide 8 — D1 × D2**
 *Visual:* A tabela comparativa em tipografia limpa, sem bordas pesadas:
 
 | | D1 | D2 |
@@ -406,8 +354,8 @@ Sei que não sei X      →  1ª ordem  (visível, atacável)
 
 ---
 
-**Slide 14 — O loop**
-*Visual:* Diagrama circular gerado ou desenhado, sobre fundo escuro. Dois nós conectados por dois arcos opostos formando um ciclo fechado.
+**Slide 9 — O loop**
+*Visual:* Diagrama circular sobre fundo escuro. Dois nós conectados por dois arcos opostos formando um ciclo fechado.
 
 > **Prompt de imagem (âncora A4):** Minimalist abstract diagram on a near-black background (#0d0d14), flat vector-illustration style, 16:9. Background layer: multiple smooth curved streamlines run horizontally across the full width — widest at both edges, tapering toward a narrow channel at the exact horizontal midpoint, then expanding symmetrically back out. Lines rendered in white at 20% opacity — present as a shape, not dominant. Foreground layer: a minimal circular diagram centered on the composition. Two soft-edged rectangular nodes — one at the top and one at the bottom of an implied circle, slightly offset horizontally. Top node labeled "D2" in light-grey sans-serif; bottom node labeled "D1", same treatment. Two smooth arcs connect the nodes — one clockwise on the right, one counter-clockwise on the left. Each arc has a small directional arrow at midpoint and a short label along the curve: right arc reads "tentar resolver D2 revela D1", left arc reads "resolver D1 abre espaço para D2". At the center of the diagram — where the arcs cross and where the streamlines converge — a subtle amber glow (#c8882a) marks the point of human decision: where disambiguation happens. Arcs rendered as gradient lines, white transitioning to muted amber toward the center. Overall: centered, symmetrical. No decorative elements. No shadows. Palette: near-black, white/light-grey, amber accent at center only. Aspect ratio 16:9.
 
@@ -415,21 +363,13 @@ Sei que não sei X      →  1ª ordem  (visível, atacável)
 
 ---
 
-**Slide 15 — DEMO**
+**Slide 10 — DEMO**
 *Visual:* Fundo escuro. Texto centrado: "DEMO". Abaixo, em fonte pequena para o palestrante: "(arquivo-fonte | output lado a lado)"
 *Conteúdo:* Transição para a seção ao vivo. Palestrante abre o terminal e explica o que vai acontecer antes de rodar o primeiro passo.
 
 ---
 
-**Slide 16 — Nova pergunta de diagnóstico**
-*Visual:* Antes/depois em duas linhas com contraste:
-ANTES: "O que entregamos?"
-AGORA: "O que desambiguamos, e em qual dimensão?"
-*Conteúdo:* A primeira mudança prática. Como medir se um ciclo produziu aprendizado ou só artefatos.
-
----
-
-**Slide 17 — Três prompts, três produtos**
+**Slide 11 — Três prompts, três produtos**
 *Visual:* Três caixas verticais lado a lado, cada uma com prompt e output correspondente:
 
 | "Implemente a busca" | "Permita encontrar por nome" | "Filtre conforme digita" |
@@ -440,34 +380,19 @@ AGORA: "O que desambiguamos, e em qual dimensão?"
 
 ---
 
-**Slide 18 — Percepção arquitetural**
+**Slide 12 — Percepção arquitetural**
 *Visual:* Linha do tempo horizontal sobre fundo escuro. Três pontos marcados conectados por seta pontilhada. Abaixo, as perguntas arquiteturais em fonte menor.
 
 > **Prompt de imagem (background):** Dark illustration of an architectural blueprint or engineering schematic rendered as a subtle background texture, 16:9. Near-black background (#0d0d14). In the background, thin white technical drawing lines — floor plans, circuit traces, or system diagrams — rendered at 14–16% opacity, visible but not dominant; lines are crisp, not blurred. A faint grid of fine horizontal and vertical guide lines at 10% opacity underlies the schematic, suggesting precision and structure. The overall texture reads as "a system being thought through" without depicting any specific recognizable object. One region of the composition — roughly the left third — has slightly denser linework, creating a subtle visual anchor without becoming a focal point. The foreground is otherwise empty, leaving space for overlaid text and diagram. Mood: precise, intelligent, slightly cold. Flat, no depth of field, no lighting drama. Vector-illustration aesthetic. Aspect ratio 16:9.
 
-> **Design spec do diagrama (Figma/Keynote):** Linha horizontal centralizada, cor branca 60% opacidade, ocupando 70% da largura do slide. Três pontos na linha: círculo preenchido de 10px cada. Label acima de cada ponto em fonte regular 14pt. Seta pontilhada no sentido esquerda→direita com espaçamento de traço irregular (sugerindo incerteza/futuro). Ponto 1: "hoje — filtragem client-side". Ponto 2: "sprint +2 — busca semântica?" (com ponto de interrogação explícito, cor levemente mais fraca). Ponto 3: "versão mobile" (ainda mais fraco, quase fantasma). Perguntas arquiteturais listadas abaixo da linha em 12pt, cor cinza claro.
+> **Design spec do diagrama (Figma/Keynote):** Linha horizontal centralizada, cor branca 60% opacidade, ocupando 70% da largura do slide. Três pontos na linha: círculo preenchido de 10px cada. Label acima de cada ponto em fonte regular 14pt. Seta pontilhada no sentido esquerda→direita com espaçamento de traço irregular (sugerindo incerteza/futuro). Ponto 1: "hoje — filtragem client-side". Ponto 2: "sprint +2 — busca semântica?" (ponto de interrogação explícito, cor levemente mais fraca). Ponto 3: "versão mobile" (ainda mais fraco, quase fantasma). Perguntas arquiteturais listadas abaixo da linha em 12pt, cor cinza claro.
 
-*Nota visual:* Exceção intencional ao sistema de streamlines — o fundo de esquema técnico serve ao contexto específico de percepção arquitetural; o visual spine retoma no slide 20b.
+*Nota visual:* Exceção intencional ao sistema de streamlines — o fundo de esquema técnico serve ao contexto específico de percepção arquitetural; o visual spine retoma no slide 13.
 *Conteúdo:* O que a especificação não faz. O modelo mental do sistema que só existe na cabeça de quem esteve lá.
 
 ---
 
-**Slide 19 — "Mas dá pra resolver com outro agente?"**
-*Visual:* Fundo escuro. Uma pergunta em itálico, como se fosse a voz da plateia:
-*"Mas dá pra resolver isso com outro agente de validação arquitetural?"*
-*Conteúdo:* O palestrante levanta e responde a objeção. O slide fica enquanto o argumento se desenvolve — funciona e não funciona.
-
----
-
-**Slide 20 — O modelo do sistema de amanhã**
-*Visual:* Duas linhas em destaque:
-"Esse modelo não existe em nenhum arquivo."
-"Ele existe na cabeça de quem esteve lá."
-*Conteúdo:* O ponto central do contraargumento. O agente valida contra o sistema de hoje; o modelo relevante é o sistema que ainda está sendo construído. O problema foi movido, não resolvido.
-
----
-
-**Slide 20b — [transição]**
+**Slide 13 — [transição]**
 *Visual:* Fundo com imagem gerada. Sem texto sobreposto.
 
 > **Prompt de imagem (âncora A5):** Minimalist abstract illustration on a near-black background (#0d0d14), flat vector-illustration style, 16:9. Multiple smooth curved streamlines run horizontally across the full width of the composition — widest at both the left and right edges, tapering gradually toward a narrow channel at the exact horizontal midpoint, then expanding symmetrically back out. Lines rendered in white at 40% opacity. Nothing else in the composition — no labels, no amber, no harness lines, no annotations, no diagram overlay. The streamlines are the only element. The shape is the message: flow constrained through a channel and continuing out the other side. Flat, vector-illustration. Aspect ratio 16:9.
@@ -476,43 +401,43 @@ AGORA: "O que desambiguamos, e em qual dimensão?"
 
 ---
 
-**Slide 21 — O fator limitante**
-*Visual:* Fundo com imagem editada a partir do slide 22. Texto sobreposto: "Esse humano é o fator limitante." em tipografia grande, branco, centrado ou alinhado à esquerda.
+**Slide 14 — O fator limitante**
+*Visual:* Fundo com imagem editada a partir do slide 15. Texto sobreposto: "Esse humano é o fator limitante." em tipografia grande, branco.
 
-> **Prompt de edição (a partir da imagem do slide 22):** Remove the two labels ("harness" and "supervisor") and their hairlines. Remove the amber vertical bar at the center, keeping only the ambient amber warmth that bleeds into the streamlines. Do not change the harness lines, the streamlines, the background, or the color palette. The result should be the same composition, clean — no annotations, no markers.
+> **Prompt de edição (a partir da imagem do slide 15):** Remove the two labels ("harness" and "supervisor") and their hairlines. Remove the amber vertical bar at the center, keeping only the ambient amber warmth that bleeds into the streamlines. Do not change the harness lines, the streamlines, the background, or the color palette. The result should be the same composition, clean — no annotations, no markers.
 
-*Nota de produção:* Gerar a imagem do slide 22 primeiro; slide 21 é uma edição dela. A audiência não sabe disso.
-*Conteúdo:* Abre a seção 6. O speaker enuncia a tese ("Esse humano é o fator limitante") e a explica antes de avançar para o slide 22 onde nomeia os papeis.
+*Nota de produção:* Gerar a imagem do slide 15 primeiro; slide 14 é uma edição dela. A audiência não sabe disso.
+*Conteúdo:* Abre a seção 6. O speaker enuncia a tese e a explica antes de avançar para o slide 15 onde nomeia os papeis.
 
 ---
 
-**Slide 22 — Harness / Supervisor**
+**Slide 15 — Harness / Supervisor**
 *Visual:* Fundo com imagem gerada. Texto sobreposto, duas linhas, tipografia média, branco:
 "Harness engineer."
 "Supervisor engineer."
-Gerar esta imagem primeiro — o slide 21 é uma edição dela.
+Gerar esta imagem primeiro — o slide 14 é uma edição dela.
 
-> **Prompt de imagem:** Minimalist abstract flow illustration on a near-black background (#0d0d14), vector-illustration style, 16:9. Multiple streamlines — smooth, curved parallel lines suggesting continuous horizontal flow — run across the full width of the composition. The lines are widest at both the left and right edges, filling most of the vertical space there. They taper gradually toward a narrow channel at the exact horizontal midpoint, then expand symmetrically back out on the right side. The lines pass through the center unbroken. At the narrow channel, a subtle amber warmth (#c8882a) bleeds into the lines. Two harness lines run along the outer edges of the streamline bundle — one above the topmost line, one below the bottommost line — converging at the channel and expanding back out symmetrically; they are more opaque and slightly thicker than the flow lines, rendered in white at 80% opacity, defining the limits within which the flow can act. A small label "harness" in light-grey sans-serif is placed just outside one of the harness lines on the left half of the image, with a minimal hairline connecting to it. At the amber center, a small vertical bar in the same amber tone marks the supervisor presence. A small label "supervisor" in the same light-grey sans-serif is placed just above or below the amber bar, with a minimal hairline connecting to it. Labels feel like technical annotations — quiet, precise, not decorative. Palette: near-black background, white/light-grey for flow lines and harness lines, muted amber at center. Flat, no depth of field. Aspect ratio 16:9.
+> **Prompt de imagem (âncora A6):** Minimalist abstract flow illustration on a near-black background (#0d0d14), vector-illustration style, 16:9. Multiple streamlines — smooth, curved parallel lines suggesting continuous horizontal flow — run across the full width of the composition. The lines are widest at both the left and right edges, filling most of the vertical space there. They taper gradually toward a narrow channel at the exact horizontal midpoint, then expand symmetrically back out on the right side. The lines pass through the center unbroken. At the narrow channel, a subtle amber warmth (#c8882a) bleeds into the lines. Two harness lines run along the outer edges of the streamline bundle — one above the topmost line, one below the bottommost line — converging at the channel and expanding back out symmetrically; they are more opaque and slightly thicker than the flow lines, rendered in white at 80% opacity, defining the limits within which the flow can act. A small label "harness" in light-grey sans-serif is placed just outside one of the harness lines on the left half of the image, with a minimal hairline connecting to it. At the amber center, a small vertical bar in the same amber tone marks the supervisor presence. A small label "supervisor" in the same light-grey sans-serif is placed just above or below the amber bar, with a minimal hairline connecting to it. Labels feel like technical annotations — quiet, precise, not decorative. Palette: near-black background, white/light-grey for flow lines and harness lines, muted amber at center. Flat, no depth of field. Aspect ratio 16:9.
 
 *Conteúdo:* Os nomes que a indústria está encontrando. Os nomes vão mudar. O que eles descrevem não.
 
 ---
 
-**Slide 22b — O canal alargado**
+**Slide 16 — O canal alargado**
 *Visual:* Fundo com imagem gerada. Texto sobreposto, uma linha, tipografia média, branco: "A AI alargou o canal."
 
 > **Prompt de imagem (âncora A7):** Minimalist abstract flow illustration on a near-black background (#0d0d14), vector-illustration style, 16:9. Multiple streamlines — smooth, curved parallel lines — run across the full width of the composition, wider and more numerous than in the harness/supervisor slide: the channel itself is wider, the flow denser. The lines taper toward a center channel and expand back out, same shape as before, but with more lines and greater spread. Two harness lines run along the outer edges of the streamline bundle, rendered in white at 80%, converging and expanding with the flow. At the harness lines, short diagonal tick marks point outward — the guardrail has expanded, the boundary moved outward to contain the larger flow. At the center channel, a vertical amber bar marks the supervisor presence; from the top and bottom of this bar, short vertical arrows extend upward and downward — the supervisor is scaling, governing more throughput than before. The overall impression: same system, wider capacity, same human control structure. Palette: near-black background, white/light-grey streamlines and harness, muted amber (#c8882a) at center. Flat, no depth of field. Aspect ratio 16:9.
 
-*Conteúdo:* A AI alargou o canal. O harness e o supervisor continuam — mas governam um fluxo maior. O papel do engenheiro não foi eliminado. Foi escalado.
+*Conteúdo:* A AI alargou o canal. O harness e o supervisor continuam, mas governam um fluxo maior. O papel do engenheiro não foi eliminado. Foi escalado.
 
 ---
 
-**Slide 23 — Fechamento**
+**Slide 17 — Fechamento**
 *Visual:* Fundo com imagem gerada. Texto sobreposto, duas linhas, tipografia ampla, branco:
 "O processo não mudou."
 "Você sempre soube fazer isso. Agora tem nome."
 
 > **Prompt de imagem:** Cinematic abstract background for a closing presentation slide, 16:9. A long empty corridor or tunnel, viewed from straight-on perspective — perfectly centered vanishing point. The corridor is modern and geometric: clean concrete or dark metal walls, receding into a distant point of faint warm light. The near end (foreground) is in almost total darkness; the far end glows dimly, suggesting continuation rather than termination. No figures. No labels. No windows. The corridor should feel like time or process — something that was always there, that you always had to walk through, that hasn't changed even if the speed has. Photorealistic or cinematic digital painting. Palette: near-monochromatic dark charcoal and near-black, with a single warm amber-white glow at the vanishing point. The mood is quiet, honest, and slightly sobering — not triumphant, not tragic. Just clear.
 
-*Nota visual:* Exceção intencional ao sistema de streamlines — o corredor encerra com uma metáfora de continuidade (processo que sempre existiu, não mudou) em vez de permanecer no vocabulário visual técnico. O visual spine completou seu arco no slide 22b.
+*Nota visual:* Exceção intencional ao sistema de streamlines — o corredor encerra com uma metáfora de continuidade em vez de permanecer no vocabulário técnico. O visual spine completou seu arco no slide 16.
 *Conteúdo:* Última linha falada. Slide fica na tela enquanto abre para perguntas.
