@@ -235,6 +235,38 @@ O processo não mudou. Você sempre soube fazer isso. Agora tem nome.
 
 ## Slides Sugeridos
 
+### Âncora visual — Espinha dorsal da apresentação
+
+A apresentação organiza-se em torno de sete imagens âncora que formam uma narrativa visual progressiva e coerente. Esta âncora existe para que o juiz possa avaliar cada slide com imagem contra a lógica do sistema visual completo — não slide a slide em isolamento, mas como sequência.
+
+**A metáfora central:** um feixe de streamlines — linhas curvas fluindo horizontalmente, mais amplas nas bordas, afunilando num canal estreito no centro, e expandindo simetricamente de volta. A forma é sempre a mesma. O que muda é o que está sobre ela e o que ela carrega de significado.
+
+**As sete âncoras:**
+
+**A1 — Descoberta:** Mapa parcialmente revelado com névoa de guerra. Uma figura humana na zona de clareza, olhando para o desconhecido. O território conhecido tem contornos cartográficos visíveis no fundo limpo. O resto: névoa densa. Introduz ignorância de 2ª ordem sem nomear.
+
+**A2 — Espectro:** Textura pura em duas zonas — linguagem natural (esquerda, cursiva, caótica) e código estruturado (direita, monospaced, preciso). Centro escuro, sem elemento de conexão. Os dois polos ainda separados.
+
+**A3 — Semente do gargalo:** Mesma textura que A2, mas streamlines emergem no centro em baixa opacidade (15%). A forma do funil aparece antes de ter nome. "O gargalo não desaparece. Muda de endereço."
+
+**A4 — Loop de desambiguação:** Streamlines ao fundo, contínuas. Sobre elas, o ciclo D1/D2 como overlay. No ponto de convergência das streamlines — o centro horizontal — o âmbar (#c8882a) aparece: é onde a decisão humana ocorre, onde os dois ciclos se tocam.
+
+**A5 — Transição:** Apenas streamlines. Sem D1/D2, sem âmbar, sem anotações. O fluxo puro. Slide de respiro entre a demo e o fechamento.
+
+**A6 — Papeis nomeados:** Harness (linhas externas do feixe, branco 80%, guardrails) + supervisor (barra âmbar vertical no centro). Labels discretos como anotações técnicas. Os dois papeis do engenheiro nomeados visualmente.
+
+**A7 — Canal alargado pela AI:** Streamlines em maior densidade. Setas diagonais marcam os harness limits expandidos. Setas verticais crescem a partir do centro (supervisor scaling). A AI alargou o canal; harness e supervisor continuam — mas governam um fluxo maior.
+
+**Regras do sistema visual:**
+- Fundo: near-black (#0d0d14)
+- Streamlines: branco ou cinza claro, sem setas de direção
+- Âmbar (#c8882a): exclusivo para marcadores de decisão humana
+- Harness lines: branco 80%, levemente mais espessas que as streamlines
+- Estilo: vector-illustration, flat, zero profundidade de campo
+- Labels (quando presentes): sans-serif cinza claro, anotação técnica
+
+O juiz deve verificar: (1) se cada prompt de imagem está alinhado com a âncora correspondente, (2) se a progressão A1→A7 é coerente com o arco narrativo, (3) se o texto falado em cada slide com imagem está em harmonia com o que a imagem comunica.
+
 ---
 
 **Slide 1 — Título**
@@ -325,7 +357,7 @@ Sei que não sei X      →  1ª ordem  (visível, atacável)
 **Slide 9 — O scout**
 *Visual:* Imagem gerada, full-bleed, ocupando todo o slide. Sem texto sobreposto além da legenda discreta na base.
 
-> **Prompt de imagem:** Minimalist vector illustration on a near-black background (#0d0d14), 16:9, flat vector-illustration style — no painterly texture, no depth of field. The majority of the frame is filled with a dense semi-opaque layer of tiny near-white particles suggesting fog or unknown territory — flat, not volumetric. At the lower-left region, a circular zone of clarity opens: the fog dissolves here, revealing the clean dark background beneath. The boundary between fog and clarity glows faintly in muted amber (#c8882a) — a soft luminous edge, not dramatic, just warm. At the center of the cleared zone, a minimal anonymous figure: a simple white silhouette, gender-neutral, no detail. The figure stands at the amber boundary facing toward the fog. No terrain, no landscape, no topography — just the figure, the cleared zone, and the fog pressing in from all other sides. Palette: near-black background, near-white fog particles, white figure, muted amber at the boundary only. Flat, vector-illustration aesthetic. Aspect ratio 16:9. The emotional register is quiet and deliberate — not heroic, not dramatic.
+> **Prompt de imagem (âncora A1):** Minimalist vector illustration on a near-black background (#0d0d14), 16:9, flat vector-illustration style — no painterly texture, no depth of field. The majority of the frame is filled with a dense semi-opaque layer of tiny near-white particles suggesting fog or unknown territory — flat, not volumetric. At the lower-left region, a circular zone of clarity opens: the fog dissolves here, revealing the clean dark background beneath. Within the cleared zone, subtle topographic contour lines and a faint cartographic grid are visible on the dark background — rendered in white at 10% opacity, the visual language of a partially-revealed map, suggesting that what was hidden is now territory that can be named and traversed. The boundary between fog and clarity glows faintly in muted amber (#c8882a) — a soft luminous edge, not dramatic, just warm. At the center of the cleared zone, a minimal anonymous figure: a simple white silhouette, gender-neutral, no detail. The figure stands at the amber boundary facing toward the fog. Palette: near-black background, near-white fog particles, faint white map contours in the cleared zone, white figure, muted amber at the boundary only. Flat, vector-illustration aesthetic. Aspect ratio 16:9. The emotional register is quiet and deliberate — not heroic, not dramatic.
 
 *Legenda no slide (fonte pequena, base):* "Ação barata cujo propósito não é conquistar território, mas remover névoa."
 *Conteúdo:* O hello world em produção como scout. A ação que revela o que não estava no backlog.
@@ -373,9 +405,7 @@ Sei que não sei X      →  1ª ordem  (visível, atacável)
 **Slide 14 — O loop**
 *Visual:* Diagrama circular gerado ou desenhado, sobre fundo escuro. Dois nós conectados por dois arcos opostos formando um ciclo fechado.
 
-> **Prompt de imagem (se quiser ilustrado em vez de diagrama):** Minimalist circular diagram on a near-black background (#0d0d14), rendered in a clean vector-illustration style. Two nodes positioned at top and bottom of an implied circle, slightly offset horizontally. Top node: a soft-edged rectangle labeled "D2" in light-grey sans-serif, subtly glowing. Bottom node: a soft-edged rectangle labeled "D1", same treatment. Two arcs connect them — one flowing clockwise on the right side, one counter-clockwise on the left. Each arc has a directional arrow at its midpoint and a short text label along the curve: right arc reads "tentar resolver D2 revela D1", left arc reads "resolver D1 abre espaço para D2". The arcs are rendered as smooth gradient lines — slightly luminous, white transitioning to muted amber, suggesting flow and energy. The overall composition is centered, symmetrical, elegant. No decorative elements. No shadows. The palette is near-monochromatic: dark background, white/light-grey text and nodes, amber accent on the arc arrows. Aspect ratio 16:9.
-
-> **Alternativa como design spec (Figma/Keynote):** Dois retângulos arredondados centrados verticalmente com espaçamento generoso. Arcos curvos com setas direcionais. Fonte: Inter ou similar, 16–18pt para labels dos arcos. Cor dos arcos: branco com 70% opacidade. Nós: borda branca 1px, fill transparente ou dark-grey (#1f1f1f).
+> **Prompt de imagem (âncora A4):** Minimalist abstract diagram on a near-black background (#0d0d14), flat vector-illustration style, 16:9. Background layer: multiple smooth curved streamlines run horizontally across the full width — widest at both edges, tapering toward a narrow channel at the exact horizontal midpoint, then expanding symmetrically back out. Lines rendered in white at 20% opacity — present as a shape, not dominant. Foreground layer: a minimal circular diagram centered on the composition. Two soft-edged rectangular nodes — one at the top and one at the bottom of an implied circle, slightly offset horizontally. Top node labeled "D2" in light-grey sans-serif; bottom node labeled "D1", same treatment. Two smooth arcs connect the nodes — one clockwise on the right, one counter-clockwise on the left. Each arc has a small directional arrow at midpoint and a short label along the curve: right arc reads "tentar resolver D2 revela D1", left arc reads "resolver D1 abre espaço para D2". At the center of the diagram — where the arcs cross and where the streamlines converge — a subtle amber glow (#c8882a) marks the point of human decision: where disambiguation happens. Arcs rendered as gradient lines, white transitioning to muted amber toward the center. Overall: centered, symmetrical. No decorative elements. No shadows. Palette: near-black, white/light-grey, amber accent at center only. Aspect ratio 16:9.
 
 *Conteúdo:* As dimensões não são sequenciais. O ciclo é o processo. A IA quebra esse ciclo ao não pausar.
 
@@ -432,6 +462,15 @@ AGORA: "O que desambiguamos, e em qual dimensão?"
 
 ---
 
+**Slide 20b — [transição]**
+*Visual:* Fundo com imagem gerada. Sem texto sobreposto.
+
+> **Prompt de imagem (âncora A5):** Minimalist abstract illustration on a near-black background (#0d0d14), flat vector-illustration style, 16:9. Multiple smooth curved streamlines run horizontally across the full width of the composition — widest at both the left and right edges, tapering gradually toward a narrow channel at the exact horizontal midpoint, then expanding symmetrically back out. Lines rendered in white at 40% opacity. Nothing else in the composition — no labels, no amber, no harness lines, no annotations, no diagram overlay. The streamlines are the only element. The shape is the message: flow constrained through a channel and continuing out the other side. Flat, vector-illustration. Aspect ratio 16:9.
+
+*Conteúdo:* Pausa visual entre a demo e o fechamento. O palestrante não fala. A imagem fica 3–5 segundos antes de avançar. A forma do sistema está lá — o que falta nomear são os papeis.
+
+---
+
 **Slide 21 — O fator limitante**
 *Visual:* Fundo com imagem editada a partir do slide 22. Texto sobreposto: "Esse humano é o fator limitante." em tipografia grande, branco, centrado ou alinhado à esquerda.
 
@@ -447,6 +486,15 @@ AGORA: "O que desambiguamos, e em qual dimensão?"
 > **Prompt de imagem:** Minimalist abstract flow illustration on a near-black background (#0d0d14), vector-illustration style, 16:9. Multiple streamlines — smooth, curved parallel lines suggesting continuous horizontal flow — run across the full width of the composition. The lines are widest at both the left and right edges, filling most of the vertical space there. They taper gradually toward a narrow channel at the exact horizontal midpoint, then expand symmetrically back out on the right side. The lines pass through the center unbroken. At the narrow channel, a subtle amber warmth (#c8882a) bleeds into the lines. Two harness lines run along the outer edges of the streamline bundle — one above the topmost line, one below the bottommost line — converging at the channel and expanding back out symmetrically; they are more opaque and slightly thicker than the flow lines, rendered in white at 80% opacity, defining the limits within which the flow can act. A small label "harness" in light-grey sans-serif is placed just outside one of the harness lines on the left half of the image, with a minimal hairline connecting to it. At the amber center, a small vertical bar in the same amber tone marks the supervisor presence. A small label "supervisor" in the same light-grey sans-serif is placed just above or below the amber bar, with a minimal hairline connecting to it. Labels feel like technical annotations — quiet, precise, not decorative. Palette: near-black background, white/light-grey for flow lines and harness lines, muted amber at center. Flat, no depth of field. Aspect ratio 16:9.
 
 *Conteúdo:* Os nomes que a indústria está encontrando. Os nomes vão mudar. O que eles descrevem não.
+
+---
+
+**Slide 22b — O canal alargado**
+*Visual:* Fundo com imagem gerada. Texto sobreposto, uma linha, tipografia média, branco: "A AI alargou o canal."
+
+> **Prompt de imagem (âncora A7):** Minimalist abstract flow illustration on a near-black background (#0d0d14), vector-illustration style, 16:9. Multiple streamlines — smooth, curved parallel lines — run across the full width of the composition, wider and more numerous than in the harness/supervisor slide: the channel itself is wider, the flow denser. The lines taper toward a center channel and expand back out, same shape as before, but with more lines and greater spread. Two harness lines run along the outer edges of the streamline bundle, rendered in white at 80%, converging and expanding with the flow. At the harness lines, short diagonal tick marks point outward — the guardrail has expanded, the boundary moved outward to contain the larger flow. At the center channel, a vertical amber bar marks the supervisor presence; from the top and bottom of this bar, short vertical arrows extend upward and downward — the supervisor is scaling, governing more throughput than before. The overall impression: same system, wider capacity, same human control structure. Palette: near-black background, white/light-grey streamlines and harness, muted amber (#c8882a) at center. Flat, no depth of field. Aspect ratio 16:9.
+
+*Conteúdo:* A AI alargou o canal. O harness e o supervisor continuam — mas governam um fluxo maior. O papel do engenheiro não foi eliminado. Foi escalado.
 
 ---
 
