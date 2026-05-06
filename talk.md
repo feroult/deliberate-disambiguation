@@ -288,6 +288,15 @@ Ambígua, rica, implícita             Precisa, executável, literal
 
 ---
 
+**Slide 6b — O gargalo muda de endereço**
+*Visual:* Fundo com imagem gerada. Texto sobreposto, centrado, tipografia média: "O gargalo não desaparece. Muda de endereço."
+
+> **Prompt de imagem:** Minimalist abstract background for a presentation slide, 16:9, near-black background (#0d0d14). Multiple smooth curved streamlines run horizontally across the full width — the same flow shape that will reappear in the closing slides, but rendered here as a ghost: all lines at 15% opacity, white, no amber, no labels, no harness lines. The lines converge gently toward the horizontal midpoint and expand back out symmetrically. The convergence is barely visible — present as a shape, not as a concept. The foreground is empty, leaving room for overlaid text. The image should feel like a shadow of something that hasn't been named yet. Flat, vector-illustration aesthetic. No depth of field. Aspect ratio 16:9.
+
+*Conteúdo:* Última linha da seção 2. O speaker fala e avança sem explicar. A imagem fica por alguns segundos — o visual do funil plantado antes de ter nome.
+
+---
+
 **Slide 7 — A tese de North**
 *Visual:* Duas linhas, a segunda em destaque:
 "A verdadeira restrição não era velocidade de execução."
