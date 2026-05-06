@@ -441,3 +441,114 @@ Gerar esta imagem primeiro — o slide 14 é uma edição dela.
 
 *Nota visual:* Exceção intencional ao sistema de streamlines — o corredor encerra com uma metáfora de continuidade em vez de permanecer no vocabulário técnico. O visual spine completou seu arco no slide 16.
 *Conteúdo:* Última linha falada. Slide fica na tela enquanto abre para perguntas.
+
+---
+
+## Palácio Mental
+
+*Âncora visual → ideia central → quando clicar.*
+
+---
+
+### Abertura (slides 1–2)
+
+**[1] Título** — dois mundos fluindo para um canal estreito
+Começa falando antes de avançar. Faz o exercício inteiro: "Feche os olhos..."
+→ **clica em:** "Duas perguntas:"
+
+**[2] O exercício** — duas perguntas na tela
+*(pausa longa — deixa a audiência pensar)*
+**Punchline:** "A pergunta não é o que a AI mudou. É o que ela revelou."
+→ **clica depois** da última linha.
+
+---
+
+### Mecanismo (slides 3–4)
+
+**[3] O espectro** — diagrama + "Engenharia de Software" no centro
+**Punchline:** "Formalizar é escolher: de muitos significados que funcionariam, um único vai executar."
+→ **clica em:** "O gargalo não desaparece. Muda de endereço."
+
+**[4] Gargalo** — streamlines fantasma, sem texto
+*(silêncio — 2 a 3 segundos. Não fala.)*
+→ **clica** em silêncio.
+
+---
+
+### North (slides 5–6)
+
+**[5] Taxonomia** — diagrama 2ª ordem → 1ª ordem → Conhecimento
+**Punchline:** "O risco real vem da ignorância que ainda não foi reconhecida como tal."
+→ **clica em:** "É o scout: ação barata cujo propósito não é conquistar território, mas remover névoa."
+
+**[6] Scout** — figura na borda da névoa, âmbar no limite
+**Punchline:** "Esse modelo estava certo. Mas havia uma dimensão inteira que ele não nomeou. E que eu também não vi em 2011."
+→ **clica** ao final da seção 3.
+
+---
+
+### Segunda dimensão (slides 7–9)
+
+**[7] Apagar usuário** — cartão → perguntas em cascata
+*(as perguntas em cascata são o punchline — deixa a audiência ler)*
+→ **clica em:** "Agora para. São três camadas distintas."
+
+**[8] D1 × D2** — tabela
+*(não lê — aponta e comenta)*
+**Punchline:** "As duas dimensões não são pipelines separados. Elas se alimentam."
+→ **clica em:** "O ciclo é o processo."
+
+**[9] O loop** — ciclo D1↔D2, âmbar no centro
+**Punchline:** "A IA formaliza tudo da mesma forma: silenciosamente."
+→ **clica** ao abrir o terminal.
+
+---
+
+### Demo (slides 10–11)
+
+**[10] DEMO** — tela preta
+*(abre terminal, arquivo-fonte | output lado a lado; demo acontece aqui)*
+**Punchline:** "Consistência replica o que foi decidido. Discernimento reconhece quando parar de replicar."
+→ **clica** antes do exemplo de busca de produtos.
+
+**[11] Três prompts** — tabela 3 × 2
+**Punchline:** "'Busca' era uma palavra. Agora é uma decisão."
+→ **clica em:** "Mas desambiguar o vocabulário não é o fim do trabalho."
+
+---
+
+### O que muda (slide 12)
+
+**[12] Percepção arquitetural** — blueprint + linha do tempo
+**Punchline:** "Não a interpretação mais provável. A que é coerente com a trajetória do sistema."
+*(contra-argumento do agente validador vem aqui)*
+→ **clica depois de:** "(Não é pessimismo. É geografia.)" + pausa.
+
+---
+
+### Transição (slide 13)
+
+**[13] Silêncio** — streamlines puras, sem texto
+*(3 a 5 segundos. Não fala. Avança.)*
+→ **clica** em silêncio.
+
+---
+
+### Fechamento (slides 14–17)
+
+**[14] Fator limitante** — A6 sem labels, texto grande na tela
+**Punchline:** "Porque é o único que para quando precisa parar, pergunta quando precisa perguntar."
+→ **clica** depois da *(pausa)*, antes de nomear os papéis.
+
+**[15] Harness / Supervisor** — A6 com labels
+**Punchline:** "Os nomes vão mudar. O que eles descrevem não."
+→ **clica em:** "Os nomes vão mudar. O que eles descrevem não."
+
+**[16] Canal alargado** — streamlines mais densas, setas expandindo
+*(slide aparece; então fala)* "A AI alargou o canal."
+**Punchline:** "O papel do engenheiro não foi eliminado. Foi escalado."
+→ **clica** na *(pausa — olha para a plateia)*.
+
+**[17] Fechamento** — corredor, luz ao fundo
+**Última linha:** "O processo não mudou. Você sempre soube fazer isso. Agora tem nome."
+→ **fica na tela** durante Q&A.
