@@ -217,15 +217,17 @@ Boa notícia: é aí que você está.
 
 ## 6. Fechamento
 
+Esse humano é o fator limitante. Não no sentido de gargalo, de obstáculo que atrasa. No sentido de ponto de decisão: a parte do processo que determina o throughput de todo o resto.
+
+Não porque é mais rápido. Porque é o único que para quando precisa parar, pergunta quando precisa perguntar, e só formaliza quando a intenção já é precisa o suficiente para executar.
+
+*(pausa)*
+
 A indústria está encontrando nomes para esse papel. Harness engineer — quem constrói o scaffold que define onde a máquina pode agir. Supervisor engineer: quem revisa o que ela formalizou silenciosamente.
 
 Os nomes vão mudar. O que eles descrevem não: o humano que sabe desambiguar deliberadamente.
 
-*(pausa)*
-
-Esse humano é o fator limitante. Não no sentido de gargalo, de obstáculo que atrasa. No sentido de ponto de decisão: a parte do processo que determina o throughput de todo o resto.
-
-Não porque é mais rápido. Porque é o único que para quando precisa parar, pergunta quando precisa perguntar, e só formaliza quando a intenção já é precisa o suficiente para executar.
+A AI alargou o canal. O harness e o supervisor continuam, mas governam um fluxo maior. O papel do engenheiro não foi eliminado. Foi escalado.
 
 Parar quando a pressão é para avançar. Perguntar quando todo mundo acha que já sabe a resposta. Você já faz isso. E sabe exatamente o custo de quando não fez.
 
@@ -480,7 +482,7 @@ AGORA: "O que desambiguamos, e em qual dimensão?"
 > **Prompt de edição (a partir da imagem do slide 22):** Remove the two labels ("harness" and "supervisor") and their hairlines. Remove the amber vertical bar at the center, keeping only the ambient amber warmth that bleeds into the streamlines. Do not change the harness lines, the streamlines, the background, or the color palette. The result should be the same composition, clean — no annotations, no markers.
 
 *Nota de produção:* Gerar a imagem do slide 22 primeiro; slide 21 é uma edição dela. A audiência não sabe disso.
-*Conteúdo:* A tese central. Pausa antes de continuar com o porquê.
+*Conteúdo:* Abre a seção 6. O speaker enuncia a tese ("Esse humano é o fator limitante") e a explica antes de avançar para o slide 22 onde nomeia os papeis.
 
 ---
 
