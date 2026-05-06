@@ -74,7 +74,7 @@ Dan North provocava times com um exemplo concreto: coloque um hello world em pro
 
 É o scout: ação barata cujo propósito não é conquistar território, mas remover névoa.
 
-(Ninguém aprova "hello world em produção" na reunião de planejamento. Funciona melhor como "validação de pipeline com artefato de referência mínimo". O conteúdo é o mesmo. A névoa removida, idem.)
+Ninguém aprova "hello world em produção" na reunião de planejamento. Funciona melhor como "validação de pipeline com artefato de referência mínimo". O conteúdo é o mesmo. A névoa removida, idem.
 
 Esse modelo estava certo. Permanece fundacional. Mas havia uma dimensão inteira que ele não nomeou. E que eu também não vi em 2011.
 
@@ -149,7 +149,7 @@ O gap diminuiu. O documento está convergindo.
 
 O processo para quando não há mais ambiguidade resolvível sem input do autor. Nesse ponto, o que resta são escolhas de Dimensão 1: intenção que só quem escreveu pode definir. O modelo para. Pergunta. E continua só quando a resposta chega.
 
-Exatamente aí o humano é insubstituível. E não apenas porque o modelo para: consistência replica o que foi decidido, discernimento reconhece quando parar de replicar. São coisas diferentes.
+Exatamente aí o humano é insubstituível. E não só porque o modelo para. Consistência replica o que foi decidido. Discernimento reconhece quando parar de replicar. São coisas diferentes.
 
 ---
 
@@ -243,7 +243,7 @@ A apresentação organiza-se em torno de sete imagens âncora que formam uma nar
 
 **A1 — Descoberta:** Mapa parcialmente revelado com névoa de guerra. Uma figura humana na zona de clareza, olhando para o desconhecido. O território conhecido tem contornos cartográficos visíveis no fundo limpo. O resto: névoa densa. Introduz ignorância de 2ª ordem sem nomear.
 
-**A2 — Espectro:** Textura pura em duas zonas — linguagem natural (esquerda, cursiva, caótica) e código estruturado (direita, monospaced, preciso). Centro escuro, sem elemento de conexão. Os dois polos ainda separados.
+**A2 — Espectro:** Textura em duas zonas — linguagem natural (esquerda, cursiva, caótica) e código estruturado (direita, monospaced, preciso). No centro, ghost streamlines em 10% de opacidade já estão presentes mas quase invisíveis: A2 e A3 coexistem na mesma imagem (slide 1), usada novamente no slide 5. A separação conceitual entre A2 (polos separados) e A3 (streamlines emergindo) é narrativa, não visual: a forma já está lá desde o início, esperando ser reconhecida.
 
 **A3 — Semente do gargalo:** Mesma textura que A2, mas streamlines emergem no centro em baixa opacidade (15%). A forma do funil aparece antes de ter nome. "O gargalo não desaparece. Muda de endereço."
 
