@@ -277,7 +277,9 @@ LINGUAGEM NATURAL ─────────────────► LINGUAG
 Ambígua, rica, implícita             Precisa, executável, literal
 ```
 
-*Conteúdo:* O mecanismo central. Palestrante explica os dois polos antes de mostrar o slide; o diagrama confirma. A imagem de fundo já mostrava isso — o diagrama agora nomeia.
+No ponto de convergência das streamlines do background — o centro horizontal do slide — um label pequeno em fonte sans-serif light, cinza claro, baixa opacidade: "Engenharia de Software". Posicionado discretamente, como uma anotação técnica. Não é o foco do slide; é o que está no meio do espectro, nomeado antes de ser explicado.
+
+*Conteúdo:* O mecanismo central. Palestrante explica os dois polos antes de mostrar o slide; o diagrama confirma. A imagem de fundo já mostrava isso — o diagrama agora nomeia. O label no centro planta onde a engenharia vive nesse espectro.
 
 ---
 
