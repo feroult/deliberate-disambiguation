@@ -487,7 +487,10 @@ AGORA: "O que desambiguamos, e em qual dimensão?"
 ---
 
 **Slide 22 — Harness / Supervisor**
-*Visual:* Fundo com imagem gerada. Texto sobreposto com os dois papeis. Gerar esta imagem primeiro — o slide 21 é uma edição dela.
+*Visual:* Fundo com imagem gerada. Texto sobreposto, duas linhas, tipografia média, branco:
+"Harness engineer."
+"Supervisor engineer."
+Gerar esta imagem primeiro — o slide 21 é uma edição dela.
 
 > **Prompt de imagem:** Minimalist abstract flow illustration on a near-black background (#0d0d14), vector-illustration style, 16:9. Multiple streamlines — smooth, curved parallel lines suggesting continuous horizontal flow — run across the full width of the composition. The lines are widest at both the left and right edges, filling most of the vertical space there. They taper gradually toward a narrow channel at the exact horizontal midpoint, then expand symmetrically back out on the right side. The lines pass through the center unbroken. At the narrow channel, a subtle amber warmth (#c8882a) bleeds into the lines. Two harness lines run along the outer edges of the streamline bundle — one above the topmost line, one below the bottommost line — converging at the channel and expanding back out symmetrically; they are more opaque and slightly thicker than the flow lines, rendered in white at 80% opacity, defining the limits within which the flow can act. A small label "harness" in light-grey sans-serif is placed just outside one of the harness lines on the left half of the image, with a minimal hairline connecting to it. At the amber center, a small vertical bar in the same amber tone marks the supervisor presence. A small label "supervisor" in the same light-grey sans-serif is placed just above or below the amber bar, with a minimal hairline connecting to it. Labels feel like technical annotations — quiet, precise, not decorative. Palette: near-black background, white/light-grey for flow lines and harness lines, muted amber at center. Flat, no depth of field. Aspect ratio 16:9.
 
