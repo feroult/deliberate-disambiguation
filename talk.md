@@ -270,14 +270,14 @@ O processo não mudou. Você sempre soube fazer isso. Agora tem nome.
 ---
 
 **Slide 5 — O espectro**
-*Visual:* O diagrama do espectro em tipografia monospace limpa:
+*Visual:* Mesmo background do slide 1 (reutilizar a imagem gerada). Diagrama monospace sobreposto, centrado:
 
 ```
 LINGUAGEM NATURAL ─────────────────► LINGUAGEM FORMAL
 Ambígua, rica, implícita             Precisa, executável, literal
 ```
 
-*Conteúdo:* O mecanismo central. Palestrante explica os dois polos antes de mostrar o slide; o diagrama confirma.
+*Conteúdo:* O mecanismo central. Palestrante explica os dois polos antes de mostrar o slide; o diagrama confirma. A imagem de fundo já mostrava isso — o diagrama agora nomeia.
 
 ---
 
