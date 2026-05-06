@@ -22,7 +22,7 @@ A segunda lista é o que o projeto produziu de mais valioso. Não o código. O c
 
 Desenvolvimento de software, nesse sentido, é um processo de aprendizado. O software é o que sobra. O aprendizado é o que acumula.
 
-Se a lista do que você faria diferente é mais longa — o projeto funcionou. Você saiu dele sabendo mais do que entrou. Esse é o trabalho.
+Se a lista do que você faria diferente é mais longa, o projeto funcionou. Você saiu dele sabendo mais do que entrou. Esse é o trabalho.
 
 A pergunta não é o que a AI mudou. É o que ela revelou.
 
@@ -88,17 +88,17 @@ Quando você senta para formalizar, as perguntas começam.
 
 Apagar significa remover permanentemente ou marcar como inativo? O que acontece com o conteúdo que ele criou? Com os pedidos em aberto? Com os registros de auditoria? O usuário é notificado? Pode ser reativado?
 
-Agora para. Olha essas perguntas com cuidado.
+Agora para. Olha essas perguntas com cuidado. São três camadas distintas.
 
 Algumas são semânticas: o que "apagar" significa nesse domínio? Essas existem na linguagem. A frase era ambígua e a conversa nunca precisou resolver.
 
 Outras são de domínio: o usuário *pode* ser reativado? Por quanto tempo os dados precisam ser retidos? Você não sabe. Nunca perguntou ao negócio. Não é imprecisão da linguagem. É ignorância sobre o mundo. A tentativa de precisar a D2 revelou uma D1 escondida embaixo.
 
-E mesmo depois de responder as duas — depois de decidir que "apagar" significa soft delete, que dados ficam por 90 dias, que a reativação é possível por administrador — ainda há uma camada que a especificação não alcança. Onde esse estado "inativo" vive? Que impacto tem nos relatórios, nas integrações, nos índices de busca? Que decisões de hoje vão custar caro quando o compliance mudar?
+E mesmo depois de decidir tudo isso (soft delete, 90 dias de retenção, reativação por administrador), ainda há uma camada que a especificação não alcança. Onde esse estado "inativo" vive? Que impacto tem nos relatórios, nas integrações, nos índices de busca? Que decisões de hoje vão custar caro quando o compliance mudar?
 
 Essas não são perguntas sobre palavras. São perguntas sobre como a decisão se encaixa no sistema que está sendo construído, e no que ele vai se tornar.
 
-Essa é a Dimensão 2 em sua forma completa: não só a imprecisão da linguagem, mas a ambiguidade de formalização que persiste mesmo depois que a linguagem foi precisada. E que só um engenheiro com visão do sistema inteiro — sua história, sua trajetória, suas restrições implícitas — consegue navegar.
+Essa é a Dimensão 2 em sua forma completa: não só a imprecisão da linguagem, mas a ambiguidade de formalização que persiste mesmo depois que a linguagem foi precisada. Só um engenheiro que carrega o histórico do sistema, sua trajetória e suas restrições implícitas, consegue navegar.
 
 | | Dimensão 1 | Dimensão 2 |
 |---|---|---|
@@ -109,7 +109,7 @@ Essa é a Dimensão 2 em sua forma completa: não só a imprecisão da linguagem
 
 As duas dimensões não são pipelines separados. Elas se alimentam. Tentar resolver D2 revela D1. Resolver D1 abre espaço para precisar D2. O ciclo é o processo.
 
-O que tornava isso gerenciável era o programador humano: encontrava imprecisão na especificação, pausava, perguntava, resolvia — e quando a resposta dependia do mundo, ia buscar. Operava nos dois modos, no mesmo ato de construir.
+O que tornava isso gerenciável era o programador humano: encontrava imprecisão na especificação, pausava, perguntava, resolvia. Quando a resposta dependia do mundo, ia buscar. Operava nos dois modos, no mesmo ato de construir.
 
 A IA não tem esse mecanismo. Escolhe a interpretação mais provável e executa. Não pausa. Não pergunta. Não distingue o que é ambiguidade de linguagem do que é ignorância sobre o domínio. Formaliza tudo da mesma forma: silenciosamente.
 
@@ -177,11 +177,11 @@ Mas desambiguar o vocabulário não é o fim do trabalho. É só o início de um
 
 Escolha a terceira opção: filtragem client-side. Você desambiguou. "Busca" agora tem um significado preciso nesse contexto. E ainda assim, o engenheiro que vai formalizar essa intenção precisa fazer escolhas que a especificação não faz.
 
-Isso é uma feature de catálogo pequeno, ou vai ter dez mil produtos? O filtro vive no cliente hoje — e quando vier a versão mobile? Essa decisão abre ou fecha o caminho para busca semântica daqui a dois sprints?
+Isso é uma feature de catálogo pequeno, ou vai ter dez mil produtos? O filtro vive no cliente hoje. E quando vier a versão mobile? Essa decisão abre ou fecha o caminho para busca semântica daqui a dois sprints?
 
 Essas perguntas não são sobre o que "filtrar" significa. São sobre onde essa decisão se encaixa no sistema que está sendo construído. Um engenheiro com percepção arquitetural tem um modelo de onde o sistema está indo, e usa esse modelo para escolher a formalização que preserva as opções que vão importar. Não a interpretação mais provável. A que é coerente com a trajetória do sistema.
 
-Se você já disse "isso vai virar problema" antes de abrir o editor — você já fez isso. A palestra não está ensinando o que você não sabe. Está dando nome ao que você já faz.
+Se você já disse "isso vai virar problema" antes de abrir o editor, você já fez isso. A palestra não está ensinando o que você não sabe. Está dando nome ao que você já faz.
 
 A máquina não tem esse modelo. Formaliza silenciosamente. O resultado pode ser correto agora e incoerente daqui a seis meses.
 
@@ -191,7 +191,7 @@ Alguém aqui está pensando: mas dá pra resolver isso com outro agente. Um agen
 
 Honestamente? Eu pensei nisso também.
 
-É uma ideia razoável. E funciona — em parte.
+É uma ideia razoável. Funciona, em parte.
 
 O agente pode verificar se a nova formalização contradiz o que já foi decidido. Isso é útil e real. Mas note o que você precisou passar para ele: um modelo do sistema. Sua estrutura atual, suas convenções, suas fronteiras.
 
@@ -201,13 +201,15 @@ Esse modelo não existe em nenhum arquivo. Ele existe na cabeça de quem esteve 
 
 Você pode criar um agente que valida contra o sistema de hoje. Mas quem define o modelo do sistema de amanhã? De volta ao engenheiro. O problema não foi eliminado. Foi movido para onde sempre esteve.
 
-O agente precisa do modelo para funcionar. O modelo relevante é o de amanhã — e o engenheiro que o carrega é o mesmo que reconhece quando o padrão passado deixou de ser a resposta certa. Consistência replica. Discernimento percebe quando parar de replicar.
+O agente precisa do modelo para funcionar. O modelo relevante é o de amanhã. E o engenheiro que o carrega é o mesmo que reconhece quando o padrão passado deixou de ser a resposta certa. Consistência replica. Discernimento percebe quando parar de replicar.
 
 Não é um gargalo humano num processo que a máquina poderia assumir. É a fonte sem a qual o processo não tem direção.
 
 (Não é pessimismo. É geografia.)
 
 Boa notícia: é aí que você está.
+
+*(avança para o slide de transição; fica em silêncio por alguns segundos)*
 
 ---
 
@@ -219,7 +221,7 @@ Os nomes vão mudar. O que eles descrevem não: o humano que sabe desambiguar de
 
 *(pausa)*
 
-Esse humano é o fator limitante — não no sentido de gargalo, de obstáculo que atrasa. No sentido de ponto de decisão: a parte do processo que determina o throughput de todo o resto.
+Esse humano é o fator limitante. Não no sentido de gargalo, de obstáculo que atrasa. No sentido de ponto de decisão: a parte do processo que determina o throughput de todo o resto.
 
 Não porque é mais rápido. Porque é o único que para quando precisa parar, pergunta quando precisa perguntar, e só formaliza quando a intenção já é precisa o suficiente para executar.
 
@@ -441,6 +443,7 @@ AGORA: "O que desambiguamos, e em qual dimensão?"
 
 > **Design spec do diagrama (Figma/Keynote):** Linha horizontal centralizada, cor branca 60% opacidade, ocupando 70% da largura do slide. Três pontos na linha: círculo preenchido de 10px cada. Label acima de cada ponto em fonte regular 14pt. Seta pontilhada no sentido esquerda→direita com espaçamento de traço irregular (sugerindo incerteza/futuro). Ponto 1: "hoje — filtragem client-side". Ponto 2: "sprint +2 — busca semântica?" (com ponto de interrogação explícito, cor levemente mais fraca). Ponto 3: "versão mobile" (ainda mais fraco, quase fantasma). Perguntas arquiteturais listadas abaixo da linha em 12pt, cor cinza claro.
 
+*Nota visual:* Exceção intencional ao sistema de streamlines — o fundo de esquema técnico serve ao contexto específico de percepção arquitetural; o visual spine retoma no slide 20b.
 *Conteúdo:* O que a especificação não faz. O modelo mental do sistema que só existe na cabeça de quem esteve lá.
 
 ---
