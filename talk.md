@@ -47,6 +47,8 @@ Formalizar é escolher: de muitos significados que funcionariam, um único vai e
 
 Esse processo sempre existiu. O que variou foi o custo de cada passo. E o que acontece quando esse custo vai a zero.
 
+O gargalo não desaparece. Muda de endereço.
+
 ---
 
 ## 3. O que Dan North nomeou, e o que ele deixou de fora
@@ -112,6 +114,8 @@ O que tornava isso gerenciável era o programador humano: encontrava imprecisão
 A IA não tem esse mecanismo. Escolhe a interpretação mais provável e executa. Não pausa. Não pergunta. Não distingue o que é ambiguidade de linguagem do que é ignorância sobre o domínio. Formaliza tudo da mesma forma: silenciosamente.
 
 Quando formalizar passou a custar minutos, a Dimensão 2 deixou de ter quem a detectasse.
+
+A velocidade aumentou. A pergunta sobre o papel do engenheiro ficou impossível de ignorar.
 
 O que eu não vi em 2011 ficou impossível de ignorar.
 
