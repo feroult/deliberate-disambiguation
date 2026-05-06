@@ -92,11 +92,11 @@ Agora para. Olha essas perguntas com cuidado.
 
 Algumas são semânticas: o que "apagar" significa nesse domínio? Essas existem na linguagem. A frase era ambígua e a conversa nunca precisou resolver.
 
-Outras são de domínio: o usuário *pode* ser reativado? Por quanto tempo os dados precisam ser retidos? Você não sabe — porque nunca perguntou ao negócio. Não é imprecisão da linguagem. É ignorância sobre o mundo. A tentativa de precisar a D2 revelou uma D1 escondida embaixo.
+Outras são de domínio: o usuário *pode* ser reativado? Por quanto tempo os dados precisam ser retidos? Você não sabe. Nunca perguntou ao negócio. Não é imprecisão da linguagem. É ignorância sobre o mundo. A tentativa de precisar a D2 revelou uma D1 escondida embaixo.
 
 E mesmo depois de responder as duas — depois de decidir que "apagar" significa soft delete, que dados ficam por 90 dias, que a reativação é possível por administrador — ainda há uma camada que a especificação não alcança. Onde esse estado "inativo" vive? Que impacto tem nos relatórios, nas integrações, nos índices de busca? Que decisões de hoje vão custar caro quando o compliance mudar?
 
-Essas não são perguntas sobre palavras. São perguntas sobre como a decisão se encaixa no sistema que está sendo construído — e no sistema que ele vai se tornar.
+Essas não são perguntas sobre palavras. São perguntas sobre como a decisão se encaixa no sistema que está sendo construído, e no que ele vai se tornar.
 
 Essa é a Dimensão 2 em sua forma completa: não só a imprecisão da linguagem, mas a ambiguidade de formalização que persiste mesmo depois que a linguagem foi precisada. E que só um engenheiro com visão do sistema inteiro — sua história, sua trajetória, suas restrições implícitas — consegue navegar.
 
@@ -183,8 +183,6 @@ Essas perguntas não são sobre o que "filtrar" significa. São sobre onde essa 
 
 Se você já disse "isso vai virar problema" antes de abrir o editor — você já fez isso. A palestra não está ensinando o que você não sabe. Está dando nome ao que você já faz.
 
-O gut feeling do engenheiro sênior é isso: percepção contextual de como as decisões de hoje constrangem as de amanhã, numa forma de desambiguação que a especificação não consegue capturar e que a máquina no piloto automático não tem como fazer.
-
 A máquina não tem esse modelo. Formaliza silenciosamente. O resultado pode ser correto agora e incoerente daqui a seis meses.
 
 *(nova linha de argumento)*
@@ -225,7 +223,7 @@ Esse humano é o fator limitante — não no sentido de gargalo, de obstáculo q
 
 Não porque é mais rápido. Porque é o único que para quando precisa parar, pergunta quando precisa perguntar, e só formaliza quando a intenção já é precisa o suficiente para executar.
 
-Parar quando a pressão é para avançar. Perguntar quando todo mundo acha que já sabe a resposta. Você já faz isso — e sabe exatamente o custo de quando não fez.
+Parar quando a pressão é para avançar. Perguntar quando todo mundo acha que já sabe a resposta. Você já faz isso. E sabe exatamente o custo de quando não fez.
 
 *(pausa — olha para a plateia)*
 
@@ -317,7 +315,7 @@ No ponto de convergência das streamlines do background — o centro horizontal 
 
 **Slide 6 — Formalização é redução**
 *Visual:* Uma definição centrada:
-"Formalização é redução: de muitos significados possíveis para um único significado preciso."
+"Formalizar é escolher: de muitos significados que funcionariam, um único vai executar."
 *Conteúdo:* A definição que ancora o restante da palestra. Fica na tela enquanto o palestrante desenvolve a consequência e lança a pergunta sobre o custo.
 
 ---
