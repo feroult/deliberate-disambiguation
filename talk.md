@@ -115,7 +115,7 @@ A IA não tem esse mecanismo. Escolhe a interpretação mais provável e executa
 
 Quando formalizar passou a custar minutos, a Dimensão 2 deixou de ter quem a detectasse.
 
-A velocidade aumentou. A pergunta sobre o papel do engenheiro ficou impossível de ignorar.
+A velocidade aumentou. A pergunta sobre o papel do engenheiro ficou sem resposta.
 
 O que eu não vi em 2011 ficou impossível de ignorar.
 
