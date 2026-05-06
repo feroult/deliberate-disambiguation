@@ -249,7 +249,7 @@ A apresentação organiza-se em torno de sete imagens âncora que formam uma nar
 
 **A2 — Espectro:** Textura em duas zonas — linguagem natural (esquerda, cursiva, caótica) e código estruturado (direita, monospaced, preciso). No centro, ghost streamlines em 10% de opacidade já estão presentes mas quase invisíveis: A2 e A3 coexistem na mesma imagem (slide 1), usada novamente no slide 3. A separação conceitual entre A2 (polos separados) e A3 (streamlines emergindo) é narrativa, não visual: a forma já está lá desde o início, esperando ser reconhecida.
 
-**A3 — Semente do gargalo:** Streamlines emergindo no centro em baixa opacidade (15%), sobre a textura do espectro. A forma do funil aparece antes de ter nome. "O gargalo não desaparece. Muda de endereço."
+**A3 — Semente do gargalo:** A forma do funil aparece antes de ter nome. "O gargalo não desaparece. Muda de endereço." A3 tem duas manifestações: integrada na imagem A2 (slides 1 e 3 — streamlines em 10% de opacidade sobre a textura do espectro, mesma imagem) e standalone para o slide 4 (streamlines em 15% de opacidade sobre fundo limpo, sem textura, imagem separada).
 
 **A4 — Loop de desambiguação:** Streamlines ao fundo, contínuas. Sobre elas, o ciclo D1/D2 como overlay. No ponto de convergência — o centro horizontal — o âmbar (#c8882a) aparece: é onde a decisão humana ocorre.
 
